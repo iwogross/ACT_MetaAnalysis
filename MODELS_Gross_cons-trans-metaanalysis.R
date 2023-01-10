@@ -118,7 +118,7 @@ THIN <- 150
 NITT <- BURN + nsamp*THIN
 
 # Priors
-a <- 1000
+a <- 1000  #<-- scale factor for F-distribution priors
 # Taxonomy
 prFxdGR.taxo <- list(R = list(V = 1e-6, fix = 1),
 G = list(G1 = list(V = diag(1), nu=1, alpha.mu=0, alpha.V=diag(1)*a),
@@ -137,7 +137,7 @@ mcmc.taxo1_test <- MCMCglmm(yi ~ class + scope + sex + strategy +
   prior = prFxdGR.taxo,
   thin = THIN, burnin = BURN, nitt = NITT)
 
-save(list = ("mcmc.taxo1", file = "mcmc.taxo1.rdata")
+save("mcmc.taxo1", file = "mcmc.taxo1.rdata")
 
 # Model 2: M1 subset of studies for which number of generations in captivity is known
 mcmc.taxo2 <- MCMCglmm(yi ~ class + scope + sex + capt.bin + 
@@ -147,7 +147,7 @@ mcmc.taxo2 <- MCMCglmm(yi ~ class + scope + sex + capt.bin +
   prior = prFxdGR.taxo,
   thin = THIN, burnin = BURN, nitt = NITT)
 
-save(list = c("mcmc.taxo2", "dat.capt"), file = "mcmc.taxo2.rdata")
+save("mcmc.taxo2", file = "mcmc.taxo2.rdata")
 
 
 # Model 3: M1 subset of studies involving both enriched and unenriched comparisons
@@ -159,7 +159,7 @@ mcmc.taxo3 <- MCMCglmm(yi ~ class + enrich.bin + scope + sex + strategy +
   prior = prFxdGR.taxo,
   thin = THIN, burnin = BURN, nitt = NITT)
 
-save(list = c("mcmc.taxo3", "dat.enrich"), file = "mcmc.taxo3.rdata")
+save("mcmc.taxo3", file = "mcmc.taxo3.rdata")
 
 
 
