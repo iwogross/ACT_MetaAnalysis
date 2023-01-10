@@ -10,6 +10,10 @@ rm(list = ls())
 # load necessary packages
 library("MCMCglmm")
 library("metafor")
+library("emmeans")
+library("ggplot2")
+library("ggridges")
+library("reshape")
 
 
 # Import data
@@ -58,6 +62,58 @@ mcmc.timelag <- MCMCglmm(yi ~ PrintYear,
   data = dat,
   prior = prFxdGR.taxo2,
   thin = THIN, burnin = BURN, nitt = NITT)
+
+
+# Pull marginals posterior modes for overall model effect
+taxo.o <- emmeans(object = mcmc.timelag, specs = ~1, data = dat)
+df.o <- data.frame(hpd.summary(taxo.o, point.est = posterior.mode))
+
+# Return the number of unique studies and estimates across class levels
+n.stu <- length(unique(dat$studyID))
+n.est <- length(unique(dat$estimateID))
+df.o <- cbind(df.o, n.est, n.stu)
+
+# Pull marginals posterior modes for class fixed effect
+taxo.c <- emmeans(object = mcmc.timelag, specs = ~PrintYear, data = dat)
+df.c <- data.frame(hpd.summary(taxo.c, point.est = posterior.mode))
+
+# Return the number of unique studies and estimates across class levels
+n.stu <- as.vector(by(dat$studyID,list(dat$PrintYear), function(x) length(unique(x))))
+n.est <- as.vector(table(dat$PrintYear))
+df.c <- cbind(df.c, n.est, n.stu)
+
+# rbind class and overall dfs
+df <- data.frame(mapply(c, df.c, df.o, SIMPLIFY = FALSE))
+levels(df$PrintYear)[levels(df$PrintYear) == "overall"] <- "Overall"
+
+df$ns <- NA
+df$ns <- paste0("(",df$n.stu[], ", ", df$n.est[],")")
+df$PrintYear <- factor(df$PrintYear, levels = rev(levels(df$PrintYear)))
+
+# Fancy posterior distribution by by-class
+taxo.c.em <- as.data.frame(as.mcmc.emmGrid(taxo.c))
+taxo.o.em <- as.data.frame(as.mcmc.emmGrid(taxo.o))
+colnames(taxo.c.em)<-gsub("PrintYear ","",colnames(taxo.c.em))
+colnames(taxo.o.em)<-gsub("1 overall","Overall",colnames(taxo.o.em))
+taxo.c.em <- cbind(taxo.c.em, taxo.o.em)
+melt.c.em <- melt(taxo.c.em)
+
+timelag.1 <- ggplot(melt.c.em, aes(x=value, y=variable)) +
+    xlim(-5,4) +
+    scale_y_discrete(limits = unique(rev(melt.c.em$variable))) +
+    geom_density_ridges2(rel_min_height = 5.5e-3, scale =2,
+        quantile_lines = TRUE,
+        calc_ecdf = TRUE,
+        quantiles = c(0.025, 0.5, 0.975),
+        alpha = 0.9) +
+    theme_classic() +
+    geom_vline(xintercept = 0, linetype = 3, size = 1.2) +
+    ylab("Year") + xlab("ln odds ratio (95% CrI)")
+
+
+
+
+
 
 # 2. Egger's regression
 prediction<-predict(mcmc.taxo1, marginal=~order + fam + genus + species + studyID + groupID + idh(SE):units)
@@ -158,6 +214,14 @@ mcmc.taxo6 <- MCMCglmm(yi ~ class + enrich.bin + scope + sex + strategy +
   prior = prFxdGR.taxo,
   thin = THIN, burnin = BURN, nitt = NITT)
 
+
+
+
+
+
+
+
+################################################################################
 ## Model validation
 
 # 1. Time-lag bias
@@ -167,6 +231,59 @@ mcmc.timelag.out <- MCMCglmm(yi ~ PrintYear,
   prior = prFxdGR.taxo2,
   thin = THIN, burnin = BURN, nitt = NITT)
 
+# Pull marginals posterior modes for overall model effect
+taxo.o <- emmeans(object = mcmc.timelag.out, specs = ~1, data = dat.out)
+df.o <- data.frame(hpd.summary(taxo.o, point.est = posterior.mode))
+
+# Return the number of unique studies and estimates across class levels
+n.stu <- length(unique(dat.out$studyID))
+n.est <- length(unique(dat.out$estimateID))
+df.o <- cbind(df.o, n.est, n.stu)
+
+# Pull marginals posterior modes for class fixed effect
+taxo.c <- emmeans(object = mcmc.timelag.out, specs = ~PrintYear, data = dat.out)
+df.c <- data.frame(hpd.summary(taxo.c, point.est = posterior.mode))
+
+# Return the number of unique studies and estimates across class levels
+n.stu <- as.vector(by(dat.out$studyID,list(dat.out$PrintYear), function(x) length(unique(x))))
+n.est <- as.vector(table(dat.out$PrintYear))
+df.c <- cbind(df.c, n.est, n.stu)
+
+# rbind class and overall dfs
+df <- data.frame(mapply(c, df.c, df.o, SIMPLIFY = FALSE))
+levels(df$PrintYear)[levels(df$PrintYear) == "overall"] <- "Overall"
+
+df$ns <- NA
+df$ns <- paste0("(",df$n.stu[], ", ", df$n.est[],")")
+df$PrintYear <- factor(df$PrintYear, levels = rev(levels(df$PrintYear)))
+
+# Fancy posterior distribution by by-class
+taxo.c.em <- as.data.frame(as.mcmc.emmGrid(taxo.c))
+taxo.o.em <- as.data.frame(as.mcmc.emmGrid(taxo.o))
+colnames(taxo.c.em)<-gsub("PrintYear ","",colnames(taxo.c.em))
+colnames(taxo.o.em)<-gsub("1 overall","Overall",colnames(taxo.o.em))
+taxo.c.em <- cbind(taxo.c.em, taxo.o.em)
+melt.c.em <- melt(taxo.c.em)
+
+timelag.1 <- ggplot(melt.c.em, aes(x=value, y = variable)) +
+    xlim(-5,4) +
+    scale_y_discrete(limits = unique(rev(melt.c.em$variable))) +
+    geom_density_ridges2(rel_min_height = 5.5e-3, scale =2,
+        quantile_lines = TRUE,
+        calc_ecdf = TRUE,
+        quantiles = c(0.025, 0.5, 0.975),
+        alpha = 0.9) +
+    theme_classic() +
+    geom_vline(xintercept = 0, linetype = 3, size = 1.2) +
+    ylab("Year") + xlab("ln odds ratio (95% CrI)")
+    
+    
+    
+    
+    
+    
+    
+    
 # 2. Egger's regression
 prediction.out<-predict(mcmc.taxo7, marginal=~order + fam + genus + species + studyID + groupID + idh(SE):units)
 precision.out<-sqrt(1/dat.out$vi)
@@ -196,11 +313,13 @@ funnel(TFL.out, xlab = "Meta-analytic residuals", xlim = c(-6,6))
 funnel(TFR.out, xlab = "Meta-analytic residuals", xlim = c(-6, 6))
 
 
+
+
 # Save several models in one object:
 ## for plotting and summarizing in another file
 save(list = c("mcmc.taxo1", "mcmc.taxo2", "mcmc.taxo3",
     "mcmc.taxo4", "mcmc.taxo5", "mcmc.taxo6",
-    "rs.resid", 
+    "rs.resid", "outliers",
     "dat.out", "dat.out.capt", "dat.out.enrich"),
   file = "allModels_Gross_cons-trans-metaanalysis.rdata")
 
