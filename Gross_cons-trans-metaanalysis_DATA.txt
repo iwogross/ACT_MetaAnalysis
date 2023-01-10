@@ -1,0 +1,827 @@
+"estimateID"	"estimator"	"studyID"	"groupID"	"sex"	"common.name"	"phylum"	"class"	"order"	"fam"	"genus"	"species"	"enrich"	"capt.gens"	"scope"	"strategy"	"n1i"	"m1i"	"sd1i"	"n2i"	"m2i"	"sd2i"	"A"	"C"	"B"	"D"	"PrintYear"	"enrich.present"	"capt.present"	"enrich.bin"	"capt.bin"
+76	"SMD"	13	41	"Mixed"	"Puaiohi"	"Chordata"	"Aves"	"Passeriformes"	"Turdidae"	"Myadestes"	"palmeri"	-1	1.5	"Reproduction"	"ISR"	39	2	0	16	2	1.6	NA	NA	NA	NA	2006	0	1	0	1
+939	"SMD"	151	479	"Mixed"	"Desert tortoise"	"Chordata"	"Reptilia"	"Testudines"	"Testudinidae"	"Gopherus"	"agassizii"	-1	0	"Survival"	"ESR"	56	1	0	44	0.9998	0.000338431	NA	NA	NA	NA	2012	0	1	0	0
+1046	"SMD"	172	523	"Mixed"	"Three-ridge"	"Mollusca"	"Bivalvia"	"Unionoidea"	"Unionidae"	"Amblema"	"plicata"	-1	0	"Survival"	"ESR"	40	1.0029515	0	40	0.9938653	0.342829478	NA	NA	NA	NA	2017	0	1	0	0
+940	"SMD"	151	479	"Mixed"	"Desert tortoise"	"Chordata"	"Reptilia"	"Testudines"	"Testudinidae"	"Gopherus"	"agassizii"	-1	0	"Survival"	"ESR"	49	0.9993	0.000357143	60	0.9994	0.000395202	NA	NA	NA	NA	2012	0	1	0	0
+941	"SMD"	151	479	"Mixed"	"Desert tortoise"	"Chordata"	"Reptilia"	"Testudines"	"Testudinidae"	"Gopherus"	"agassizii"	-1	0	"Survival"	"ESR"	54	0.9999	0.000374922	39	1	0	NA	NA	NA	NA	2012	0	1	0	0
+942	"SMD"	151	479	"Mixed"	"Desert tortoise"	"Chordata"	"Reptilia"	"Testudines"	"Testudinidae"	"Gopherus"	"agassizii"	-1	0	"Survival"	"ESR"	54	0.9999	0.000374922	11	1	0	NA	NA	NA	NA	2012	0	1	0	0
+943	"SMD"	151	479	"Mixed"	"Desert tortoise"	"Chordata"	"Reptilia"	"Testudines"	"Testudinidae"	"Gopherus"	"agassizii"	-1	0	"Survival"	"ESR"	16	0.9996	0.001428571	25	0.9998	0.000255102	NA	NA	NA	NA	2012	0	1	0	0
+911	"SMD"	150	476	"Mixed"	"Desert tortoise"	"Chordata"	"Reptilia"	"Testudines"	"Testudinidae"	"Gopherus"	"agassizii"	-1	0	"Survival"	"ESR"	73	-0.02606079	0.00607361	55	-0.04925185	0.186357906	NA	NA	NA	NA	2016	0	1	0	0
+136	"SMD"	18	80	"Male"	"Alpine tree frog"	"Chordata"	"Amphibia"	"Anura"	"Hylidae"	"Litoria"	"verreauxii"	-1	0.5	"Constitution"	"ISR"	403	0.07	0.01	80	0.07	0.01	NA	NA	NA	NA	2016	0	1	0	1
+30	"SMD"	4	17	"Mixed"	"Queen conch"	"Mollusca"	"Gastropoda"	"Littorinimorpha"	"Strombidae"	"Strombus"	"gigas"	-1	0.5	"Growth"	"ISR"	100	0.1	0.02	100	0.05	0.04	NA	NA	NA	NA	1994	0	1	0	1
+38	"SMD"	4	21	"Mixed"	"Queen conch"	"Mollusca"	"Gastropoda"	"Littorinimorpha"	"Strombidae"	"Strombus"	"gigas"	-1	0.5	"Growth"	"ISR"	28	0.03	0.02	31	0.02	0.02	NA	NA	NA	NA	1994	0	1	0	1
+138	"SMD"	18	81	"Female"	"Alpine tree frog"	"Chordata"	"Amphibia"	"Anura"	"Hylidae"	"Litoria"	"verreauxii"	-1	0.5	"Constitution"	"ISR"	36	0.13	0.02	15	0.08	0.02	NA	NA	NA	NA	2016	0	1	0	1
+155	"SMD"	21	90	"Female"	"Chinook salmon"	"Chordata"	"Actinopterygii"	"Salmoniformes"	"Salmonidae"	"Oncorhynchus"	"tshawytscha"	-1	1.5	"Reproduction"	"ISR"	201	0.2	0.02	31	0.21	0.02	NA	NA	NA	NA	2008	0	1	0	1
+162	"SMD"	21	91	"Female"	"Chinook salmon"	"Chordata"	"Actinopterygii"	"Salmoniformes"	"Salmonidae"	"Oncorhynchus"	"tshawytscha"	-1	1.5	"Reproduction"	"ISR"	238	0.2	0.02	68	0.2	0.02	NA	NA	NA	NA	2008	0	1	0	1
+169	"SMD"	21	92	"Female"	"Chinook salmon"	"Chordata"	"Actinopterygii"	"Salmoniformes"	"Salmonidae"	"Oncorhynchus"	"tshawytscha"	-1	1.5	"Reproduction"	"ISR"	163	0.2	0.02	31	0.18	0.03	NA	NA	NA	NA	2008	0	1	0	1
+34	"SMD"	4	19	"Mixed"	"Queen conch"	"Mollusca"	"Gastropoda"	"Littorinimorpha"	"Strombidae"	"Strombus"	"gigas"	-1	0.5	"Growth"	"ISR"	100	0.09	0.03	100	0.07	0.03	NA	NA	NA	NA	1994	0	1	0	1
+271	"SMD"	38	149	"Male"	"Least weasel"	"Chordata"	"Mammalia"	"Carnivora"	"Mustelidae"	"Mustela"	"nivalis"	-1	1.5	"Survival"	"ISR"	6	0.98	0.04	15	0.91	0.13	NA	NA	NA	NA	2005	0	1	0	1
+912	"SMD"	150	476	"Mixed"	"Desert tortoise"	"Chordata"	"Reptilia"	"Testudines"	"Testudinidae"	"Gopherus"	"agassizii"	-1	0	"Survival"	"ESR"	73	-0.02745408	0.043855325	55	-0.04900686	0.185430919	NA	NA	NA	NA	2016	0	1	0	0
+739	"SMD"	124	369	"Mixed"	"Chinook salmon"	"Chordata"	"Actinopterygii"	"Salmoniformes"	"Salmonidae"	"Oncorhynchus"	"tshawytscha"	-1	-1	"Growth"	"ISR"	30	0.24	0.05	60	0.24	0.07	NA	NA	NA	NA	2019	0	0	0	0
+741	"SMD"	124	371	"Mixed"	"Chinook salmon"	"Chordata"	"Actinopterygii"	"Salmoniformes"	"Salmonidae"	"Oncorhynchus"	"tshawytscha"	-1	-1	"Growth"	"ISR"	5	0.18	0.05	28	0.22	0.07	NA	NA	NA	NA	2019	0	0	0	0
+222	"SMD"	30	121	"Mixed"	"North Africa Houbara"	"Chordata"	"Aves"	"Otidiformes"	"Otididae"	"Chlamydotis"	"undulata"	1	5.5	"Survival"	"ISR"	575	0.99	0.06	273	0.99	0.06	NA	NA	NA	NA	2019	1	1	1	2
+225	"SMD"	30	122	"Mixed"	"North Africa Houbara"	"Chordata"	"Aves"	"Otidiformes"	"Otididae"	"Chlamydotis"	"undulata"	0	5.5	"Survival"	"ISR"	575	0.99	0.06	546	0.98	0.09	NA	NA	NA	NA	2019	1	1	0	2
+470	"SMD"	81	245	"Mixed"	"Chinook salmon"	"Chordata"	"Actinopterygii"	"Salmoniformes"	"Salmonidae"	"Oncorhynchus"	"tshawytscha"	-1	-1	"Growth"	"ISR"	50	0.56	0.06	150	0.58	0.17	NA	NA	NA	NA	2018	0	0	0	0
+742	"SMD"	124	372	"Mixed"	"Chinook salmon"	"Chordata"	"Actinopterygii"	"Salmoniformes"	"Salmonidae"	"Oncorhynchus"	"tshawytscha"	-1	-1	"Growth"	"ISR"	4	0.24	0.06	17	0.19	0.05	NA	NA	NA	NA	2019	0	0	0	0
+469	"SMD"	81	244	"Mixed"	"Chinook salmon"	"Chordata"	"Actinopterygii"	"Salmoniformes"	"Salmonidae"	"Oncorhynchus"	"tshawytscha"	-1	-1	"Growth"	"ISR"	13	0.53	0.07	20	0.58	0.11	NA	NA	NA	NA	2018	0	0	0	0
+735	"SMD"	124	365	"Mixed"	"Chinook salmon"	"Chordata"	"Actinopterygii"	"Salmoniformes"	"Salmonidae"	"Oncorhynchus"	"tshawytscha"	-1	-1	"Growth"	"ISR"	20	0.26	0.07	2	0.18	0.05	NA	NA	NA	NA	2019	0	0	0	0
+737	"SMD"	124	367	"Mixed"	"Chinook salmon"	"Chordata"	"Actinopterygii"	"Salmoniformes"	"Salmonidae"	"Oncorhynchus"	"tshawytscha"	-1	-1	"Growth"	"ISR"	36	0.25	0.07	77	0.21	0.06	NA	NA	NA	NA	2019	0	0	0	0
+740	"SMD"	124	370	"Mixed"	"Chinook salmon"	"Chordata"	"Actinopterygii"	"Salmoniformes"	"Salmonidae"	"Oncorhynchus"	"tshawytscha"	-1	-1	"Growth"	"ISR"	18	0.23	0.07	37	0.23	0.06	NA	NA	NA	NA	2019	0	0	0	0
+597	"SMD"	106	284	"Mixed"	"Brown trout"	"Chordata"	"Actinopterygii"	"Salmoniformes"	"Salmonidae"	"Salmo"	"trutta"	-1	1.5	"Growth"	"ISR"	13	0.06	0.073	15	0.038	0.067	NA	NA	NA	NA	2010	0	1	0	1
+1062	"SMD"	178	535	"Female"	"Cougar"	"Chordata"	"Mammalia"	"Carnivora"	"Felidae"	"Puma"	"concolor"	-1	0	"Survival"	"ESR"	14	0.92	0.077459667	6	0.46	0.204939015	NA	NA	NA	NA	1998	0	1	0	0
+300	"SMD"	42	163	"Mixed"	"Eastern painted turtle"	"Chordata"	"Reptilia"	"Testudines"	"Emydidae"	"Chrysemys"	"picta"	1	0	"Movement"	"ESR"	60	-0.25	0.08	10	-0.62	0.13	NA	NA	NA	NA	2018	1	1	1	0
+306	"SMD"	42	164	"Mixed"	"Eastern painted turtle"	"Chordata"	"Reptilia"	"Testudines"	"Emydidae"	"Chrysemys"	"picta"	0	0	"Movement"	"ESR"	60	-0.25	0.08	30	-0.62	0.13	NA	NA	NA	NA	2018	1	1	0	0
+457	"SMD"	79	233	"Mixed"	"Adder"	"Chordata"	"Reptilia"	"Squamata"	"Viperidae"	"Vipera"	"berus"	-1	0	"Movement"	"ESR"	4	-0.07	0.08	5	-1	1.34	NA	NA	NA	NA	2018	0	1	0	0
+738	"SMD"	124	368	"Mixed"	"Chinook salmon"	"Chordata"	"Actinopterygii"	"Salmoniformes"	"Salmonidae"	"Oncorhynchus"	"tshawytscha"	-1	-1	"Growth"	"ISR"	24	0.21	0.08	78	0.22	0.07	NA	NA	NA	NA	2019	0	0	0	0
+574	"SMD"	104	281	"Mixed"	"European grayling"	"Chordata"	"Actinopterygii"	"Salmoniformes"	"Salmonidae"	"Thymallus"	"thymallus"	1	1.5	"Movement"	"ISR"	49	0.16013982	0.086267911	14	0.05678741	0.055617246	NA	NA	NA	NA	2010	1	1	1	1
+584	"SMD"	104	282	"Mixed"	"European grayling"	"Chordata"	"Actinopterygii"	"Salmoniformes"	"Salmonidae"	"Thymallus"	"thymallus"	0	1.5	"Movement"	"ISR"	49	0.16013982	0.086267911	13	0.09676318	0.045675262	NA	NA	NA	NA	2010	1	1	0	1
+1036	"SMD"	168	519	"Mixed"	"Northern bobwhite quail"	"Chordata"	"Aves"	"Galliformes"	"Odontophoridae"	"Colinus"	"virginianus"	-1	0	"Reproduction"	"ESR"	92	0.9713	0.086544786	45	0.9692	0.0893868	NA	NA	NA	NA	2006	0	1	0	0
+56	"SMD"	9	34	"Mixed"	"Key Largo woodrat"	"Chordata"	"Mammalia"	"Rodentia"	"Cricetidae"	"Neotoma"	"floridana"	-1	3	"Survival"	"ISR"	58	0.94	0.09	40	0.56	0.22	NA	NA	NA	NA	2013	0	1	0	2
+203	"SMD"	26	116	"Mixed"	"Brown teal"	"Chordata"	"Aves"	"Anseriformes"	"Anatidae"	"Anas"	"chlorotis"	-1	1.5	"Constitution"	"ISR"	42	0.2	0.09	7	0.17	0.04	NA	NA	NA	NA	2006	0	1	0	1
+301	"SMD"	42	163	"Mixed"	"Eastern painted turtle"	"Chordata"	"Reptilia"	"Testudines"	"Emydidae"	"Chrysemys"	"picta"	1	0	"Movement"	"ESR"	60	0.52	0.09	10	0.27	0.05	NA	NA	NA	NA	2018	1	1	1	0
+307	"SMD"	42	164	"Mixed"	"Eastern painted turtle"	"Chordata"	"Reptilia"	"Testudines"	"Emydidae"	"Chrysemys"	"picta"	0	0	"Movement"	"ESR"	60	0.52	0.09	30	0.26	0.06	NA	NA	NA	NA	2018	1	1	0	0
+465	"SMD"	81	240	"Mixed"	"Chinook salmon"	"Chordata"	"Actinopterygii"	"Salmoniformes"	"Salmonidae"	"Oncorhynchus"	"tshawytscha"	-1	-1	"Growth"	"ISR"	8	0.49	0.09	2	0.52	0.09	NA	NA	NA	NA	2018	0	0	0	0
+466	"SMD"	81	241	"Mixed"	"Chinook salmon"	"Chordata"	"Actinopterygii"	"Salmoniformes"	"Salmonidae"	"Oncorhynchus"	"tshawytscha"	-1	-1	"Growth"	"ISR"	74	0.55	0.09	108	0.53	0.09	NA	NA	NA	NA	2018	0	0	0	0
+467	"SMD"	81	242	"Mixed"	"Chinook salmon"	"Chordata"	"Actinopterygii"	"Salmoniformes"	"Salmonidae"	"Oncorhynchus"	"tshawytscha"	-1	-1	"Growth"	"ISR"	8	0.54	0.09	4	0.62	0.09	NA	NA	NA	NA	2018	0	0	0	0
+468	"SMD"	81	243	"Mixed"	"Chinook salmon"	"Chordata"	"Actinopterygii"	"Salmoniformes"	"Salmonidae"	"Oncorhynchus"	"tshawytscha"	-1	-1	"Growth"	"ISR"	72	0.55	0.09	23	0.62	0.09	NA	NA	NA	NA	2018	0	0	0	0
+575	"SMD"	104	281	"Mixed"	"European grayling"	"Chordata"	"Actinopterygii"	"Salmoniformes"	"Salmonidae"	"Thymallus"	"thymallus"	1	1.5	"Growth"	"ISR"	49	0.29	0.09	14	0.3	0.09	NA	NA	NA	NA	2010	1	1	1	1
+585	"SMD"	104	282	"Mixed"	"European grayling"	"Chordata"	"Actinopterygii"	"Salmoniformes"	"Salmonidae"	"Thymallus"	"thymallus"	0	1.5	"Growth"	"ISR"	49	0.29	0.09	13	0.25	0.07	NA	NA	NA	NA	2010	1	1	0	1
+736	"SMD"	124	366	"Mixed"	"Chinook salmon"	"Chordata"	"Actinopterygii"	"Salmoniformes"	"Salmonidae"	"Oncorhynchus"	"tshawytscha"	-1	-1	"Growth"	"ISR"	27	0.24	0.09	20	0.22	0.06	NA	NA	NA	NA	2019	0	0	0	0
+204	"SMD"	26	116	"Mixed"	"Brown teal"	"Chordata"	"Aves"	"Anseriformes"	"Anatidae"	"Anas"	"chlorotis"	-1	1.5	"Constitution"	"ISR"	42	0.31	0.1	7	0.2	0.04	NA	NA	NA	NA	2006	0	1	0	1
+1064	"SMD"	178	536	"Male"	"Cougar"	"Chordata"	"Mammalia"	"Carnivora"	"Felidae"	"Puma"	"concolor"	-1	0	"Survival"	"ESR"	11	0.88	0.109544512	4	0.26	0.202484567	NA	NA	NA	NA	1998	0	1	0	0
+205	"SMD"	26	116	"Mixed"	"Brown teal"	"Chordata"	"Aves"	"Anseriformes"	"Anatidae"	"Anas"	"chlorotis"	-1	1.5	"Constitution"	"ISR"	41	0.39	0.11	2	0.32	0.09	NA	NA	NA	NA	2006	0	1	0	1
+1053	"SMD"	175	527	"Mixed"	"Monk seal"	"Chordata"	"Mammalia"	"Carnivora"	"Phocidae"	"Monachus"	"schauinslandi"	-1	0.5	"Survival"	"ISR"	34	0.9804444	0.116355009	40	0.815171	0.609223601	NA	NA	NA	NA	2011	0	1	0	1
+1063	"SMD"	178	535	"Female"	"Cougar"	"Chordata"	"Mammalia"	"Carnivora"	"Felidae"	"Puma"	"concolor"	-1	0	"Survival"	"ESR"	14	0.81	0.122474487	8	0.66	0.192353841	NA	NA	NA	NA	1998	0	1	0	0
+1014	"SMD"	164	507	"Mixed"	"Brown trout"	"Chordata"	"Actinopterygii"	"Salmoniformes"	"Salmonidae"	"Salmo"	"trutta"	1	1.5	"Constitution"	"ISR"	10	1.12	0.126491106	10	1.65	0.695701085	NA	NA	NA	NA	2012	1	1	1	1
+77	"SMD"	13	41	"Mixed"	"Puaiohi"	"Chordata"	"Aves"	"Passeriformes"	"Turdidae"	"Myadestes"	"palmeri"	-1	1.5	"Survival"	"ISR"	45	0.41	0.13	11	0.4	0.58	NA	NA	NA	NA	2006	0	1	0	1
+272	"SMD"	39	150	"Mixed"	"American alligator"	"Chordata"	"Reptilia"	"Crocodilia"	"Alligatoridae"	"Alligator"	"mississippiensis"	-1	0.5	"Survival"	"ISR"	8	0.23	0.13	10	0.26	0.12	NA	NA	NA	NA	2006	0	1	0	1
+278	"SMD"	39	154	"Mixed"	"American alligator"	"Chordata"	"Reptilia"	"Crocodilia"	"Alligatoridae"	"Alligator"	"mississippiensis"	-1	0.5	"Survival"	"ISR"	8	0.23	0.13	5	0.18	0.11	NA	NA	NA	NA	2006	0	1	0	1
+577	"SMD"	104	281	"Mixed"	"European grayling"	"Chordata"	"Actinopterygii"	"Salmoniformes"	"Salmonidae"	"Thymallus"	"thymallus"	1	1.5	"Constitution"	"ISR"	49	1.21	0.13	14	1.25	0.13	NA	NA	NA	NA	2010	1	1	1	1
+587	"SMD"	104	282	"Mixed"	"European grayling"	"Chordata"	"Actinopterygii"	"Salmoniformes"	"Salmonidae"	"Thymallus"	"thymallus"	0	1.5	"Constitution"	"ISR"	49	1.21	0.13	13	1.15	0.15	NA	NA	NA	NA	2010	1	1	0	1
+243	"SMD"	33	137	"Male"	"Trumpeter swan"	"Chordata"	"Aves"	"Anseriformes"	"Anatidae"	"Cygnus"	"buccinator"	-1	2.5	"Survival"	"ISR"	36	0.98	0.14	125	0.98	0.21	NA	NA	NA	NA	2002	0	1	0	2
+274	"SMD"	39	152	"Mixed"	"American alligator"	"Chordata"	"Reptilia"	"Crocodilia"	"Alligatoridae"	"Alligator"	"mississippiensis"	-1	0.5	"Survival"	"ISR"	8	0.26	0.14	5	0.16	0.1	NA	NA	NA	NA	2006	0	1	0	1
+276	"SMD"	39	153	"Mixed"	"American alligator"	"Chordata"	"Reptilia"	"Crocodilia"	"Alligatoridae"	"Alligator"	"mississippiensis"	-1	0.5	"Survival"	"ISR"	6	0.2	0.14	19	0.24	0.12	NA	NA	NA	NA	2006	0	1	0	1
+280	"SMD"	39	155	"Mixed"	"American alligator"	"Chordata"	"Reptilia"	"Crocodilia"	"Alligatoridae"	"Alligator"	"mississippiensis"	-1	0.5	"Survival"	"ISR"	8	0.26	0.14	5	0.12	0.09	NA	NA	NA	NA	2006	0	1	0	1
+282	"SMD"	39	156	"Mixed"	"American alligator"	"Chordata"	"Reptilia"	"Crocodilia"	"Alligatoridae"	"Alligator"	"mississippiensis"	-1	0.5	"Survival"	"ISR"	6	0.2	0.14	4	0.15	0.11	NA	NA	NA	NA	2006	0	1	0	1
+438	"SMD"	73	225	"Mixed"	"Hermann's tortoise"	"Chordata"	"Reptilia"	"Testudines"	"Testudinidae"	"Testudo"	"hermanni"	0	0	"Survival"	"ESR"	20	0.93	0.14	12	0.86	0.03	NA	NA	NA	NA	2018	1	1	0	0
+441	"SMD"	73	226	"Mixed"	"Hermann's tortoise"	"Chordata"	"Reptilia"	"Testudines"	"Testudinidae"	"Testudo"	"hermanni"	1	0	"Survival"	"ESR"	20	0.93	0.14	12	0.83	0.04	NA	NA	NA	NA	2018	1	1	1	0
+1065	"SMD"	178	536	"Male"	"Cougar"	"Chordata"	"Mammalia"	"Carnivora"	"Felidae"	"Puma"	"concolor"	-1	0	"Survival"	"ESR"	8	0.85	0.141421356	5	0.75	0.212132034	NA	NA	NA	NA	1998	0	1	0	0
+57	"SMD"	9	34	"Mixed"	"Key Largo woodrat"	"Chordata"	"Mammalia"	"Rodentia"	"Cricetidae"	"Neotoma"	"floridana"	-1	3	"Survival"	"ISR"	58	0.93	0.15	40	0.52	0.25	NA	NA	NA	NA	2013	0	1	0	2
+579	"SMD"	104	281	"Mixed"	"European grayling"	"Chordata"	"Actinopterygii"	"Salmoniformes"	"Salmonidae"	"Thymallus"	"thymallus"	1	1.5	"Survival"	"ISR"	49	0.28100646	0.15829775	14	0.15882301	0.096064018	NA	NA	NA	NA	2010	1	1	1	1
+589	"SMD"	104	282	"Mixed"	"European grayling"	"Chordata"	"Actinopterygii"	"Salmoniformes"	"Salmonidae"	"Thymallus"	"thymallus"	0	1.5	"Survival"	"ISR"	49	0.28100646	0.15829775	13	0.14081256	0.098439763	NA	NA	NA	NA	2010	1	1	0	1
+109	"SMD"	15	72	"Mixed"	"Bighorn sheep"	"Chordata"	"Mammalia"	"Artiodactyla"	"Bovidae"	"Ovis"	"canadensis"	-1	1	"Survival"	"ISR"	7	1	0.16	15	0.88	0.28	NA	NA	NA	NA	2001	0	1	0	1
+913	"SMD"	150	476	"Mixed"	"Desert tortoise"	"Chordata"	"Reptilia"	"Testudines"	"Testudinidae"	"Gopherus"	"agassizii"	-1	0	"Survival"	"ESR"	73	-0.03751452	0.163532755	55	-0.0563108	0.213067383	NA	NA	NA	NA	2016	0	1	0	0
+244	"SMD"	33	137	"Male"	"Trumpeter swan"	"Chordata"	"Aves"	"Anseriformes"	"Anatidae"	"Cygnus"	"buccinator"	-1	2.5	"Survival"	"ISR"	35	0.88	0.17	122	0.89	0.21	NA	NA	NA	NA	2002	0	1	0	2
+107	"SMD"	15	70	"Mixed"	"Bighorn sheep"	"Chordata"	"Mammalia"	"Artiodactyla"	"Bovidae"	"Ovis"	"canadensis"	-1	1	"Survival"	"ISR"	5	0.8	0.19	16	0.74	0.38	NA	NA	NA	NA	2001	0	1	0	1
+1047	"SMD"	172	524	"Mixed"	"Smooth pimpleback"	"Mollusca"	"Bivalvia"	"Unionoidea"	"Unionidae"	"Cyclonaias"	"pustulosa"	-1	0	"Survival"	"ESR"	40	0.9669362	0.198966716	40	0.8450123	1.095621692	NA	NA	NA	NA	2017	0	1	0	0
+182	"SMD"	22	98	"Mixed"	"Sea trout"	"Chordata"	"Actinopterygii"	"Salmoniformes"	"Salmonidae"	"Salmo"	"trutta"	-1	1	"Survival"	"ISR"	30	-0.03	0.2	12	-0.17	0.38	NA	NA	NA	NA	2014	0	1	0	1
+103	"SMD"	15	66	"Mixed"	"Bighorn sheep"	"Chordata"	"Mammalia"	"Artiodactyla"	"Bovidae"	"Ovis"	"canadensis"	-1	1	"Survival"	"ISR"	15	0.88	0.21	20	0.9	0.25	NA	NA	NA	NA	2001	0	1	0	1
+294	"SMD"	41	162	"Mixed"	"Puaiohi"	"Chordata"	"Aves"	"Passeriformes"	"Turdidae"	"Myadestes"	"palmeri"	-1	3.5	"Survival"	"ISR"	9	0.85	0.21	7	0.13	0.37	NA	NA	NA	NA	2014	0	1	0	2
+381	"SMD"	58	196	"Mixed"	"Aplomado falcon"	"Chordata"	"Aves"	"Falconiformes"	"Falconidae"	"Falco"	"femoralis"	-1	1.5	"Survival"	"ISR"	9	0.87	0.21	16	0.3	0.45	NA	NA	NA	NA	2006	0	1	0	1
+395	"SMD"	63	206	"Mixed"	"White-lipped pitviper"	"Chordata"	"Reptilia"	"Squamata"	"Viperidae"	"Trimeresurus"	"albolabris"	-1	0	"Movement"	"ESR"	21	-0.5	0.21	22	-0.67	0.13	NA	NA	NA	NA	2016	0	1	0	0
+106	"SMD"	15	69	"Mixed"	"Bighorn sheep"	"Chordata"	"Mammalia"	"Artiodactyla"	"Bovidae"	"Ovis"	"canadensis"	-1	1	"Survival"	"ISR"	8	0.83	0.22	16	0.81	0.36	NA	NA	NA	NA	2001	0	1	0	1
+396	"SMD"	63	206	"Mixed"	"White-lipped pitviper"	"Chordata"	"Reptilia"	"Squamata"	"Viperidae"	"Trimeresurus"	"albolabris"	-1	0	"Movement"	"ESR"	21	-0.52	0.22	22	-0.9	0.36	NA	NA	NA	NA	2016	0	1	0	0
+721	"SMD"	120	355	"Mixed"	"Chinook salmon"	"Chordata"	"Actinopterygii"	"Salmoniformes"	"Salmonidae"	"Oncorhynchus"	"tshawytscha"	-1	1.5	"Constitution"	"ISR"	407	-0.29	0.22	280	-0.27	0.18	NA	NA	NA	NA	2004	0	1	0	1
+108	"SMD"	15	71	"Mixed"	"Bighorn sheep"	"Chordata"	"Mammalia"	"Artiodactyla"	"Bovidae"	"Ovis"	"canadensis"	-1	1	"Survival"	"ISR"	6	0.75	0.24	16	0.82	0.34	NA	NA	NA	NA	2001	0	1	0	1
+382	"SMD"	58	197	"Mixed"	"Aplomado falcon"	"Chordata"	"Aves"	"Falconiformes"	"Falconidae"	"Falco"	"femoralis"	-1	1.5	"Survival"	"ISR"	15	0.91	0.24	3	0.91	0.11	NA	NA	NA	NA	2006	0	1	0	1
+63	"SMD"	11	37	"Male"	"Great Lakes piping plover"	"Chordata"	"Aves"	"Charadriiformes"	"Charadriidae"	"Charadrius"	"melodus"	-1	0.5	"Reproduction"	"ISR"	57	3.91	0.25	10	3.82	0.38	NA	NA	NA	NA	2008	0	1	0	1
+105	"SMD"	15	68	"Mixed"	"Bighorn sheep"	"Chordata"	"Mammalia"	"Artiodactyla"	"Bovidae"	"Ovis"	"canadensis"	-1	1	"Survival"	"ISR"	7	0.5	0.25	16	0.71	0.41	NA	NA	NA	NA	2001	0	1	0	1
+66	"SMD"	12	38	"Male"	"Snowy plover"	"Chordata"	"Aves"	"Charadriiformes"	"Charadriidae"	"Charadrius"	"nivosus"	-1	0.5	"Reproduction"	"ISR"	77	0.4	0.26	6	0.21	0.12	NA	NA	NA	NA	2013	0	1	0	1
+101	"SMD"	15	64	"Mixed"	"Bighorn sheep"	"Chordata"	"Mammalia"	"Artiodactyla"	"Bovidae"	"Ovis"	"canadensis"	-1	1	"Survival"	"ISR"	15	0.79	0.27	26	0.76	0.47	NA	NA	NA	NA	2001	0	1	0	1
+102	"SMD"	15	65	"Mixed"	"Bighorn sheep"	"Chordata"	"Mammalia"	"Artiodactyla"	"Bovidae"	"Ovis"	"canadensis"	-1	1	"Survival"	"ISR"	13	0.8	0.27	17	0.73	0.38	NA	NA	NA	NA	2001	0	1	0	1
+67	"SMD"	12	38	"Male"	"Snowy plover"	"Chordata"	"Aves"	"Charadriiformes"	"Charadriidae"	"Charadrius"	"nivosus"	-1	0.5	"Reproduction"	"ISR"	139	0.64	0.28	9	0.68	0.28	NA	NA	NA	NA	2013	0	1	0	1
+70	"SMD"	12	39	"Female"	"Snowy plover"	"Chordata"	"Aves"	"Charadriiformes"	"Charadriidae"	"Charadrius"	"nivosus"	-1	0.5	"Reproduction"	"ISR"	88	0.61	0.28	6	0.48	0.33	NA	NA	NA	NA	2013	0	1	0	1
+71	"SMD"	12	39	"Female"	"Snowy plover"	"Chordata"	"Aves"	"Charadriiformes"	"Charadriidae"	"Charadrius"	"nivosus"	-1	0.5	"Reproduction"	"ISR"	81	0.45	0.28	6	0.54	0.35	NA	NA	NA	NA	2013	0	1	0	1
+99	"SMD"	15	62	"Mixed"	"Bighorn sheep"	"Chordata"	"Mammalia"	"Artiodactyla"	"Bovidae"	"Ovis"	"canadensis"	-1	1	"Survival"	"ISR"	33	0.9	0.28	19	0.9	0.27	NA	NA	NA	NA	2001	0	1	0	1
+98	"SMD"	15	61	"Mixed"	"Bighorn sheep"	"Chordata"	"Mammalia"	"Artiodactyla"	"Bovidae"	"Ovis"	"canadensis"	-1	1	"Survival"	"ISR"	36	0.91	0.29	16	0.86	0.31	NA	NA	NA	NA	2001	0	1	0	1
+104	"SMD"	15	67	"Mixed"	"Bighorn sheep"	"Chordata"	"Mammalia"	"Artiodactyla"	"Bovidae"	"Ovis"	"canadensis"	-1	1	"Survival"	"ISR"	11	0.86	0.29	16	0.57	0.41	NA	NA	NA	NA	2001	0	1	0	1
+246	"SMD"	33	138	"Female"	"Trumpeter swan"	"Chordata"	"Aves"	"Anseriformes"	"Anatidae"	"Cygnus"	"buccinator"	-1	2.5	"Survival"	"ISR"	31	0.83	0.29	109	0.77	0.37	NA	NA	NA	NA	2002	0	1	0	2
+730	"SMD"	123	362	"Mixed"	"Steelhead trout"	"Chordata"	"Actinopterygii"	"Salmoniformes"	"Salmonidae"	"Oncorhynchus"	"mykiss"	-1	-1	"Movement"	"ISR"	19	0.49	0.29	5	0.85	0.99	NA	NA	NA	NA	2004	0	0	0	0
+1055	"SMD"	176	528	"Mixed"	"White-tailed deer"	"Chordata"	"Mammalia"	"Artiodactyla"	"Cervidae"	"Odocoileus"	"virginianus"	-1	0	"Survival"	"ESR"	36	0.69	0.3	80	0.3	0.4472136	NA	NA	NA	NA	2002	0	1	0	0
+1092	"SMD"	187	546	"Mixed"	"Gray wolf"	"Chordata"	"Mammalia"	"Carnivora"	"Canidae"	"Canis"	"lupus"	-1	0	"Survival"	"ESR"	399	0.73	0.305739556	88	0.6	0.35896039	NA	NA	NA	NA	2005	0	1	0	0
+146	"SMD"	20	87	"Mixed"	"Asian houbara"	"Chordata"	"Aves"	"Otidiformes"	"Otididae"	"Chlamydotis"	"macqueenii"	-1	2.5	"Movement"	"ISR"	8	0.49	0.31	14	0.47	0.39	NA	NA	NA	NA	2017	0	1	0	2
+245	"SMD"	33	137	"Male"	"Trumpeter swan"	"Chordata"	"Aves"	"Anseriformes"	"Anatidae"	"Cygnus"	"buccinator"	-1	2.5	"Survival"	"ISR"	31	0.83	0.31	109	0.86	0.49	NA	NA	NA	NA	2002	0	1	0	2
+183	"SMD"	22	99	"Mixed"	"Sea trout"	"Chordata"	"Actinopterygii"	"Salmoniformes"	"Salmonidae"	"Salmo"	"trutta"	-1	1	"Survival"	"ISR"	30	-0.1	0.32	19	-0.42	0.49	NA	NA	NA	NA	2014	0	1	0	1
+517	"SMD"	95	264	"Mixed"	"Steelhead trout"	"Chordata"	"Actinopterygii"	"Salmoniformes"	"Salmonidae"	"Oncorhynchus"	"mykiss"	-1	1.5	"Survival"	"ISR"	100	0.27232	0.327781612	98	0.045469388	0.276654655	NA	NA	NA	NA	2014	0	1	0	1
+247	"SMD"	33	138	"Female"	"Trumpeter swan"	"Chordata"	"Aves"	"Anseriformes"	"Anatidae"	"Cygnus"	"buccinator"	-1	2.5	"Survival"	"ISR"	35	0.83	0.33	122	0.78	0.38	NA	NA	NA	NA	2002	0	1	0	2
+295	"SMD"	41	162	"Mixed"	"Puaiohi"	"Chordata"	"Aves"	"Passeriformes"	"Turdidae"	"Myadestes"	"palmeri"	-1	3.5	"Survival"	"ISR"	9	0.68	0.33	7	0.75	1.11	NA	NA	NA	NA	2014	0	1	0	2
+184	"SMD"	22	100	"Mixed"	"Sea trout"	"Chordata"	"Actinopterygii"	"Salmoniformes"	"Salmonidae"	"Salmo"	"trutta"	-1	1	"Survival"	"ISR"	29	-0.14	0.35	10	-0.3	0.45	NA	NA	NA	NA	2014	0	1	0	1
+617	"SMD"	109	293	"Mixed"	"Chinook salmon"	"Chordata"	"Actinopterygii"	"Salmoniformes"	"Salmonidae"	"Oncorhynchus"	"tshawytscha"	-1	1.5	"Survival"	"ISR"	720	0.9	0.35	201	0.75	0.5	NA	NA	NA	NA	2009	0	1	0	1
+1056	"SMD"	176	529	"Female"	"White-tailed deer"	"Chordata"	"Mammalia"	"Artiodactyla"	"Cervidae"	"Odocoileus"	"virginianus"	-1	0	"Reproduction"	"ESR"	10	0.86	0.35	22	1.22	0.295496193	NA	NA	NA	NA	2002	0	1	0	0
+68	"SMD"	12	38	"Male"	"Snowy plover"	"Chordata"	"Aves"	"Charadriiformes"	"Charadriidae"	"Charadrius"	"nivosus"	-1	0.5	"Reproduction"	"ISR"	61	0.37	0.36	7	0.29	0.37	NA	NA	NA	NA	2013	0	1	0	1
+185	"SMD"	22	101	"Mixed"	"Sea trout"	"Chordata"	"Actinopterygii"	"Salmoniformes"	"Salmonidae"	"Salmo"	"trutta"	-1	1	"Survival"	"ISR"	27	-0.15	0.36	11	-0.27	0.44	NA	NA	NA	NA	2014	0	1	0	1
+326	"SMD"	47	173	"Mixed"	"Timber rattlesnake"	"Chordata"	"Reptilia"	"Squamata"	"Viperidae"	"Crotalus"	"horridus"	-1	0	"Survival"	"ESR"	18	0.89	0.36	11	0.61	0.4	NA	NA	NA	NA	1999	0	1	0	0
+637	"SMD"	109	313	"Mixed"	"Chinook salmon"	"Chordata"	"Actinopterygii"	"Salmoniformes"	"Salmonidae"	"Oncorhynchus"	"tshawytscha"	-1	1.5	"Survival"	"ISR"	389	0.88	0.36	468	0.93	0.43	NA	NA	NA	NA	2009	0	1	0	1
+1067	"SMD"	180	538	"Mixed"	"European hedgehog"	"Chordata"	"Mammalia"	"Eulipotyphla"	"Erinaceidae"	"Erinaceus"	"europaeus"	-1	0	"Movement"	"ESR"	20	-0.65	0.36	20	-0.35	0.34	NA	NA	NA	NA	2006	0	1	0	0
+1068	"SMD"	180	538	"Mixed"	"European hedgehog"	"Chordata"	"Mammalia"	"Eulipotyphla"	"Erinaceidae"	"Erinaceus"	"europaeus"	-1	0	"Movement"	"ESR"	20	-0.65	0.36	23	-0.46	0.56	NA	NA	NA	NA	2006	0	1	0	0
+864	"SMD"	139	449	"Mixed"	"Atlantic salmon"	"Chordata"	"Actinopterygii"	"Salmoniformes"	"Salmonidae"	"Salmo"	"salar"	-1	-1	"Movement"	"ISR"	9	0.45	0.37	3	2.2	1.5	NA	NA	NA	NA	1998	0	0	0	0
+1054	"SMD"	175	527	"Mixed"	"Monk seal"	"Chordata"	"Mammalia"	"Carnivora"	"Phocidae"	"Monachus"	"schauinslandi"	-1	0.5	"Survival"	"ISR"	42	0.8136809	0.371565994	74	0.5680257	0.60337258	NA	NA	NA	NA	2011	0	1	0	1
+97	"SMD"	15	60	"Mixed"	"Bighorn sheep"	"Chordata"	"Mammalia"	"Artiodactyla"	"Bovidae"	"Ovis"	"canadensis"	-1	1	"Survival"	"ISR"	41	0.88	0.38	5	0.83	0.25	NA	NA	NA	NA	2001	0	1	0	1
+100	"SMD"	15	63	"Mixed"	"Bighorn sheep"	"Chordata"	"Mammalia"	"Artiodactyla"	"Bovidae"	"Ovis"	"canadensis"	-1	1	"Survival"	"ISR"	30	0.78	0.39	20	0.67	0.46	NA	NA	NA	NA	2001	0	1	0	1
+248	"SMD"	33	138	"Female"	"Trumpeter swan"	"Chordata"	"Aves"	"Anseriformes"	"Anatidae"	"Cygnus"	"buccinator"	-1	2.5	"Survival"	"ISR"	36	0.87	0.39	125	0.95	0.28	NA	NA	NA	NA	2002	0	1	0	2
+713	"SMD"	118	348	"Mixed"	"Yellow-footed rock wallaby"	"Chordata"	"Mammalia"	"Diprotodontia"	"Macropodidae"	"Petrogale"	"xanthopus"	-1	10	"Constitution"	"ISR"	5	4.6	0.4	7	4.6	0.4	NA	NA	NA	NA	2005	0	1	0	2
+292	"SMD"	41	161	"Mixed"	"Puaiohi"	"Chordata"	"Aves"	"Passeriformes"	"Turdidae"	"Myadestes"	"palmeri"	-1	3.5	"Survival"	"ISR"	35	0.85	0.41	67	0.13	1.15	NA	NA	NA	NA	2014	0	1	0	2
+310	"SMD"	43	165	"Mixed"	"Eastern hognose snake"	"Chordata"	"Reptilia"	"Squamata"	"Colubridae"	"Heterodon"	"platyrhinos"	-1	0	"Survival"	"ESR"	8	0.51	0.41	8	0.04	0.18	NA	NA	NA	NA	2000	0	1	0	0
+1102	"SMD"	191	552	"Mixed"	"Green iguana"	"Chordata"	"Reptilia"	"Squamata"	"Iguanidae"	"Iguana"	"iguana"	-1	1.5	"Movement"	"ISR"	2	0.29	0.410121933	9	0.76	1.02	NA	NA	NA	NA	2010	0	1	0	1
+355	"SMD"	53	185	"Female"	"Desert tortoise"	"Chordata"	"Reptilia"	"Testudines"	"Testudinidae"	"Gopherus"	"agassizii"	-1	0	"Constitution"	"ESR"	16	-2.8	0.42	19	-4.32	0.82	NA	NA	NA	NA	2012	0	1	0	0
+505	"SMD"	93	261	"Mixed"	"Northern watersnake"	"Chordata"	"Reptilia"	"Squamata"	"Colubridae"	"Nerodia"	"sipedon"	0	1	"Growth"	"ISR"	12	0.44	0.42	11	0.16	0.16	NA	NA	NA	NA	2015	1	1	0	1
+506	"SMD"	93	261	"Mixed"	"Northern watersnake"	"Chordata"	"Reptilia"	"Squamata"	"Colubridae"	"Nerodia"	"sipedon"	1	1	"Growth"	"ISR"	12	0.44	0.42	7	0.14	0.18	NA	NA	NA	NA	2015	1	1	1	1
+640	"SMD"	109	316	"Mixed"	"Chinook salmon"	"Chordata"	"Actinopterygii"	"Salmoniformes"	"Salmonidae"	"Oncorhynchus"	"tshawytscha"	-1	1.5	"Survival"	"ISR"	1535	0.87	0.43	157	0.93	0.6	NA	NA	NA	NA	2009	0	1	0	1
+1000	"SMD"	164	506	"Mixed"	"Brown trout"	"Chordata"	"Actinopterygii"	"Salmoniformes"	"Salmonidae"	"Salmo"	"trutta"	1	1.5	"Constitution"	"ISR"	5	0.74	0.447213595	13	2.93	0.757165768	NA	NA	NA	NA	2012	1	1	1	1
+1001	"SMD"	164	506	"Mixed"	"Brown trout"	"Chordata"	"Actinopterygii"	"Salmoniformes"	"Salmonidae"	"Salmo"	"trutta"	0	1.5	"Constitution"	"ISR"	5	0.74	0.447213595	14	4.75	0.823164625	NA	NA	NA	NA	2012	1	1	0	1
+293	"SMD"	41	161	"Mixed"	"Puaiohi"	"Chordata"	"Aves"	"Passeriformes"	"Turdidae"	"Myadestes"	"palmeri"	-1	3.5	"Survival"	"ISR"	35	0.6	0.45	67	0.05	0.49	NA	NA	NA	NA	2014	0	1	0	2
+154	"SMD"	20	89	"Mixed"	"Asian houbara"	"Chordata"	"Aves"	"Otidiformes"	"Otididae"	"Chlamydotis"	"macqueenii"	-1	2.5	"Survival"	"ISR"	10	0.7	0.46	35	0.2	0.39	NA	NA	NA	NA	2017	0	1	0	2
+296	"SMD"	41	162	"Mixed"	"Puaiohi"	"Chordata"	"Aves"	"Passeriformes"	"Turdidae"	"Myadestes"	"palmeri"	-1	3.5	"Survival"	"ISR"	61	0.23	0.47	56	0.26	1.57	NA	NA	NA	NA	2014	0	1	0	2
+624	"SMD"	109	300	"Mixed"	"Chinook salmon"	"Chordata"	"Actinopterygii"	"Salmoniformes"	"Salmonidae"	"Oncorhynchus"	"tshawytscha"	-1	1.5	"Survival"	"ISR"	1857	0.89	0.47	114	0.76	0.54	NA	NA	NA	NA	2009	0	1	0	1
+383	"SMD"	58	198	"Mixed"	"Aplomado falcon"	"Chordata"	"Aves"	"Falconiformes"	"Falconidae"	"Falco"	"femoralis"	-1	1.5	"Survival"	"ISR"	75	0.37	0.48	141	0.17	0.37	NA	NA	NA	NA	2006	0	1	0	1
+447	"SMD"	75	228	"Mixed"	"Plains gartersnake"	"Chordata"	"Reptilia"	"Squamata"	"Colubridae"	"Thamnophis"	"radix"	-1	1	"Survival"	"ISR"	80	0.4	0.48	142	0.11	0.52	NA	NA	NA	NA	2006	0	1	0	1
+448	"SMD"	75	229	"Mixed"	"Plains gartersnake"	"Chordata"	"Reptilia"	"Squamata"	"Colubridae"	"Thamnophis"	"radix"	-1	1	"Survival"	"ISR"	80	0.4	0.48	53	0.4	0.39	NA	NA	NA	NA	2006	0	1	0	1
+633	"SMD"	109	309	"Mixed"	"Chinook salmon"	"Chordata"	"Actinopterygii"	"Salmoniformes"	"Salmonidae"	"Oncorhynchus"	"tshawytscha"	-1	1.5	"Survival"	"ISR"	467	0.73	0.48	297	0.78	0.55	NA	NA	NA	NA	2009	0	1	0	1
+73	"SMD"	12	40	"Mixed"	"Snowy plover"	"Chordata"	"Aves"	"Charadriiformes"	"Charadriidae"	"Charadrius"	"nivosus"	-1	0.5	"Survival"	"ISR"	205	0.35	0.49	41	0.37	0.4	NA	NA	NA	NA	2013	0	1	0	1
+641	"SMD"	109	317	"Mixed"	"Chinook salmon"	"Chordata"	"Actinopterygii"	"Salmoniformes"	"Salmonidae"	"Oncorhynchus"	"tshawytscha"	-1	1.5	"Survival"	"ISR"	1409	0.9	0.49	88	0.83	0.73	NA	NA	NA	NA	2009	0	1	0	1
+609	"SMD"	108	289	"Mixed"	"Brown trout"	"Chordata"	"Actinopterygii"	"Salmoniformes"	"Salmonidae"	"Salmo"	"trutta"	-1	1.5	"Constitution"	"ISR"	51	0.83	0.49989999	48	1.1	0.069282032	NA	NA	NA	NA	2009	0	1	0	1
+74	"SMD"	12	40	"Mixed"	"Snowy plover"	"Chordata"	"Aves"	"Charadriiformes"	"Charadriidae"	"Charadrius"	"nivosus"	-1	0.5	"Survival"	"ISR"	205	0.68	0.5	41	0.7	0.36	NA	NA	NA	NA	2013	0	1	0	1
+397	"SMD"	63	206	"Mixed"	"White-lipped pitviper"	"Chordata"	"Reptilia"	"Squamata"	"Viperidae"	"Trimeresurus"	"albolabris"	-1	0	"Survival"	"ESR"	12	0.71	0.5	13	0.25	0.46	NA	NA	NA	NA	2016	0	1	0	0
+616	"SMD"	109	292	"Mixed"	"Chinook salmon"	"Chordata"	"Actinopterygii"	"Salmoniformes"	"Salmonidae"	"Oncorhynchus"	"tshawytscha"	-1	1.5	"Survival"	"ISR"	441	0.69	0.5	847	0.52	0.55	NA	NA	NA	NA	2009	0	1	0	1
+630	"SMD"	109	306	"Mixed"	"Chinook salmon"	"Chordata"	"Actinopterygii"	"Salmoniformes"	"Salmonidae"	"Oncorhynchus"	"tshawytscha"	-1	1.5	"Survival"	"ISR"	525	0.43	0.5	520	0.27	0.52	NA	NA	NA	NA	2009	0	1	0	1
+25	"SMD"	3	13	"Mixed"	"Mauritius kestrel"	"Chordata"	"Aves"	"Falconiformes"	"Falconidae"	"Falco"	"punctatus"	0	2	"Survival"	"ISR"	284	0.75	0.51	42	0.8	0.26	NA	NA	NA	NA	2004	1	1	0	2
+26	"SMD"	3	14	"Mixed"	"Mauritius kestrel"	"Chordata"	"Aves"	"Falconiformes"	"Falconidae"	"Falco"	"punctatus"	1	2	"Survival"	"ISR"	284	0.75	0.51	46	0.8	0.27	NA	NA	NA	NA	2004	1	1	1	2
+628	"SMD"	109	304	"Mixed"	"Chinook salmon"	"Chordata"	"Actinopterygii"	"Salmoniformes"	"Salmonidae"	"Oncorhynchus"	"tshawytscha"	-1	1.5	"Survival"	"ISR"	329	0.38	0.51	1306	0.52	0.61	NA	NA	NA	NA	2009	0	1	0	1
+622	"SMD"	109	298	"Mixed"	"Chinook salmon"	"Chordata"	"Actinopterygii"	"Salmoniformes"	"Salmonidae"	"Oncorhynchus"	"tshawytscha"	-1	1.5	"Survival"	"ISR"	2832	0.87	0.53	32	0.8	0.16	NA	NA	NA	NA	2009	0	1	0	1
+623	"SMD"	109	299	"Mixed"	"Chinook salmon"	"Chordata"	"Actinopterygii"	"Salmoniformes"	"Salmonidae"	"Oncorhynchus"	"tshawytscha"	-1	1.5	"Survival"	"ISR"	464	0.56	0.54	1612	0.44	0.52	NA	NA	NA	NA	2009	0	1	0	1
+680	"SMD"	114	480	"Mixed"	"Atlantic salmon"	"Chordata"	"Actinopterygii"	"Salmoniformes"	"Salmonidae"	"Salmo"	"salar"	-1	1	"Movement"	"ISR"	15	0.56	0.54	25	0.77	0.6	NA	NA	NA	NA	2007	0	1	0	1
+297	"SMD"	41	162	"Mixed"	"Puaiohi"	"Chordata"	"Aves"	"Passeriformes"	"Turdidae"	"Myadestes"	"palmeri"	-1	3.5	"Survival"	"ISR"	61	0.85	0.55	56	0.41	2.54	NA	NA	NA	NA	2014	0	1	0	2
+384	"SMD"	58	198	"Mixed"	"Aplomado falcon"	"Chordata"	"Aves"	"Falconiformes"	"Falconidae"	"Falco"	"femoralis"	-1	1.5	"Survival"	"ISR"	75	0.39	0.55	141	0.15	0.64	NA	NA	NA	NA	2006	0	1	0	1
+685	"SMD"	115	333	"Female"	"Santa Catalina Island fox"	"Chordata"	"Mammalia"	"Carnivora"	"Canidae"	"Urocyon"	"littoralis"	-1	0	"Reproduction"	"ESR"	6	1.5	0.55	3	2.3	0.58	NA	NA	NA	NA	2007	0	1	0	0
+727	"SMD"	122	359	"Female"	"Steelhead trout"	"Chordata"	"Actinopterygii"	"Salmoniformes"	"Salmonidae"	"Oncorhynchus"	"mykiss"	-1	5	"Reproduction"	"ISR"	21	0.42	0.55	163	0.33	0.41	NA	NA	NA	NA	2004	0	1	0	2
+634	"SMD"	109	310	"Mixed"	"Chinook salmon"	"Chordata"	"Actinopterygii"	"Salmoniformes"	"Salmonidae"	"Oncorhynchus"	"tshawytscha"	-1	1.5	"Survival"	"ISR"	115	0.66	0.56	270	0.66	0.59	NA	NA	NA	NA	2009	0	1	0	1
+264	"SMD"	34	144	"Mixed"	"Vancouver Island marmot"	"Chordata"	"Mammalia"	"Rodentia"	"Sciuridae"	"Marmota"	"vancouverensis"	-1	1.5	"Survival"	"ISR"	213	0.85	0.58	154	0.61	0.6	NA	NA	NA	NA	2009	0	1	0	1
+21	"SMD"	2	9	"Male"	"Chinook salmon"	"Chordata"	"Actinopterygii"	"Salmoniformes"	"Salmonidae"	"Oncorhynchus"	"tshawytscha"	-1	0.5	"Reproduction"	"ISR"	155	0.26	0.583095189	255	0.11	0.387298335	NA	NA	NA	NA	2012	0	1	0	1
+45	"SMD"	6	25	"Mixed"	"Steelhead trout"	"Chordata"	"Actinopterygii"	"Salmoniformes"	"Salmonidae"	"Oncorhynchus"	"mykiss"	0	1.5	"Survival"	"ISR"	72	0.47	0.59	74	0.37	0.52	NA	NA	NA	NA	2010	1	1	0	1
+47	"SMD"	6	26	"Mixed"	"Steelhead trout"	"Chordata"	"Actinopterygii"	"Salmoniformes"	"Salmonidae"	"Oncorhynchus"	"mykiss"	1	2	"Survival"	"ISR"	72	0.47	0.59	76	0.45	0.7	NA	NA	NA	NA	2010	1	1	1	2
+238	"SMD"	31	133	"Male"	"American alligator"	"Chordata"	"Reptilia"	"Crocodilia"	"Alligatoridae"	"Alligator"	"mississippiensis"	-1	0.5	"Growth"	"ISR"	2	3.77	0.59	41	3.06	2.43	NA	NA	NA	NA	2001	0	1	0	1
+235	"SMD"	31	130	"Female"	"American alligator"	"Chordata"	"Reptilia"	"Crocodilia"	"Alligatoridae"	"Alligator"	"mississippiensis"	-1	0.5	"Growth"	"ISR"	2	2.96	0.6	129	3.15	3.08	NA	NA	NA	NA	2001	0	1	0	1
+711	"SMD"	118	347	"Mixed"	"Yellow-footed rock wallaby"	"Chordata"	"Mammalia"	"Diprotodontia"	"Macropodidae"	"Petrogale"	"xanthopus"	-1	10	"Constitution"	"ISR"	4	4.6	0.6	14	4.3	0.6	NA	NA	NA	NA	2005	0	1	0	2
+17	"SMD"	2	5	"Female"	"Chinook salmon"	"Chordata"	"Actinopterygii"	"Salmoniformes"	"Salmonidae"	"Oncorhynchus"	"tshawytscha"	-1	0.5	"Reproduction"	"ISR"	42	0.38	0.6244998	167	0.21	0.509901951	NA	NA	NA	NA	2012	0	1	0	1
+753	"SMD"	124	378	"Mixed"	"Chinook salmon"	"Chordata"	"Actinopterygii"	"Salmoniformes"	"Salmonidae"	"Oncorhynchus"	"tshawytscha"	-1	-1	"Constitution"	"ISR"	27	0.41	0.63	29	0.56	0.909936683	NA	NA	NA	NA	2019	0	0	0	0
+378	"SMD"	57	193	"Mixed"	"Mona Island iguana"	"Chordata"	"Reptilia"	"Squamata"	"Iguanidae"	"Cyclura"	"cornuta"	-1	0.25	"Constitution"	"ISR"	7	4.44	0.65	25	4.76	0.68	NA	NA	NA	NA	2008	0	1	0	1
+18	"SMD"	2	6	"Female"	"Chinook salmon"	"Chordata"	"Actinopterygii"	"Salmoniformes"	"Salmonidae"	"Oncorhynchus"	"tshawytscha"	-1	0.5	"Reproduction"	"ISR"	165	0.34	0.655743852	87	0.29	0.565685425	NA	NA	NA	NA	2012	0	1	0	1
+140	"SMD"	18	82	"Mixed"	"Alpine tree frog"	"Chordata"	"Amphibia"	"Anura"	"Hylidae"	"Litoria"	"verreauxii"	-1	0.5	"Survival"	"ISR"	260	0.74	0.69	51	0.8	0.53	NA	NA	NA	NA	2016	0	1	0	1
+867	"SMD"	139	451	"Mixed"	"Atlantic salmon"	"Chordata"	"Actinopterygii"	"Salmoniformes"	"Salmonidae"	"Salmo"	"salar"	-1	-1	"Movement"	"ISR"	11	1	0.69	6	2.2	2.3	NA	NA	NA	NA	1998	0	0	0	0
+709	"SMD"	118	346	"Mixed"	"Yellow-footed rock wallaby"	"Chordata"	"Mammalia"	"Diprotodontia"	"Macropodidae"	"Petrogale"	"xanthopus"	-1	10	"Constitution"	"ISR"	2	4.5	0.7	14	4.2	0.3	NA	NA	NA	NA	2005	0	1	0	2
+240	"SMD"	32	135	"Mixed"	"American alligator"	"Chordata"	"Reptilia"	"Crocodilia"	"Alligatoridae"	"Alligator"	"mississippiensis"	-1	0.5	"Growth"	"ISR"	106	0.22	0.72	168	0.14	1.43	NA	NA	NA	NA	1992	0	1	0	1
+241	"SMD"	32	136	"Mixed"	"American alligator"	"Chordata"	"Reptilia"	"Crocodilia"	"Alligatoridae"	"Alligator"	"mississippiensis"	-1	0.5	"Growth"	"ISR"	106	0.36	0.72	168	0.41	1.43	NA	NA	NA	NA	1992	0	1	0	1
+242	"SMD"	32	136	"Mixed"	"American alligator"	"Chordata"	"Reptilia"	"Crocodilia"	"Alligatoridae"	"Alligator"	"mississippiensis"	-1	0.5	"Growth"	"ISR"	106	0.51	0.72	168	0.68	1.56	NA	NA	NA	NA	1992	0	1	0	1
+379	"SMD"	57	194	"Mixed"	"Mona Island iguana"	"Chordata"	"Reptilia"	"Squamata"	"Iguanidae"	"Cyclura"	"cornuta"	-1	0.25	"Constitution"	"ISR"	31	4.51	0.72	25	4.76	0.68	NA	NA	NA	NA	2008	0	1	0	1
+22	"SMD"	2	10	"Male"	"Chinook salmon"	"Chordata"	"Actinopterygii"	"Salmoniformes"	"Salmonidae"	"Oncorhynchus"	"tshawytscha"	-1	0.5	"Reproduction"	"ISR"	100	0.38	0.734846923	29	0.34	0.768114575	NA	NA	NA	NA	2012	0	1	0	1
+206	"SMD"	26	116	"Mixed"	"Brown teal"	"Chordata"	"Aves"	"Anseriformes"	"Anatidae"	"Anas"	"chlorotis"	-1	1.5	"Constitution"	"ISR"	41	2.23	0.74	7	1.49	0.16	NA	NA	NA	NA	2006	0	1	0	1
+686	"SMD"	115	333	"Female"	"Santa Catalina Island fox"	"Chordata"	"Mammalia"	"Carnivora"	"Canidae"	"Urocyon"	"littoralis"	-1	0	"Reproduction"	"ESR"	8	2.4	0.74	4	2.8	0.5	NA	NA	NA	NA	2007	0	1	0	0
+141	"SMD"	18	82	"Mixed"	"Alpine tree frog"	"Chordata"	"Amphibia"	"Anura"	"Hylidae"	"Litoria"	"verreauxii"	-1	0.5	"Survival"	"ISR"	183	0.93	0.75	29	0.68	0.66	NA	NA	NA	NA	2016	0	1	0	1
+233	"SMD"	31	128	"Male"	"American alligator"	"Chordata"	"Reptilia"	"Crocodilia"	"Alligatoridae"	"Alligator"	"mississippiensis"	-1	0.5	"Growth"	"ISR"	29	2.45	0.75	347	3.06	1.5	NA	NA	NA	NA	2001	0	1	0	1
+229	"SMD"	31	124	"Female"	"American alligator"	"Chordata"	"Reptilia"	"Crocodilia"	"Alligatoridae"	"Alligator"	"mississippiensis"	-1	0.5	"Growth"	"ISR"	17	2.11	0.76	520	2.67	1.55	NA	NA	NA	NA	2001	0	1	0	1
+484	"SMD"	88	252	"Mixed"	"Largemouth bass"	"Chordata"	"Actinopterygii"	"Perciformes"	"Centrarchidae"	"Micropterus"	"salmoides"	-1	-1	"Growth"	"ISR"	7	1.73	0.77	7	0.42	0.51	NA	NA	NA	NA	2016	0	0	0	0
+847	"SMD"	133	435	"Mixed"	"Atlantic salmon"	"Chordata"	"Actinopterygii"	"Salmoniformes"	"Salmonidae"	"Salmo"	"salar"	-1	5.5	"Movement"	"ISR"	12	-0.35	0.77	8	-0.45	0.87	NA	NA	NA	NA	1995	0	1	0	2
+445	"SMD"	74	227	"Mixed"	"Dugite"	"Chordata"	"Reptilia"	"Squamata"	"Elapidae"	"Pseudonaja"	"affinis"	-1	0	"Movement"	"ESR"	6	-0.77	0.8	4	-11.3	8.26	NA	NA	NA	NA	2018	0	1	0	0
+726	"SMD"	122	358	"Female"	"Steelhead trout"	"Chordata"	"Actinopterygii"	"Salmoniformes"	"Salmonidae"	"Oncorhynchus"	"mykiss"	-1	5	"Reproduction"	"ISR"	38	0.61	0.81	199	0.39	1.01	NA	NA	NA	NA	2004	0	1	0	2
+635	"SMD"	109	311	"Mixed"	"Chinook salmon"	"Chordata"	"Actinopterygii"	"Salmoniformes"	"Salmonidae"	"Oncorhynchus"	"tshawytscha"	-1	1.5	"Survival"	"ISR"	333	0.75	0.82	100	0.79	0.8	NA	NA	NA	NA	2009	0	1	0	1
+745	"SMD"	124	374	"Mixed"	"Chinook salmon"	"Chordata"	"Actinopterygii"	"Salmoniformes"	"Salmonidae"	"Oncorhynchus"	"tshawytscha"	-1	-1	"Constitution"	"ISR"	8	1.34	0.86	13	1.32	1.92	NA	NA	NA	NA	2019	0	0	0	0
+69	"SMD"	12	38	"Male"	"Snowy plover"	"Chordata"	"Aves"	"Charadriiformes"	"Charadriidae"	"Charadrius"	"nivosus"	-1	0.5	"Reproduction"	"ISR"	140	1.11	0.87	9	0.84	0.9	NA	NA	NA	NA	2013	0	1	0	1
+642	"SMD"	109	318	"Mixed"	"Chinook salmon"	"Chordata"	"Actinopterygii"	"Salmoniformes"	"Salmonidae"	"Oncorhynchus"	"tshawytscha"	-1	1.5	"Survival"	"ISR"	2702	0.91	0.88	264	0.84	0.88	NA	NA	NA	NA	2009	0	1	0	1
+625	"SMD"	109	301	"Mixed"	"Chinook salmon"	"Chordata"	"Actinopterygii"	"Salmoniformes"	"Salmonidae"	"Oncorhynchus"	"tshawytscha"	-1	1.5	"Survival"	"ISR"	517	0.63	0.89	1484	0.44	0.89	NA	NA	NA	NA	2009	0	1	0	1
+944	"SMD"	152	484	"Mixed"	"Sargo"	"Chordata"	"Actinopterygii"	"Perciformes"	"Sparidae"	"Diplodus"	"noct"	-1	1.5	"Movement"	"ISR"	5	-1.61	0.89	3	-0.63	0.09	NA	NA	NA	NA	2009	0	1	0	1
+1069	"SMD"	180	538	"Mixed"	"European hedgehog"	"Chordata"	"Mammalia"	"Eulipotyphla"	"Erinaceidae"	"Erinaceus"	"europaeus"	-1	0	"Survival"	"ESR"	20	94.7	0.894427191	20	40.9	5.366563146	NA	NA	NA	NA	2006	0	1	0	0
+352	"SMD"	53	184	"Male"	"Desert tortoise"	"Chordata"	"Reptilia"	"Testudines"	"Testudinidae"	"Gopherus"	"agassizii"	-1	0	"Constitution"	"ESR"	18	-3.96	0.9	24	-5.04	1.6	NA	NA	NA	NA	2012	0	1	0	0
+620	"SMD"	109	296	"Mixed"	"Chinook salmon"	"Chordata"	"Actinopterygii"	"Salmoniformes"	"Salmonidae"	"Oncorhynchus"	"tshawytscha"	-1	1.5	"Survival"	"ISR"	483	0.51	0.9	500	0.5	0.87	NA	NA	NA	NA	2009	0	1	0	1
+150	"SMD"	20	88	"Mixed"	"Asian houbara"	"Chordata"	"Aves"	"Otidiformes"	"Otididae"	"Chlamydotis"	"macqueenii"	-1	2.5	"Movement"	"ISR"	84	0.3	0.93	12	0.46	0.34	NA	NA	NA	NA	2017	0	1	0	2
+237	"SMD"	31	132	"Male"	"American alligator"	"Chordata"	"Reptilia"	"Crocodilia"	"Alligatoridae"	"Alligator"	"mississippiensis"	-1	0.5	"Growth"	"ISR"	14	4.3	0.93	2	4.5	2.54	NA	NA	NA	NA	2001	0	1	0	1
+631	"SMD"	109	307	"Mixed"	"Chinook salmon"	"Chordata"	"Actinopterygii"	"Salmoniformes"	"Salmonidae"	"Oncorhynchus"	"tshawytscha"	-1	1.5	"Survival"	"ISR"	360	0.38	0.93	485	0.32	0.95	NA	NA	NA	NA	2009	0	1	0	1
+878	"SMD"	141	457	"Mixed"	"Abalone"	"Mollusca"	"Gastropoda"	"Archaegastropoda"	"Haliotidae"	"Haliotis"	"asinina"	-1	-1	"Growth"	"ISR"	239	0.25	0.93	2396	0.35	0.49	NA	NA	NA	NA	2013	0	0	0	0
+879	"SMD"	141	457	"Mixed"	"Abalone"	"Mollusca"	"Gastropoda"	"Archaegastropoda"	"Haliotidae"	"Haliotis"	"asinina"	-1	-1	"Growth"	"ISR"	239	0.25	0.93	856	0.27	1.17	NA	NA	NA	NA	2013	0	0	0	0
+265	"SMD"	35	145	"Mixed"	"Common hamster"	"Chordata"	"Mammalia"	"Rodentia"	"Cricetidae"	"Cricetus"	"cricetus"	-1	0	"Reproduction"	"ESR"	49	2.47	0.96	17	1.76	0.44	NA	NA	NA	NA	2011	0	1	0	0
+267	"SMD"	35	146	"Mixed"	"Common hamster"	"Chordata"	"Mammalia"	"Rodentia"	"Cricetidae"	"Cricetus"	"cricetus"	-1	-1	"Reproduction"	"ISR"	49	2.47	0.96	104	1.57	1.07	NA	NA	NA	NA	2011	0	0	0	0
+626	"SMD"	109	302	"Mixed"	"Chinook salmon"	"Chordata"	"Actinopterygii"	"Salmoniformes"	"Salmonidae"	"Oncorhynchus"	"tshawytscha"	-1	1.5	"Survival"	"ISR"	3583	0.92	0.96	252	0.82	0.97	NA	NA	NA	NA	2009	0	1	0	1
+230	"SMD"	31	125	"Female"	"American alligator"	"Chordata"	"Reptilia"	"Crocodilia"	"Alligatoridae"	"Alligator"	"mississippiensis"	-1	0.5	"Growth"	"ISR"	9	1.1	0.97	298	2.45	1.51	NA	NA	NA	NA	2001	0	1	0	1
+615	"SMD"	109	291	"Mixed"	"Chinook salmon"	"Chordata"	"Actinopterygii"	"Salmoniformes"	"Salmonidae"	"Oncorhynchus"	"tshawytscha"	-1	1.5	"Survival"	"ISR"	1380	0.91	0.97	190	1.03	2.07	NA	NA	NA	NA	2009	0	1	0	1
+636	"SMD"	109	312	"Mixed"	"Chinook salmon"	"Chordata"	"Actinopterygii"	"Salmoniformes"	"Salmonidae"	"Oncorhynchus"	"tshawytscha"	-1	1.5	"Survival"	"ISR"	832	0.86	0.98	75	0.84	1.1	NA	NA	NA	NA	2009	0	1	0	1
+232	"SMD"	31	127	"Male"	"American alligator"	"Chordata"	"Reptilia"	"Crocodilia"	"Alligatoridae"	"Alligator"	"mississippiensis"	-1	0.5	"Growth"	"ISR"	43	2.83	0.99	509	3.2	1.64	NA	NA	NA	NA	2001	0	1	0	1
+710	"SMD"	118	346	"Mixed"	"Yellow-footed rock wallaby"	"Chordata"	"Mammalia"	"Diprotodontia"	"Macropodidae"	"Petrogale"	"xanthopus"	-1	10	"Constitution"	"ISR"	2	25	1	13	24	6	NA	NA	NA	NA	2005	0	1	0	2
+714	"SMD"	118	348	"Mixed"	"Yellow-footed rock wallaby"	"Chordata"	"Mammalia"	"Diprotodontia"	"Macropodidae"	"Petrogale"	"xanthopus"	-1	10	"Constitution"	"ISR"	5	29	1	7	28	8	NA	NA	NA	NA	2005	0	1	0	2
+751	"SMD"	124	377	"Mixed"	"Chinook salmon"	"Chordata"	"Actinopterygii"	"Salmoniformes"	"Salmonidae"	"Oncorhynchus"	"tshawytscha"	-1	-1	"Constitution"	"ISR"	26	1.19	1	47	0.84	1.148276898	NA	NA	NA	NA	2019	0	0	0	0
+1089	"SMD"	186	545	"Mixed"	"Western rattlesnake"	"Chordata"	"Reptilia"	"Squamata"	"Viperidae"	"Crotalus"	"oreganus"	-1	0	"Reproduction"	"ESR"	14	0.9	1	14	1.2	0.8	NA	NA	NA	NA	2009	0	1	0	0
+950	"SMD"	155	489	"Mixed"	"Abalone"	"Mollusca"	"Gastropoda"	"Archaegastropoda"	"Haliotidae"	"Haliotis"	"kamtschatkana"	-1	1.5	"Constitution"	"ISR"	12	7.686437	1.028675367	12	6.161845	2.787070667	NA	NA	NA	NA	2016	0	1	0	1
+234	"SMD"	31	129	"Female"	"American alligator"	"Chordata"	"Reptilia"	"Crocodilia"	"Alligatoridae"	"Alligator"	"mississippiensis"	-1	0.5	"Growth"	"ISR"	6	3.38	1.03	7	3.74	1.8	NA	NA	NA	NA	2001	0	1	0	1
+72	"SMD"	12	39	"Female"	"Snowy plover"	"Chordata"	"Aves"	"Charadriiformes"	"Charadriidae"	"Charadrius"	"nivosus"	-1	0.5	"Reproduction"	"ISR"	89	1.61	1.05	6	1.46	1.35	NA	NA	NA	NA	2013	0	1	0	1
+683	"SMD"	115	332	"Female"	"Santa Catalina Island fox"	"Chordata"	"Mammalia"	"Carnivora"	"Canidae"	"Urocyon"	"littoralis"	-1	0	"Reproduction"	"ESR"	6	2.5	1.05	2	2.5	0.71	NA	NA	NA	NA	2007	0	1	0	0
+147	"SMD"	20	87	"Mixed"	"Asian houbara"	"Chordata"	"Aves"	"Otidiformes"	"Otididae"	"Chlamydotis"	"macqueenii"	-1	2.5	"Movement"	"ISR"	10	1.83	1.06	28	2.33	1.55	NA	NA	NA	NA	2017	0	1	0	2
+606	"SMD"	108	288	"Mixed"	"Brown trout"	"Chordata"	"Actinopterygii"	"Salmoniformes"	"Salmonidae"	"Salmo"	"trutta"	-1	1.5	"Movement"	"ISR"	29	2.05	1.08	32	0.98	0.74	NA	NA	NA	NA	2009	0	1	0	1
+399	"SMD"	64	207	"Mixed"	"Egyptian tortoise"	"Chordata"	"Reptilia"	"Testudines"	"Testudinidae"	"Testudo"	"kleinmanni"	-1	0	"Movement"	"ESR"	8	-2.4	1.1	7	-2.59	1.06	NA	NA	NA	NA	2015	0	1	0	0
+148	"SMD"	20	87	"Mixed"	"Asian houbara"	"Chordata"	"Aves"	"Otidiformes"	"Otididae"	"Chlamydotis"	"macqueenii"	-1	2.5	"Movement"	"ISR"	8	3.08	1.11	18	2.89	1.48	NA	NA	NA	NA	2017	0	1	0	2
+302	"SMD"	42	163	"Mixed"	"Eastern painted turtle"	"Chordata"	"Reptilia"	"Testudines"	"Emydidae"	"Chrysemys"	"picta"	1	0	"Movement"	"ESR"	60	-1.21	1.12	10	-74.1	29.43	NA	NA	NA	NA	2018	1	1	1	0
+308	"SMD"	42	164	"Mixed"	"Eastern painted turtle"	"Chordata"	"Reptilia"	"Testudines"	"Emydidae"	"Chrysemys"	"picta"	0	0	"Movement"	"ESR"	60	-1.21	1.12	30	-85.87	131.62	NA	NA	NA	NA	2018	1	1	0	0
+629	"SMD"	109	305	"Mixed"	"Chinook salmon"	"Chordata"	"Actinopterygii"	"Salmoniformes"	"Salmonidae"	"Oncorhynchus"	"tshawytscha"	-1	1.5	"Survival"	"ISR"	217	0.52	1.12	1351	0.39	1.03	NA	NA	NA	NA	2009	0	1	0	1
+24	"SMD"	2	12	"Male"	"Chinook salmon"	"Chordata"	"Actinopterygii"	"Salmoniformes"	"Salmonidae"	"Oncorhynchus"	"tshawytscha"	-1	0.5	"Reproduction"	"ISR"	16	0.88	1.15	63	0.29	0.58	NA	NA	NA	NA	2012	0	1	0	1
+618	"SMD"	109	294	"Mixed"	"Chinook salmon"	"Chordata"	"Actinopterygii"	"Salmoniformes"	"Salmonidae"	"Oncorhynchus"	"tshawytscha"	-1	1.5	"Survival"	"ISR"	405	0.69	1.15	1149	0.71	1.39	NA	NA	NA	NA	2009	0	1	0	1
+743	"SMD"	124	373	"Mixed"	"Chinook salmon"	"Chordata"	"Actinopterygii"	"Salmoniformes"	"Salmonidae"	"Oncorhynchus"	"tshawytscha"	-1	-1	"Constitution"	"ISR"	32	0.93	1.15	11	0.99	0.72	NA	NA	NA	NA	2019	0	0	0	0
+64	"SMD"	11	37	"Male"	"Great Lakes piping plover"	"Chordata"	"Aves"	"Charadriiformes"	"Charadriidae"	"Charadrius"	"melodus"	-1	0.5	"Reproduction"	"ISR"	57	3.1	1.17	10	2.28	1.31	NA	NA	NA	NA	2008	0	1	0	1
+594	"SMD"	105	283	"Mixed"	"Snake River sockeye salmon"	"Chordata"	"Actinopterygii"	"Salmoniformes"	"Salmonidae"	"Oncorhynchus"	"nerka"	-1	1.5	"Constitution"	"ISR"	20	17.7	1.2	20	12.5	0.3	NA	NA	NA	NA	2010	0	1	0	1
+627	"SMD"	109	303	"Mixed"	"Chinook salmon"	"Chordata"	"Actinopterygii"	"Salmoniformes"	"Salmonidae"	"Oncorhynchus"	"tshawytscha"	-1	1.5	"Survival"	"ISR"	431	0.45	1.2	349	0.44	0.86	NA	NA	NA	NA	2009	0	1	0	1
+639	"SMD"	109	315	"Mixed"	"Chinook salmon"	"Chordata"	"Actinopterygii"	"Salmoniformes"	"Salmonidae"	"Oncorhynchus"	"tshawytscha"	-1	1.5	"Survival"	"ISR"	1143	0.86	1.22	293	0.86	1.42	NA	NA	NA	NA	2009	0	1	0	1
+491	"SMD"	91	256	"Female"	"Chinook salmon"	"Chordata"	"Actinopterygii"	"Salmoniformes"	"Salmonidae"	"Oncorhynchus"	"tshawytscha"	-1	6.5	"Reproduction"	"ISR"	23	29.03	1.23	27	28.59	1.36	NA	NA	NA	NA	2016	0	1	0	2
+228	"SMD"	31	123	"Female"	"American alligator"	"Chordata"	"Reptilia"	"Crocodilia"	"Alligatoridae"	"Alligator"	"mississippiensis"	-1	0.5	"Growth"	"ISR"	120	3.01	1.25	200	2.99	1.32	NA	NA	NA	NA	2001	0	1	0	1
+65	"SMD"	11	37	"Male"	"Great Lakes piping plover"	"Chordata"	"Aves"	"Charadriiformes"	"Charadriidae"	"Charadrius"	"melodus"	-1	0.5	"Reproduction"	"ISR"	57	1.8	1.28	10	1.15	1.39	NA	NA	NA	NA	2008	0	1	0	1
+621	"SMD"	109	297	"Mixed"	"Chinook salmon"	"Chordata"	"Actinopterygii"	"Salmoniformes"	"Salmonidae"	"Oncorhynchus"	"tshawytscha"	-1	1.5	"Survival"	"ISR"	2110	0.9	1.29	348	0.74	1.08	NA	NA	NA	NA	2009	0	1	0	1
+632	"SMD"	109	308	"Mixed"	"Chinook salmon"	"Chordata"	"Actinopterygii"	"Salmoniformes"	"Salmonidae"	"Oncorhynchus"	"tshawytscha"	-1	1.5	"Survival"	"ISR"	166	0.78	1.31	159	0.87	1.46	NA	NA	NA	NA	2009	0	1	0	1
+231	"SMD"	31	126	"Male"	"American alligator"	"Chordata"	"Reptilia"	"Crocodilia"	"Alligatoridae"	"Alligator"	"mississippiensis"	-1	0.5	"Growth"	"ISR"	139	3.31	1.32	209	3.74	1.73	NA	NA	NA	NA	2001	0	1	0	1
+1024	"SMD"	166	512	"Female"	"Chinook salmon"	"Chordata"	"Actinopterygii"	"Salmoniformes"	"Salmonidae"	"Oncorhynchus"	"tshawytscha"	-1	1.5	"Reproduction"	"ISR"	369	1.04	1.36	271	0.91	1.17	NA	NA	NA	NA	2010	0	1	0	1
+1025	"SMD"	166	513	"Female"	"Chinook salmon"	"Chordata"	"Actinopterygii"	"Salmoniformes"	"Salmonidae"	"Oncorhynchus"	"tshawytscha"	-1	1.5	"Reproduction"	"ISR"	369	1.23	1.36	271	0.68	0.96	NA	NA	NA	NA	2010	0	1	0	1
+619	"SMD"	109	295	"Mixed"	"Chinook salmon"	"Chordata"	"Actinopterygii"	"Salmoniformes"	"Salmonidae"	"Oncorhynchus"	"tshawytscha"	-1	1.5	"Survival"	"ISR"	1336	0.93	1.39	222	0.74	1.21	NA	NA	NA	NA	2009	0	1	0	1
+707	"SMD"	118	345	"Mixed"	"Yellow-footed rock wallaby"	"Chordata"	"Mammalia"	"Diprotodontia"	"Macropodidae"	"Petrogale"	"xanthopus"	-1	10	"Constitution"	"ISR"	3	4.2	1.4	13	4.2	0.3	NA	NA	NA	NA	2005	0	1	0	2
+1082	"SMD"	185	544	"Mixed"	"White-tailed deer"	"Chordata"	"Mammalia"	"Artiodactyla"	"Cervidae"	"Odocoileus"	"virginianus"	-1	0	"Movement"	"ESR"	9	33.2	1.5	10	38.9	1.58113883	NA	NA	NA	NA	1999	0	1	0	0
+1083	"SMD"	185	544	"Mixed"	"White-tailed deer"	"Chordata"	"Mammalia"	"Artiodactyla"	"Cervidae"	"Odocoileus"	"virginianus"	-1	0	"Movement"	"ESR"	9	75.5	1.5	10	52.1	1.58113883	NA	NA	NA	NA	1999	0	1	0	0
+638	"SMD"	109	314	"Mixed"	"Chinook salmon"	"Chordata"	"Actinopterygii"	"Salmoniformes"	"Salmonidae"	"Oncorhynchus"	"tshawytscha"	-1	1.5	"Survival"	"ISR"	756	0.92	1.54	202	1.03	2.09	NA	NA	NA	NA	2009	0	1	0	1
+207	"SMD"	26	116	"Mixed"	"Brown teal"	"Chordata"	"Aves"	"Anseriformes"	"Anatidae"	"Anas"	"chlorotis"	-1	1.5	"Constitution"	"ISR"	45	4.68	1.58	6	4.44	0.49	NA	NA	NA	NA	2006	0	1	0	1
+215	"SMD"	27	117	"Mixed"	"Lacertid lizard"	"Chordata"	"Reptilia"	"Squamata"	"Lacertidae"	"Psammodromus"	"algirus"	-1	1.5	"Survival"	"ISR"	47	1.9	1.58	45	2.6	2.01	NA	NA	NA	NA	2009	0	1	0	1
+208	"SMD"	26	116	"Mixed"	"Brown teal"	"Chordata"	"Aves"	"Anseriformes"	"Anatidae"	"Anas"	"chlorotis"	-1	1.5	"Constitution"	"ISR"	30	3.67	1.62	6	6.17	1.92	NA	NA	NA	NA	2006	0	1	0	1
+850	"SMD"	133	436	"Mixed"	"Atlantic salmon"	"Chordata"	"Actinopterygii"	"Salmoniformes"	"Salmonidae"	"Salmo"	"salar"	-1	5.5	"Movement"	"ISR"	13	-0.8	1.63	6	-6.06	5.08	NA	NA	NA	NA	1995	0	1	0	2
+82	"SMD"	14	45	"Female"	"Steelhead trout"	"Chordata"	"Actinopterygii"	"Salmoniformes"	"Salmonidae"	"Oncorhynchus"	"mykiss"	-1	1.5	"Reproduction"	"ISR"	182	1.2	1.69	59	0.2	0.58	NA	NA	NA	NA	2016	0	1	0	1
+87	"SMD"	14	50	"Female"	"Steelhead trout"	"Chordata"	"Actinopterygii"	"Salmoniformes"	"Salmonidae"	"Oncorhynchus"	"mykiss"	-1	1.5	"Reproduction"	"ISR"	182	1.2	1.69	293	0.65	1.32	NA	NA	NA	NA	2016	0	1	0	1
+94	"SMD"	14	57	"Female"	"Steelhead trout"	"Chordata"	"Actinopterygii"	"Salmoniformes"	"Salmonidae"	"Oncorhynchus"	"mykiss"	-1	1.5	"Reproduction"	"ISR"	182	1.2	1.69	185	1.17	1.82	NA	NA	NA	NA	2016	0	1	0	1
+353	"SMD"	53	184	"Male"	"Desert tortoise"	"Chordata"	"Reptilia"	"Testudines"	"Testudinidae"	"Gopherus"	"agassizii"	-1	0	"Constitution"	"ESR"	26	-8.72	1.77	19	-8.85	2.81	NA	NA	NA	NA	2012	0	1	0	0
+236	"SMD"	31	131	"Female"	"American alligator"	"Chordata"	"Reptilia"	"Crocodilia"	"Alligatoridae"	"Alligator"	"mississippiensis"	-1	0.5	"Growth"	"ISR"	2	1.28	1.8	111	3.26	2.72	NA	NA	NA	NA	2001	0	1	0	1
+595	"SMD"	105	283	"Mixed"	"Snake River sockeye salmon"	"Chordata"	"Actinopterygii"	"Salmoniformes"	"Salmonidae"	"Oncorhynchus"	"nerka"	-1	1.5	"Constitution"	"ISR"	20	36.9	1.8	20	36.5	1.8	NA	NA	NA	NA	2010	0	1	0	1
+188	"SMD"	22	104	"Mixed"	"Sea trout"	"Chordata"	"Actinopterygii"	"Salmoniformes"	"Salmonidae"	"Salmo"	"trutta"	-1	1	"Movement"	"ISR"	61	1.28	1.85	46	2.34	1.93	NA	NA	NA	NA	2014	0	1	0	1
+96	"SMD"	14	59	"Female"	"Steelhead trout"	"Chordata"	"Actinopterygii"	"Salmoniformes"	"Salmonidae"	"Oncorhynchus"	"mykiss"	-1	1.5	"Reproduction"	"ISR"	489	1.07	1.89	139	1.19	2.16	NA	NA	NA	NA	2016	0	1	0	1
+356	"SMD"	53	185	"Female"	"Desert tortoise"	"Chordata"	"Reptilia"	"Testudines"	"Testudinidae"	"Gopherus"	"agassizii"	-1	0	"Constitution"	"ESR"	13	-6.44	1.89	8	-4.98	1.47	NA	NA	NA	NA	2012	0	1	0	0
+357	"SMD"	53	185	"Female"	"Desert tortoise"	"Chordata"	"Reptilia"	"Testudines"	"Testudinidae"	"Gopherus"	"agassizii"	-1	0	"Constitution"	"ESR"	17	-7.56	1.91	14	-8.43	2.12	NA	NA	NA	NA	2012	0	1	0	0
+857	"SMD"	136	442	"Mixed"	"Steelhead trout"	"Chordata"	"Actinopterygii"	"Salmoniformes"	"Salmonidae"	"Oncorhynchus"	"mykiss"	-1	-1	"Survival"	"ISR"	115	1.3	1.91	270	1	0	NA	NA	NA	NA	2014	0	0	0	0
+88	"SMD"	14	51	"Female"	"Steelhead trout"	"Chordata"	"Actinopterygii"	"Salmoniformes"	"Salmonidae"	"Oncorhynchus"	"mykiss"	-1	1.5	"Reproduction"	"ISR"	379	1.44	2.07	331	0.72	1.3	NA	NA	NA	NA	2016	0	1	0	1
+95	"SMD"	14	58	"Female"	"Steelhead trout"	"Chordata"	"Actinopterygii"	"Salmoniformes"	"Salmonidae"	"Oncorhynchus"	"mykiss"	-1	1.5	"Reproduction"	"ISR"	379	1.44	2.07	212	2.45	3.16	NA	NA	NA	NA	2016	0	1	0	1
+354	"SMD"	53	184	"Male"	"Desert tortoise"	"Chordata"	"Reptilia"	"Testudines"	"Testudinidae"	"Gopherus"	"agassizii"	-1	0	"Constitution"	"ESR"	27	-6.72	2.1	11	-5.29	1.72	NA	NA	NA	NA	2012	0	1	0	0
+975	"SMD"	160	499	"Mixed"	"Steelhead trout"	"Chordata"	"Actinopterygii"	"Salmoniformes"	"Salmonidae"	"Oncorhynchus"	"mykiss"	-1	5	"Reproduction"	"ISR"	23	0.9	2.1	50	0	0	NA	NA	NA	NA	2014	0	1	0	2
+223	"SMD"	30	121	"Mixed"	"North Africa Houbara"	"Chordata"	"Aves"	"Otidiformes"	"Otididae"	"Chlamydotis"	"undulata"	1	5.5	"Reproduction"	"ISR"	30	1.39	2.14	69	0.87	2.14	NA	NA	NA	NA	2019	1	1	1	2
+226	"SMD"	30	122	"Mixed"	"North Africa Houbara"	"Chordata"	"Aves"	"Otidiformes"	"Otididae"	"Chlamydotis"	"undulata"	0	5.5	"Reproduction"	"ISR"	30	1.39	2.14	60	0.73	1.68	NA	NA	NA	NA	2019	1	1	0	2
+729	"SMD"	122	361	"Male"	"Steelhead trout"	"Chordata"	"Actinopterygii"	"Salmoniformes"	"Salmonidae"	"Oncorhynchus"	"mykiss"	-1	5	"Reproduction"	"ISR"	21	1.48	2.16	163	0.73	1.59	NA	NA	NA	NA	2004	0	1	0	2
+925	"SMD"	151	478	"Female"	"Desert tortoise"	"Chordata"	"Reptilia"	"Testudines"	"Testudinidae"	"Gopherus"	"agassizii"	-1	0	"Reproduction"	"ESR"	5	2.8	2.167616917	14	3.2	4.028008717	NA	NA	NA	NA	2012	0	1	0	0
+19	"SMD"	2	7	"Female"	"Chinook salmon"	"Chordata"	"Actinopterygii"	"Salmoniformes"	"Salmonidae"	"Oncorhynchus"	"tshawytscha"	-1	0.5	"Reproduction"	"ISR"	41	2.05	2.167948339	39	2.62	2.123676058	NA	NA	NA	NA	2012	0	1	0	1
+596	"SMD"	105	283	"Mixed"	"Snake River sockeye salmon"	"Chordata"	"Actinopterygii"	"Salmoniformes"	"Salmonidae"	"Oncorhynchus"	"nerka"	-1	1.5	"Constitution"	"ISR"	20	9	2.2	20	5.1	1	NA	NA	NA	NA	2010	0	1	0	1
+421	"SMD"	69	216	"Male"	"Ring-necked pheasant"	"Chordata"	"Aves"	"Galliformes"	"Phasianidae"	"Phasianus"	"colchicus"	-1	1.5	"Reproduction"	"ISR"	43	4.12	2.22	19	2.26	2.15	NA	NA	NA	NA	1988	0	1	0	1
+23	"SMD"	2	11	"Male"	"Chinook salmon"	"Chordata"	"Actinopterygii"	"Salmoniformes"	"Salmonidae"	"Oncorhynchus"	"tshawytscha"	-1	0.5	"Reproduction"	"ISR"	50	2.28	2.286919325	42	1.57	2.049390153	NA	NA	NA	NA	2012	0	1	0	1
+926	"SMD"	151	478	"Female"	"Desert tortoise"	"Chordata"	"Reptilia"	"Testudines"	"Testudinidae"	"Gopherus"	"agassizii"	-1	0	"Reproduction"	"ESR"	26	2.5	2.315371106	11	2.8	3.24893857	NA	NA	NA	NA	2012	0	1	0	0
+2	"SMD"	1	1	"Female"	"Jewelled gecko"	"Chordata"	"Reptilia"	"Squamata"	"Diplodactylidae"	"Naultinus"	"elegans"	1	0	"Movement"	"ESR"	9	-4.8	2.343786111	6	-4.2	1.975854246	NA	NA	NA	NA	2017	1	1	1	0
+6	"SMD"	1	2	"Female"	"Jewelled gecko"	"Chordata"	"Reptilia"	"Squamata"	"Diplodactylidae"	"Naultinus"	"elegans"	0	0	"Movement"	"ESR"	9	-4.8	2.343786111	7	-9.071428571	4.179200197	NA	NA	NA	NA	2017	1	1	0	0
+1103	"SMD"	191	552	"Mixed"	"Green iguana"	"Chordata"	"Reptilia"	"Squamata"	"Iguanidae"	"Iguana"	"iguana"	-1	1.5	"Movement"	"ISR"	2	2.5	2.404163056	9	5.6	3.3	NA	NA	NA	NA	2010	0	1	0	1
+524	"SMD"	97	268	"Male"	"Chinook salmon"	"Chordata"	"Actinopterygii"	"Salmoniformes"	"Salmonidae"	"Oncorhynchus"	"tshawytscha"	-1	1.5	"Reproduction"	"ISR"	28	0.821	2.45	23	0.739	1.93	NA	NA	NA	NA	2013	0	1	0	1
+332	"SMD"	48	287	"Mixed"	"New Zealand common gecko"	"Chordata"	"Reptilia"	"Squamata"	"Diplodactylidae"	"Woodworthia"	"maculata"	-1	0	"Movement"	"ESR"	13	-3.4	2.523885893	11	-3.3	1.658312395	NA	NA	NA	NA	2007	0	1	0	0
+489	"SMD"	90	254	"Mixed"	"Chinook salmon"	"Chordata"	"Actinopterygii"	"Salmoniformes"	"Salmonidae"	"Oncorhynchus"	"tshawytscha"	-1	7.5	"Reproduction"	"ISR"	5	6.73	2.54	59	2.83	2.51	NA	NA	NA	NA	2016	0	1	0	2
+490	"SMD"	90	255	"Mixed"	"Chinook salmon"	"Chordata"	"Actinopterygii"	"Salmoniformes"	"Salmonidae"	"Oncorhynchus"	"tshawytscha"	-1	7.5	"Reproduction"	"ISR"	5	6.73	2.54	126	2.36	3.12	NA	NA	NA	NA	2016	0	1	0	2
+947	"SMD"	153	486	"Mixed"	"Tazmanian devil"	"Chordata"	"Mammalia"	"Dasyuromorphia"	"Dasyuridae"	"Sarcophilus"	"harrisii"	-1	0.25	"Movement"	"ISR"	4	-6.64	2.56122449	19	-5.71	4.158745421	NA	NA	NA	NA	2014	0	1	0	1
+85	"SMD"	14	48	"Male"	"Steelhead trout"	"Chordata"	"Actinopterygii"	"Salmoniformes"	"Salmonidae"	"Oncorhynchus"	"mykiss"	-1	1.5	"Reproduction"	"ISR"	401	1.42	2.57	529	0.58	1.53	NA	NA	NA	NA	2016	0	1	0	1
+91	"SMD"	14	54	"Male"	"Steelhead trout"	"Chordata"	"Actinopterygii"	"Salmoniformes"	"Salmonidae"	"Oncorhynchus"	"mykiss"	-1	1.5	"Reproduction"	"ISR"	401	1.42	2.57	323	1.33	2.76	NA	NA	NA	NA	2016	0	1	0	1
+927	"SMD"	151	478	"Female"	"Desert tortoise"	"Chordata"	"Reptilia"	"Testudines"	"Testudinidae"	"Gopherus"	"agassizii"	-1	0	"Reproduction"	"ESR"	5	3.8	2.58973179	14	7	4.180729427	NA	NA	NA	NA	2012	0	1	0	0
+645	"SMD"	110	320	"Female"	"San Clemente loggerhead shrike"	"Chordata"	"Aves"	"Passeriformes"	"Laniidae"	"Lanius"	"ludovicianus"	-1	1	"Reproduction"	"ISR"	107	2.61	2.59	65	1.92	1.93	NA	NA	NA	NA	2008	0	1	0	1
+643	"SMD"	110	319	"Male"	"San Clemente loggerhead shrike"	"Chordata"	"Aves"	"Passeriformes"	"Laniidae"	"Lanius"	"ludovicianus"	-1	1	"Reproduction"	"ISR"	118	2.62	2.61	54	1.9	2.35	NA	NA	NA	NA	2008	0	1	0	1
+10	"SMD"	1	3	"Male"	"Jewelled gecko"	"Chordata"	"Reptilia"	"Squamata"	"Diplodactylidae"	"Naultinus"	"elegans"	1	0	"Movement"	"ESR"	9	-8.428571429	2.644941263	4	-4.65	1.014889157	NA	NA	NA	NA	2017	1	1	1	0
+14	"SMD"	1	4	"Male"	"Jewelled gecko"	"Chordata"	"Reptilia"	"Squamata"	"Diplodactylidae"	"Naultinus"	"elegans"	0	0	"Movement"	"ESR"	9	-8.428571429	2.644941263	3	-18.23333333	12.84925419	NA	NA	NA	NA	2017	1	1	0	0
+151	"SMD"	20	88	"Mixed"	"Asian houbara"	"Chordata"	"Aves"	"Otidiformes"	"Otididae"	"Chlamydotis"	"macqueenii"	-1	2.5	"Movement"	"ISR"	91	1.59	2.72	12	1.33	0.94	NA	NA	NA	NA	2017	0	1	0	2
+858	"SMD"	136	443	"Mixed"	"Steelhead trout"	"Chordata"	"Actinopterygii"	"Salmoniformes"	"Salmonidae"	"Oncorhynchus"	"mykiss"	-1	-1	"Survival"	"ISR"	81	2.1	2.76	362	1	0	NA	NA	NA	NA	2014	0	0	0	0
+1022	"SMD"	166	510	"Female"	"Chinook salmon"	"Chordata"	"Actinopterygii"	"Salmoniformes"	"Salmonidae"	"Oncorhynchus"	"tshawytscha"	-1	1.5	"Reproduction"	"ISR"	245	1.83	2.8	1759	0.88	1.7	NA	NA	NA	NA	2010	0	1	0	1
+928	"SMD"	151	478	"Female"	"Desert tortoise"	"Chordata"	"Reptilia"	"Testudines"	"Testudinidae"	"Gopherus"	"agassizii"	-1	0	"Reproduction"	"ESR"	33	6	2.872281323	22	4.7	4.379316755	NA	NA	NA	NA	2012	0	1	0	0
+929	"SMD"	151	478	"Female"	"Desert tortoise"	"Chordata"	"Reptilia"	"Testudines"	"Testudinidae"	"Gopherus"	"agassizii"	-1	0	"Reproduction"	"ESR"	33	6	2.872281323	7	7	6.479390966	NA	NA	NA	NA	2012	0	1	0	0
+81	"SMD"	14	44	"Female"	"Steelhead trout"	"Chordata"	"Actinopterygii"	"Salmoniformes"	"Salmonidae"	"Oncorhynchus"	"mykiss"	-1	1.5	"Reproduction"	"ISR"	225	2.15	2.93	21	0.19	0.51	NA	NA	NA	NA	2016	0	1	0	1
+86	"SMD"	14	49	"Female"	"Steelhead trout"	"Chordata"	"Actinopterygii"	"Salmoniformes"	"Salmonidae"	"Oncorhynchus"	"mykiss"	-1	1.5	"Reproduction"	"ISR"	225	2.15	2.93	106	0.99	2.05	NA	NA	NA	NA	2016	0	1	0	1
+93	"SMD"	14	56	"Female"	"Steelhead trout"	"Chordata"	"Actinopterygii"	"Salmoniformes"	"Salmonidae"	"Oncorhynchus"	"mykiss"	-1	1.5	"Reproduction"	"ISR"	225	2.15	2.93	125	1.71	2.43	NA	NA	NA	NA	2016	0	1	0	1
+749	"SMD"	124	376	"Mixed"	"Chinook salmon"	"Chordata"	"Actinopterygii"	"Salmoniformes"	"Salmonidae"	"Oncorhynchus"	"tshawytscha"	-1	-1	"Constitution"	"ISR"	27	2.56	2.93	20	1.32	2.05	NA	NA	NA	NA	2019	0	0	0	0
+476	"SMD"	84	248	"Mixed"	"Chinook salmon"	"Chordata"	"Actinopterygii"	"Salmoniformes"	"Salmonidae"	"Oncorhynchus"	"tshawytscha"	-1	-1	"Constitution"	"ISR"	125	5.32	2.94	119	4.47	2.62	NA	NA	NA	NA	2018	0	0	0	0
+458	"SMD"	79	233	"Mixed"	"Adder"	"Chordata"	"Reptilia"	"Squamata"	"Viperidae"	"Vipera"	"berus"	-1	0	"Movement"	"ESR"	4	-4.92	2.98	6	-12.49	9.01	NA	NA	NA	NA	2018	0	1	0	0
+644	"SMD"	110	319	"Male"	"San Clemente loggerhead shrike"	"Chordata"	"Aves"	"Passeriformes"	"Laniidae"	"Lanius"	"ludovicianus"	-1	1	"Reproduction"	"ISR"	118	3.55	3.04	54	2.64	2.87	NA	NA	NA	NA	2008	0	1	0	1
+747	"SMD"	124	375	"Mixed"	"Chinook salmon"	"Chordata"	"Actinopterygii"	"Salmoniformes"	"Salmonidae"	"Oncorhynchus"	"tshawytscha"	-1	-1	"Constitution"	"ISR"	47	2.44	3.08	30	0.72	1	NA	NA	NA	NA	2019	0	0	0	0
+646	"SMD"	110	320	"Female"	"San Clemente loggerhead shrike"	"Chordata"	"Aves"	"Passeriformes"	"Laniidae"	"Lanius"	"ludovicianus"	-1	1	"Reproduction"	"ISR"	107	3.5	3.1	65	2.69	2.26	NA	NA	NA	NA	2008	0	1	0	1
+152	"SMD"	20	88	"Mixed"	"Asian houbara"	"Chordata"	"Aves"	"Otidiformes"	"Otididae"	"Chlamydotis"	"macqueenii"	-1	2.5	"Movement"	"ISR"	90	2.13	3.14	12	2.01	1.07	NA	NA	NA	NA	2017	0	1	0	2
+1026	"SMD"	166	514	"Male"	"Chinook salmon"	"Chordata"	"Actinopterygii"	"Salmoniformes"	"Salmonidae"	"Oncorhynchus"	"tshawytscha"	-1	1.5	"Reproduction"	"ISR"	435	2.42	3.17	1491	0.58	0.92	NA	NA	NA	NA	2010	0	1	0	1
+80	"SMD"	14	43	"Male"	"Steelhead trout"	"Chordata"	"Actinopterygii"	"Salmoniformes"	"Salmonidae"	"Oncorhynchus"	"mykiss"	-1	1.5	"Reproduction"	"ISR"	169	1.83	3.22	33	0.3	1.13	NA	NA	NA	NA	2016	0	1	0	1
+84	"SMD"	14	47	"Male"	"Steelhead trout"	"Chordata"	"Actinopterygii"	"Salmoniformes"	"Salmonidae"	"Oncorhynchus"	"mykiss"	-1	1.5	"Reproduction"	"ISR"	169	1.83	3.22	280	0.75	1.61	NA	NA	NA	NA	2016	0	1	0	1
+90	"SMD"	14	53	"Male"	"Steelhead trout"	"Chordata"	"Actinopterygii"	"Salmoniformes"	"Salmonidae"	"Oncorhynchus"	"mykiss"	-1	1.5	"Reproduction"	"ISR"	169	1.83	3.22	147	1.06	2.06	NA	NA	NA	NA	2016	0	1	0	1
+1023	"SMD"	166	511	"Male"	"Chinook salmon"	"Chordata"	"Actinopterygii"	"Salmoniformes"	"Salmonidae"	"Oncorhynchus"	"tshawytscha"	-1	1.5	"Reproduction"	"ISR"	223	2.04	3.25	1536	0.83	1.86	NA	NA	NA	NA	2010	0	1	0	1
+930	"SMD"	151	478	"Female"	"Desert tortoise"	"Chordata"	"Reptilia"	"Testudines"	"Testudinidae"	"Gopherus"	"agassizii"	-1	0	"Reproduction"	"ESR"	33	4.4	3.253298233	20	3.3	3.650723229	NA	NA	NA	NA	2012	0	1	0	0
+931	"SMD"	151	478	"Female"	"Desert tortoise"	"Chordata"	"Reptilia"	"Testudines"	"Testudinidae"	"Gopherus"	"agassizii"	-1	0	"Reproduction"	"ESR"	33	4.4	3.253298233	6	5.7	4.674026346	NA	NA	NA	NA	2012	0	1	0	0
+951	"SMD"	155	490	"Mixed"	"Abalone"	"Mollusca"	"Gastropoda"	"Archaegastropoda"	"Haliotidae"	"Haliotis"	"kamtschatkana"	-1	1.5	"Constitution"	"ISR"	15	1.516248	3.265746033	20	1.344289	3.287722052	NA	NA	NA	NA	2016	0	1	0	1
+333	"SMD"	48	287	"Mixed"	"New Zealand common gecko"	"Chordata"	"Reptilia"	"Squamata"	"Diplodactylidae"	"Woodworthia"	"maculata"	-1	0	"Survival"	"ESR"	13	4	3.353162686	11	5.5	4.046282244	NA	NA	NA	NA	2007	0	1	0	0
+92	"SMD"	14	55	"Male"	"Steelhead trout"	"Chordata"	"Actinopterygii"	"Salmoniformes"	"Salmonidae"	"Oncorhynchus"	"mykiss"	-1	1.5	"Reproduction"	"ISR"	318	1.63	3.36	172	1.01	2.18	NA	NA	NA	NA	2016	0	1	0	1
+1021	"SMD"	166	509	"Male"	"Chinook salmon"	"Chordata"	"Actinopterygii"	"Salmoniformes"	"Salmonidae"	"Oncorhynchus"	"tshawytscha"	-1	1.5	"Reproduction"	"ISR"	435	2.38	3.37	1491	0.59	1.26	NA	NA	NA	NA	2010	0	1	0	1
+952	"SMD"	155	491	"Mixed"	"Abalone"	"Mollusca"	"Gastropoda"	"Archaegastropoda"	"Haliotidae"	"Haliotis"	"kamtschatkana"	-1	1.5	"Constitution"	"ISR"	36	5.45891	3.378204	27	1.860638	2.303927219	NA	NA	NA	NA	2016	0	1	0	1
+439	"SMD"	73	225	"Mixed"	"Hermann's tortoise"	"Chordata"	"Reptilia"	"Testudines"	"Testudinidae"	"Testudo"	"hermanni"	0	0	"Movement"	"ESR"	20	-24.48	3.38	12	-19.10207	4.603614307	NA	NA	NA	NA	2018	1	1	0	0
+440	"SMD"	73	225	"Mixed"	"Hermann's tortoise"	"Chordata"	"Reptilia"	"Testudines"	"Testudinidae"	"Testudo"	"hermanni"	0	0	"Movement"	"ESR"	20	-24.48	3.38	12	-39.7	8.63	NA	NA	NA	NA	2018	1	1	0	0
+442	"SMD"	73	226	"Mixed"	"Hermann's tortoise"	"Chordata"	"Reptilia"	"Testudines"	"Testudinidae"	"Testudo"	"hermanni"	1	0	"Movement"	"ESR"	20	-24.48	3.38	12	-17.27434	2.700983006	NA	NA	NA	NA	2018	1	1	1	0
+443	"SMD"	73	226	"Mixed"	"Hermann's tortoise"	"Chordata"	"Reptilia"	"Testudines"	"Testudinidae"	"Testudo"	"hermanni"	1	0	"Movement"	"ESR"	20	-24.48	3.38	12	-23.9	6.22	NA	NA	NA	NA	2018	1	1	1	0
+20	"SMD"	2	8	"Female"	"Chinook salmon"	"Chordata"	"Actinopterygii"	"Salmoniformes"	"Salmonidae"	"Oncorhynchus"	"tshawytscha"	-1	0.5	"Reproduction"	"ISR"	4	3.75	3.5	8	4.25	1.034408043	NA	NA	NA	NA	2012	0	1	0	1
+477	"SMD"	84	248	"Mixed"	"Chinook salmon"	"Chordata"	"Actinopterygii"	"Salmoniformes"	"Salmonidae"	"Oncorhynchus"	"tshawytscha"	-1	-1	"Constitution"	"ISR"	118	2.18	3.58	112	1.16	2.8	NA	NA	NA	NA	2018	0	0	0	0
+79	"SMD"	14	42	"Male"	"Steelhead trout"	"Chordata"	"Actinopterygii"	"Salmoniformes"	"Salmonidae"	"Oncorhynchus"	"mykiss"	-1	1.5	"Reproduction"	"ISR"	258	2.12	3.69	65	0.25	1.17	NA	NA	NA	NA	2016	0	1	0	1
+83	"SMD"	14	46	"Male"	"Steelhead trout"	"Chordata"	"Actinopterygii"	"Salmoniformes"	"Salmonidae"	"Oncorhynchus"	"mykiss"	-1	1.5	"Reproduction"	"ISR"	258	2.12	3.69	188	0.5	1.3	NA	NA	NA	NA	2016	0	1	0	1
+89	"SMD"	14	52	"Male"	"Steelhead trout"	"Chordata"	"Actinopterygii"	"Salmoniformes"	"Salmonidae"	"Oncorhynchus"	"mykiss"	-1	1.5	"Reproduction"	"ISR"	258	2.12	3.69	260	0.56	1.25	NA	NA	NA	NA	2016	0	1	0	1
+277	"SMD"	39	153	"Mixed"	"American alligator"	"Chordata"	"Reptilia"	"Crocodilia"	"Alligatoridae"	"Alligator"	"mississippiensis"	-1	0.5	"Growth"	"ISR"	6	49.8	3.75	16	45.4	3.98	NA	NA	NA	NA	2006	0	1	0	1
+283	"SMD"	39	156	"Mixed"	"American alligator"	"Chordata"	"Reptilia"	"Crocodilia"	"Alligatoridae"	"Alligator"	"mississippiensis"	-1	0.5	"Growth"	"ISR"	6	49.8	3.75	4	48.4	6.17	NA	NA	NA	NA	2006	0	1	0	1
+324	"SMD"	47	172	"Female"	"Timber rattlesnake"	"Chordata"	"Reptilia"	"Squamata"	"Viperidae"	"Crotalus"	"horridus"	-1	0	"Movement"	"ESR"	4	-9.6	3.78	3	-55.2	26.9	NA	NA	NA	NA	1999	0	1	0	0
+239	"SMD"	31	134	"Male"	"American alligator"	"Chordata"	"Reptilia"	"Crocodilia"	"Alligatoridae"	"Alligator"	"mississippiensis"	-1	0.5	"Growth"	"ISR"	2	2.68	3.87	108	5.22	2.72	NA	NA	NA	NA	2001	0	1	0	1
+275	"SMD"	39	152	"Mixed"	"American alligator"	"Chordata"	"Reptilia"	"Crocodilia"	"Alligatoridae"	"Alligator"	"mississippiensis"	-1	0.5	"Growth"	"ISR"	8	45.5	3.9	5	41.7	3.65	NA	NA	NA	NA	2006	0	1	0	1
+281	"SMD"	39	155	"Mixed"	"American alligator"	"Chordata"	"Reptilia"	"Crocodilia"	"Alligatoridae"	"Alligator"	"mississippiensis"	-1	0.5	"Growth"	"ISR"	8	45.5	3.9	5	43.1	4.39	NA	NA	NA	NA	2006	0	1	0	1
+1038	"SMD"	169	520	"Mixed"	"Bighorn sheep"	"Chordata"	"Mammalia"	"Artiodactyla"	"Bovidae"	"Ovis"	"canadensis"	-1	0	"Growth"	"ESR"	17	20.10238	3.917160707	19	16.46557	4.603230797	NA	NA	NA	NA	2018	0	1	0	0
+331	"SMD"	48	176	"Mixed"	"New Zealand common gecko"	"Chordata"	"Reptilia"	"Squamata"	"Diplodactylidae"	"Woodworthia"	"maculata"	-1	0	"Movement"	"ESR"	32	-3.3	3.96	50	-3.4	3.54	NA	NA	NA	NA	2007	0	1	0	0
+1070	"SMD"	180	538	"Mixed"	"European hedgehog"	"Chordata"	"Mammalia"	"Eulipotyphla"	"Erinaceidae"	"Erinaceus"	"europaeus"	-1	0	"Survival"	"ESR"	20	94.7	4	23	81.8	16.1	NA	NA	NA	NA	2006	0	1	0	0
+149	"SMD"	20	87	"Mixed"	"Asian houbara"	"Chordata"	"Aves"	"Otidiformes"	"Otididae"	"Chlamydotis"	"macqueenii"	-1	2.5	"Movement"	"ISR"	8	-29.46	4.06	18	-34.35	5.51	NA	NA	NA	NA	2017	0	1	0	2
+520	"SMD"	97	266	"Male"	"Chinook salmon"	"Chordata"	"Actinopterygii"	"Salmoniformes"	"Salmonidae"	"Oncorhynchus"	"tshawytscha"	-1	1.5	"Reproduction"	"ISR"	18	1.06	4.06	42	0.738	3.32	NA	NA	NA	NA	2013	0	1	0	1
+1039	"SMD"	169	520	"Mixed"	"Bighorn sheep"	"Chordata"	"Mammalia"	"Artiodactyla"	"Bovidae"	"Ovis"	"canadensis"	-1	0	"Growth"	"ESR"	17	19.94577	4.177715739	19	20.43408	4.570105389	NA	NA	NA	NA	2018	0	1	0	0
+189	"SMD"	22	105	"Mixed"	"Sea trout"	"Chordata"	"Actinopterygii"	"Salmoniformes"	"Salmonidae"	"Salmo"	"trutta"	-1	1	"Movement"	"ISR"	56	3.23	4.39	21	4.26	3.93	NA	NA	NA	NA	2014	0	1	0	1
+852	"SMD"	134	437	"Mixed"	"Atlantic salmon"	"Chordata"	"Actinopterygii"	"Salmoniformes"	"Salmonidae"	"Salmo"	"salar"	-1	5.5	"Growth"	"ISR"	165	106.5	4.4	235	146.8	44.6	NA	NA	NA	NA	1996	0	1	0	2
+339	"SMD"	50	179	"Mixed"	"Eastern box turtle"	"Chordata"	"Reptilia"	"Testudines"	"Emydidae"	"Terrapene"	"carolina"	-1	0	"Movement"	"ESR"	10	-6.45	4.43	10	-18.02	11.38	NA	NA	NA	NA	2008	0	1	0	0
+888	"SMD"	145	464	"Male"	"Gopher tortoise"	"Chordata"	"Reptilia"	"Testudines"	"Testudinidae"	"Gopherus"	"polyphemus"	-1	0	"Movement"	"ESR"	8	-3.6	4.6	11	-28	53.3	NA	NA	NA	NA	2014	0	1	0	0
+851	"SMD"	133	436	"Mixed"	"Atlantic salmon"	"Chordata"	"Actinopterygii"	"Salmoniformes"	"Salmonidae"	"Salmo"	"salar"	-1	5.5	"Movement"	"ISR"	10	7.16887	4.661571	4	2.958832	1.159471	NA	NA	NA	NA	1995	0	1	0	2
+335	"SMD"	49	177	"Mixed"	"Eastern box turtle"	"Chordata"	"Reptilia"	"Testudines"	"Emydidae"	"Terrapene"	"carolina"	-1	0	"Movement"	"ESR"	20	-4.31	4.69	18	-5.16	5.03	NA	NA	NA	NA	2013	0	1	0	0
+337	"SMD"	49	178	"Mixed"	"Eastern box turtle"	"Chordata"	"Reptilia"	"Testudines"	"Emydidae"	"Terrapene"	"carolina"	-1	0	"Movement"	"ESR"	20	-4.31	4.69	14	-14.71	15.32	NA	NA	NA	NA	2013	0	1	0	0
+209	"SMD"	26	116	"Mixed"	"Brown teal"	"Chordata"	"Aves"	"Anseriformes"	"Anatidae"	"Anas"	"chlorotis"	-1	1.5	"Constitution"	"ISR"	41	35.3	4.7	2	32.1	1.3	NA	NA	NA	NA	2006	0	1	0	1
+273	"SMD"	39	151	"Mixed"	"American alligator"	"Chordata"	"Reptilia"	"Crocodilia"	"Alligatoridae"	"Alligator"	"mississippiensis"	-1	0.5	"Growth"	"ISR"	8	40.3	4.98	10	39.9	4.92	NA	NA	NA	NA	2006	0	1	0	1
+279	"SMD"	39	154	"Mixed"	"American alligator"	"Chordata"	"Reptilia"	"Crocodilia"	"Alligatoridae"	"Alligator"	"mississippiensis"	-1	0.5	"Growth"	"ISR"	8	40.3	4.98	5	35.9	7.87	NA	NA	NA	NA	2006	0	1	0	1
+303	"SMD"	42	163	"Mixed"	"Eastern painted turtle"	"Chordata"	"Reptilia"	"Testudines"	"Emydidae"	"Chrysemys"	"picta"	1	0	"Movement"	"ESR"	60	-20.1	5.13	10	-33.3	9.58	NA	NA	NA	NA	2018	1	1	1	0
+309	"SMD"	42	164	"Mixed"	"Eastern painted turtle"	"Chordata"	"Reptilia"	"Testudines"	"Emydidae"	"Chrysemys"	"picta"	0	0	"Movement"	"ESR"	60	-20.1	5.13	30	-31.7	7.15	NA	NA	NA	NA	2018	1	1	0	0
+400	"SMD"	64	207	"Mixed"	"Egyptian tortoise"	"Chordata"	"Reptilia"	"Testudines"	"Testudinidae"	"Testudo"	"kleinmanni"	-1	0	"Movement"	"ESR"	8	-6.6	5.14	7	-7.73	6.63	NA	NA	NA	NA	2015	0	1	0	0
+196	"SMD"	24	112	"Mixed"	"Blue crab"	"Arthropoda"	"Malacostraca"	"Decapoda"	"Portunidae"	"Callinectes"	"sapidus"	-1	1.5	"Constitution"	"ISR"	94	19.22	5.23	13	23.42	6.15	NA	NA	NA	NA	2004	0	1	0	1
+195	"SMD"	24	111	"Mixed"	"Blue crab"	"Arthropoda"	"Malacostraca"	"Decapoda"	"Portunidae"	"Callinectes"	"sapidus"	-1	1.5	"Constitution"	"ISR"	82	19.58	5.27	28	18.65	7.52	NA	NA	NA	NA	2004	0	1	0	1
+325	"SMD"	47	172	"Female"	"Timber rattlesnake"	"Chordata"	"Reptilia"	"Squamata"	"Viperidae"	"Crotalus"	"horridus"	-1	0	"Movement"	"ESR"	4	-5	5.36	3	-157.4	201.84	NA	NA	NA	NA	1999	0	1	0	0
+845	"SMD"	132	434	"Mixed"	"Brown trout"	"Chordata"	"Actinopterygii"	"Salmoniformes"	"Salmonidae"	"Salmo"	"trutta"	-1	5.5	"Constitution"	"ISR"	25	3.1	5.6	20	1.4	5.01	NA	NA	NA	NA	1995	0	1	0	2
+455	"SMD"	78	232	"Mixed"	"Three-toed box turtle"	"Chordata"	"Reptilia"	"Testudines"	"Emydidae"	"Terrapene"	"carolina"	-1	0	"Movement"	"ESR"	19	-3.73	5.8	16	-28.37	45.48	NA	NA	NA	NA	2007	0	1	0	0
+853	"SMD"	134	438	"Mixed"	"Atlantic salmon"	"Chordata"	"Actinopterygii"	"Salmoniformes"	"Salmonidae"	"Salmo"	"salar"	-1	5.5	"Growth"	"ISR"	165	61	5.8	235	53.4	10.9	NA	NA	NA	NA	1996	0	1	0	2
+197	"SMD"	24	113	"Mixed"	"Blue crab"	"Arthropoda"	"Malacostraca"	"Decapoda"	"Portunidae"	"Callinectes"	"sapidus"	-1	1.5	"Constitution"	"ISR"	39	21.48	5.86	60	20.99	6.12	NA	NA	NA	NA	2004	0	1	0	1
+892	"SMD"	145	465	"Female"	"Gopher tortoise"	"Chordata"	"Reptilia"	"Testudines"	"Testudinidae"	"Gopherus"	"polyphemus"	-1	0	"Movement"	"ESR"	7	-4.9	5.9	9	-0.8	1.4	NA	NA	NA	NA	2014	0	1	0	0
+452	"SMD"	77	231	"Mixed"	"Tiger snake"	"Chordata"	"Reptilia"	"Squamata"	"Elapidae"	"Notechis"	"scutatus"	-1	0	"Movement"	"ESR"	6	-3.88	5.93	8	-21.98	31.47	NA	NA	NA	NA	2005	0	1	0	0
+3	"SMD"	1	1	"Female"	"Jewelled gecko"	"Chordata"	"Reptilia"	"Squamata"	"Diplodactylidae"	"Naultinus"	"elegans"	1	0	"Movement"	"ESR"	9	-15.48571429	5.973951392	6	-15.13333333	4.162050777	NA	NA	NA	NA	2017	1	1	1	0
+7	"SMD"	1	2	"Female"	"Jewelled gecko"	"Chordata"	"Reptilia"	"Squamata"	"Diplodactylidae"	"Naultinus"	"elegans"	0	0	"Movement"	"ESR"	9	-15.48571429	5.973951392	7	-24.94285714	11.12382685	NA	NA	NA	NA	2017	1	1	0	0
+712	"SMD"	118	347	"Mixed"	"Yellow-footed rock wallaby"	"Chordata"	"Mammalia"	"Diprotodontia"	"Macropodidae"	"Petrogale"	"xanthopus"	-1	10	"Constitution"	"ISR"	4	29	6	14	34	10	NA	NA	NA	NA	2005	0	1	0	2
+848	"SMD"	133	435	"Mixed"	"Atlantic salmon"	"Chordata"	"Actinopterygii"	"Salmoniformes"	"Salmonidae"	"Salmo"	"salar"	-1	5.5	"Movement"	"ISR"	9	9.406604	6.040604	2	10.266057	4.669841	NA	NA	NA	NA	1995	0	1	0	2
+914	"SMD"	150	476	"Mixed"	"Desert tortoise"	"Chordata"	"Reptilia"	"Testudines"	"Testudinidae"	"Gopherus"	"agassizii"	-1	0	"Growth"	"ESR"	73	5.6985648	6.074473237	55	6.4794198	6.334124804	NA	NA	NA	NA	2016	0	1	0	0
+915	"SMD"	150	476	"Mixed"	"Desert tortoise"	"Chordata"	"Reptilia"	"Testudines"	"Testudinidae"	"Gopherus"	"agassizii"	-1	0	"Growth"	"ESR"	73	3.843589	6.119354976	55	4.4300536	6.260479304	NA	NA	NA	NA	2016	0	1	0	0
+526	"SMD"	97	269	"Female"	"Chinook salmon"	"Chordata"	"Actinopterygii"	"Salmoniformes"	"Salmonidae"	"Oncorhynchus"	"tshawytscha"	-1	1.5	"Reproduction"	"ISR"	6	2.5	6.3	10	1.8	3.96	NA	NA	NA	NA	2013	0	1	0	1
+728	"SMD"	122	360	"Male"	"Steelhead trout"	"Chordata"	"Actinopterygii"	"Salmoniformes"	"Salmonidae"	"Oncorhynchus"	"mykiss"	-1	5	"Reproduction"	"ISR"	38	2.24	6.31	199	0.95	3.25	NA	NA	NA	NA	2004	0	1	0	2
+916	"SMD"	150	476	"Mixed"	"Desert tortoise"	"Chordata"	"Reptilia"	"Testudines"	"Testudinidae"	"Gopherus"	"agassizii"	-1	0	"Growth"	"ESR"	73	1.8326364	6.714161054	55	0.8991821	6.514294913	NA	NA	NA	NA	2016	0	1	0	0
+78	"SMD"	13	41	"Mixed"	"Puaiohi"	"Chordata"	"Aves"	"Passeriformes"	"Turdidae"	"Myadestes"	"palmeri"	-1	1.5	"Reproduction"	"ISR"	94	1.1	6.79	24	0.58	3.82	NA	NA	NA	NA	2006	0	1	0	1
+530	"SMD"	97	271	"Female"	"Chinook salmon"	"Chordata"	"Actinopterygii"	"Salmoniformes"	"Salmonidae"	"Oncorhynchus"	"tshawytscha"	-1	1.5	"Reproduction"	"ISR"	12	2.42	6.99	4	5	28.7	NA	NA	NA	NA	2013	0	1	0	1
+708	"SMD"	118	345	"Mixed"	"Yellow-footed rock wallaby"	"Chordata"	"Mammalia"	"Diprotodontia"	"Macropodidae"	"Petrogale"	"xanthopus"	-1	10	"Constitution"	"ISR"	3	27	7	13	25	6	NA	NA	NA	NA	2005	0	1	0	2
+320	"SMD"	46	171	"Male"	"Hermann's tortoise"	"Chordata"	"Reptilia"	"Testudines"	"Testudinidae"	"Testudo"	"hermanni"	-1	0	"Movement"	"ESR"	6	-34.14	7.25	5	-38.62	7.75	NA	NA	NA	NA	2014	0	1	0	0
+323	"SMD"	46	203	"Male"	"Hermann's tortoise"	"Chordata"	"Reptilia"	"Testudines"	"Testudinidae"	"Testudo"	"hermanni"	-1	0.5	"Movement"	"ISR"	6	-34.17	7.45	5	-38.75	7.5	NA	NA	NA	NA	2014	0	1	0	1
+190	"SMD"	22	106	"Mixed"	"Sea trout"	"Chordata"	"Actinopterygii"	"Salmoniformes"	"Salmonidae"	"Salmo"	"trutta"	-1	1	"Movement"	"ISR"	60	13.45	8.42	31	13.48	7.49	NA	NA	NA	NA	2014	0	1	0	1
+403	"SMD"	65	209	"Mixed"	"Eastern hellbender"	"Chordata"	"Amphibia"	"Caudata"	"Cryptobranchidae"	"Cryptobranchus"	"alleganiensis"	-1	0	"Movement"	"ESR"	21	-3.57	8.62	20	-31.98	57.8	NA	NA	NA	NA	2018	0	1	0	0
+972	"SMD"	159	497	"Mixed"	"Ploughshare tortoise"	"Chordata"	"Reptilia"	"Testudines"	"Testudinidae"	"Geochelone"	"yniphora"	-1	1.5	"Movement"	"ISR"	5	-14.4	9	5	-5.1	5.4	NA	NA	NA	NA	2000	0	1	0	1
+344	"SMD"	52	181	"Mixed"	"Black ratsnake"	"Chordata"	"Reptilia"	"Squamata"	"Colubridae"	"Pantherophis"	"obsoletus"	-1	0	"Survival"	"ESR"	11	-16.35	9.11	5	-20.05	11.02	NA	NA	NA	NA	2017	0	1	0	0
+347	"SMD"	52	182	"Mixed"	"Black ratsnake"	"Chordata"	"Reptilia"	"Squamata"	"Colubridae"	"Pantherophis"	"obsoletus"	1	0.25	"Survival"	"ISR"	11	-16.35	9.11	9	-30.03	14.89	NA	NA	NA	NA	2017	1	1	1	1
+350	"SMD"	52	183	"Mixed"	"Black ratsnake"	"Chordata"	"Reptilia"	"Squamata"	"Colubridae"	"Pantherophis"	"obsoletus"	0	0.25	"Survival"	"ISR"	11	-16.35	9.11	10	-30.43	16.95	NA	NA	NA	NA	2017	1	1	0	1
+917	"SMD"	150	476	"Mixed"	"Desert tortoise"	"Chordata"	"Reptilia"	"Testudines"	"Testudinidae"	"Gopherus"	"agassizii"	-1	0	"Constitution"	"ESR"	73	14.307206	9.406510025	55	12.35871	10.02455117	NA	NA	NA	NA	2016	0	1	0	0
+918	"SMD"	150	476	"Mixed"	"Desert tortoise"	"Chordata"	"Reptilia"	"Testudines"	"Testudinidae"	"Gopherus"	"agassizii"	-1	0	"Constitution"	"ESR"	73	12.901467	9.440540008	55	10.949214	10.01435201	NA	NA	NA	NA	2016	0	1	0	0
+1048	"SMD"	173	525	"Mixed"	"Red sea urchin"	"Echinodermata"	"Echinoidea"	"Echinoida"	"Strongylocentrotidae"	"Mesocentrotus"	"franciscanus"	-1	0	"Movement"	"ESR"	62	20.73436	9.585620336	163	17.40510215	8.575909107	NA	NA	NA	NA	2019	0	1	0	0
+558	"SMD"	102	279	"Mixed"	"Shortnose gar"	"Chordata"	"Actinopterygii"	"Lepisosteiformes"	"Lepisosteidae"	"Acipenser"	"brevirostrum"	-1	1.5	"Movement"	"ISR"	8	-2.5	9.616652224	7	-4.5	11.11215551	NA	NA	NA	NA	2011	0	1	0	1
+446	"SMD"	74	227	"Mixed"	"Dugite"	"Chordata"	"Reptilia"	"Squamata"	"Elapidae"	"Pseudonaja"	"affinis"	-1	0	"Movement"	"ESR"	6	-10.8	9.72	4	-31	25.5	NA	NA	NA	NA	2018	0	1	0	0
+528	"SMD"	97	270	"Female"	"Chinook salmon"	"Chordata"	"Actinopterygii"	"Salmoniformes"	"Salmonidae"	"Oncorhynchus"	"tshawytscha"	-1	1.5	"Reproduction"	"ISR"	7	3.71	10.2	15	5.47	13.8	NA	NA	NA	NA	2013	0	1	0	1
+559	"SMD"	102	279	"Mixed"	"Shortnose gar"	"Chordata"	"Actinopterygii"	"Lepisosteiformes"	"Lepisosteidae"	"Acipenser"	"brevirostrum"	-1	1.5	"Movement"	"ISR"	9	-12.2	10.2	2	-6.5	9.192388155	NA	NA	NA	NA	2011	0	1	0	1
+560	"SMD"	102	279	"Mixed"	"Shortnose gar"	"Chordata"	"Actinopterygii"	"Lepisosteiformes"	"Lepisosteidae"	"Acipenser"	"brevirostrum"	-1	1.5	"Movement"	"ISR"	9	-2.8	10.2	2	-5.2	9.192388155	NA	NA	NA	NA	2011	0	1	0	1
+561	"SMD"	102	279	"Mixed"	"Shortnose gar"	"Chordata"	"Actinopterygii"	"Lepisosteiformes"	"Lepisosteidae"	"Acipenser"	"brevirostrum"	-1	1.5	"Movement"	"ISR"	9	-15.1	10.2	6	-13.8	15.92	NA	NA	NA	NA	2011	0	1	0	1
+919	"SMD"	150	476	"Mixed"	"Desert tortoise"	"Chordata"	"Reptilia"	"Testudines"	"Testudinidae"	"Gopherus"	"agassizii"	-1	0	"Constitution"	"ESR"	73	7.167719	11.11735523	55	6.679878	10.31839722	NA	NA	NA	NA	2016	0	1	0	0
+387	"SMD"	60	200	"Mixed"	"Eastern box turtle"	"Chordata"	"Reptilia"	"Testudines"	"Emydidae"	"Terrapene"	"carolina"	-1	0	"Movement"	"ESR"	7	-10.33	11.29	19	-9.43	15.42	NA	NA	NA	NA	2017	0	1	0	0
+153	"SMD"	20	88	"Mixed"	"Asian houbara"	"Chordata"	"Aves"	"Otidiformes"	"Otididae"	"Chlamydotis"	"macqueenii"	-1	2.5	"Movement"	"ISR"	90	-30.09	11.57	12	-32.37	4.01	NA	NA	NA	NA	2017	0	1	0	2
+1079	"SMD"	183	542	"Mixed"	"White-tailed deer"	"Chordata"	"Mammalia"	"Artiodactyla"	"Cervidae"	"Odocoileus"	"virginianus"	-1	0	"Constitution"	"ESR"	9	25.2511	11.68224	3	16.46881	2.763539025	NA	NA	NA	NA	2008	0	1	0	0
+487	"SMD"	89	253	"Mixed"	"Atlantic salmon"	"Chordata"	"Actinopterygii"	"Salmoniformes"	"Salmonidae"	"Salmo"	"salar"	-1	1.5	"Movement"	"ISR"	29	25.39	11.87	10	16.14	11.79	NA	NA	NA	NA	2016	0	1	0	1
+4	"SMD"	1	1	"Female"	"Jewelled gecko"	"Chordata"	"Reptilia"	"Squamata"	"Diplodactylidae"	"Naultinus"	"elegans"	1	0	"Movement"	"ESR"	9	-13.25714286	12.13711349	6	-12.48333333	10.8834584	NA	NA	NA	NA	2017	1	1	1	0
+8	"SMD"	1	2	"Female"	"Jewelled gecko"	"Chordata"	"Reptilia"	"Squamata"	"Diplodactylidae"	"Naultinus"	"elegans"	0	0	"Movement"	"ESR"	9	-13.25714286	12.13711349	7	-38.38571429	28.39210152	NA	NA	NA	NA	2017	1	1	0	0
+322	"SMD"	46	202	"Female"	"Hermann's tortoise"	"Chordata"	"Reptilia"	"Testudines"	"Testudinidae"	"Testudo"	"hermanni"	-1	0.5	"Movement"	"ISR"	8	-39.74	12.2	7	-26.67	6.69	NA	NA	NA	NA	2014	0	1	0	1
+318	"SMD"	46	170	"Female"	"Hermann's tortoise"	"Chordata"	"Reptilia"	"Testudines"	"Testudinidae"	"Testudo"	"hermanni"	-1	0	"Movement"	"ESR"	8	-39.65	12.29	7	-26.52	7.34	NA	NA	NA	NA	2014	0	1	0	0
+210	"SMD"	26	116	"Mixed"	"Brown teal"	"Chordata"	"Aves"	"Anseriformes"	"Anatidae"	"Anas"	"chlorotis"	-1	1.5	"Constitution"	"ISR"	45	32.4	12.3	6	30.6	3.2	NA	NA	NA	NA	2006	0	1	0	1
+865	"SMD"	139	449	"Mixed"	"Atlantic salmon"	"Chordata"	"Actinopterygii"	"Salmoniformes"	"Salmonidae"	"Salmo"	"salar"	-1	-1	"Movement"	"ISR"	14	17.3	12.4	4	18.9	11	NA	NA	NA	NA	1998	0	0	0	0
+973	"SMD"	159	497	"Mixed"	"Ploughshare tortoise"	"Chordata"	"Reptilia"	"Testudines"	"Testudinidae"	"Geochelone"	"yniphora"	-1	1.5	"Movement"	"ISR"	5	-20.3	12.4	5	-19.1	13.4	NA	NA	NA	NA	2000	0	1	0	1
+194	"SMD"	24	110	"Mixed"	"Blue crab"	"Arthropoda"	"Malacostraca"	"Decapoda"	"Portunidae"	"Callinectes"	"sapidus"	-1	1.5	"Constitution"	"ISR"	42	17.85	12.54	10	17.47	6	NA	NA	NA	NA	2004	0	1	0	1
+1104	"SMD"	191	552	"Mixed"	"Green iguana"	"Chordata"	"Reptilia"	"Squamata"	"Iguanidae"	"Iguana"	"iguana"	-1	1.5	"Movement"	"ISR"	2	3	12.72792206	9	0.4	13.8	NA	NA	NA	NA	2010	0	1	0	1
+488	"SMD"	89	253	"Mixed"	"Atlantic salmon"	"Chordata"	"Actinopterygii"	"Salmoniformes"	"Salmonidae"	"Salmo"	"salar"	-1	1.5	"Movement"	"ISR"	29	99.69	12.85	10	109.68	12.75	NA	NA	NA	NA	2016	0	1	0	1
+27	"SMD"	4	15	"Mixed"	"Queen conch"	"Mollusca"	"Gastropoda"	"Littorinimorpha"	"Strombidae"	"Strombus"	"gigas"	-1	0.5	"Survival"	"ISR"	40	-45	12.9	40	-52.5	12.6	NA	NA	NA	NA	1994	0	1	0	1
+311	"SMD"	43	165	"Mixed"	"Eastern hognose snake"	"Chordata"	"Reptilia"	"Squamata"	"Colubridae"	"Heterodon"	"platyrhinos"	-1	0	"Movement"	"ESR"	11	-57	13.27	9	-47	24	NA	NA	NA	NA	2000	0	1	0	0
+312	"SMD"	43	165	"Mixed"	"Eastern hognose snake"	"Chordata"	"Reptilia"	"Squamata"	"Colubridae"	"Heterodon"	"platyrhinos"	-1	0	"Movement"	"ESR"	11	-119	13.27	9	-120	69	NA	NA	NA	NA	2000	0	1	0	0
+327	"SMD"	47	174	"Female"	"Timber rattlesnake"	"Chordata"	"Reptilia"	"Squamata"	"Viperidae"	"Crotalus"	"horridus"	-1	0	"Movement"	"ESR"	7	-24.6	13.28	2	-73.1	50.6	NA	NA	NA	NA	1999	0	1	0	0
+908	"SMD"	149	475	"Mixed"	"Amur ratsnake"	"Chordata"	"Reptilia"	"Squamata"	"Colubridae"	"Elaphe"	"schrenckii"	-1	0	"Movement"	"ESR"	2	-12.1	13.29360749	5	-29.3	35.10626725	NA	NA	NA	NA	2011	0	1	0	0
+224	"SMD"	30	121	"Mixed"	"North Africa Houbara"	"Chordata"	"Aves"	"Otidiformes"	"Otididae"	"Chlamydotis"	"undulata"	1	5.5	"Reproduction"	"ISR"	646	63.06	13.42	253	62.26	11.04	NA	NA	NA	NA	2019	1	1	1	2
+227	"SMD"	30	122	"Mixed"	"North Africa Houbara"	"Chordata"	"Aves"	"Otidiformes"	"Otididae"	"Chlamydotis"	"undulata"	0	5.5	"Reproduction"	"ISR"	646	63.06	13.42	513	61.35	11.08	NA	NA	NA	NA	2019	1	1	0	2
+456	"SMD"	78	232	"Mixed"	"Three-toed box turtle"	"Chordata"	"Reptilia"	"Testudines"	"Emydidae"	"Terrapene"	"carolina"	-1	0	"Movement"	"ESR"	19	-36.2	13.9	16	-62.55	36.48	NA	NA	NA	NA	2007	0	1	0	0
+211	"SMD"	26	116	"Mixed"	"Brown teal"	"Chordata"	"Aves"	"Anseriformes"	"Anatidae"	"Anas"	"chlorotis"	-1	1.5	"Constitution"	"ISR"	42	65	14	7	60	13	NA	NA	NA	NA	2006	0	1	0	1
+342	"SMD"	51	180	"Mixed"	"Northern Pacific rattlesnake"	"Chordata"	"Reptilia"	"Squamata"	"Viperidae"	"Crotalus"	"oreganus"	-1	0	"Movement"	"ESR"	6	-12.16	14.06	8	-27.33	13.15	NA	NA	NA	NA	2012	0	1	0	0
+329	"SMD"	47	175	"Male"	"Timber rattlesnake"	"Chordata"	"Reptilia"	"Squamata"	"Viperidae"	"Crotalus"	"horridus"	-1	0	"Movement"	"ESR"	7	-36.9	14.18	6	-123.8	47.52	NA	NA	NA	NA	1999	0	1	0	0
+11	"SMD"	1	3	"Male"	"Jewelled gecko"	"Chordata"	"Reptilia"	"Squamata"	"Diplodactylidae"	"Naultinus"	"elegans"	1	0	"Movement"	"ESR"	9	-30.44285714	14.68205902	4	-22.15	8.798674143	NA	NA	NA	NA	2017	1	1	1	0
+15	"SMD"	1	4	"Male"	"Jewelled gecko"	"Chordata"	"Reptilia"	"Squamata"	"Diplodactylidae"	"Naultinus"	"elegans"	0	0	"Movement"	"ESR"	9	-30.44285714	14.68205902	3	-39.4	13.75790682	NA	NA	NA	NA	2017	1	1	0	0
+492	"SMD"	91	256	"Female"	"Chinook salmon"	"Chordata"	"Actinopterygii"	"Salmoniformes"	"Salmonidae"	"Oncorhynchus"	"tshawytscha"	-1	6.5	"Reproduction"	"ISR"	23	114.7	14.8	27	106.19	14.1	NA	NA	NA	NA	2016	0	1	0	2
+373	"SMD"	56	192	"Mixed"	"Steelhead trout"	"Chordata"	"Actinopterygii"	"Salmoniformes"	"Salmonidae"	"Oncorhynchus"	"mykiss"	-1	1.5	"Movement"	"ISR"	187	15.1	15.04	150	4.4	4.9	NA	NA	NA	NA	2015	0	1	0	1
+974	"SMD"	160	498	"Mixed"	"Steelhead trout"	"Chordata"	"Actinopterygii"	"Salmoniformes"	"Salmonidae"	"Oncorhynchus"	"mykiss"	-1	5	"Reproduction"	"ISR"	27	11.3	15.6	49	0.7	1.1	NA	NA	NA	NA	2014	0	1	0	2
+893	"SMD"	145	465	"Female"	"Gopher tortoise"	"Chordata"	"Reptilia"	"Testudines"	"Testudinidae"	"Gopherus"	"polyphemus"	-1	0	"Movement"	"ESR"	7	-19.6	15.9	9	-3.6	4.3	NA	NA	NA	NA	2014	0	1	0	0
+717	"SMD"	119	351	"Male"	"Brown trout"	"Chordata"	"Actinopterygii"	"Salmoniformes"	"Salmonidae"	"Salmo"	"trutta"	-1	7	"Reproduction"	"ISR"	6	7.33	16.5	6	25.33	59.64	NA	NA	NA	NA	2004	0	1	0	2
+1090	"SMD"	186	545	"Mixed"	"Western rattlesnake"	"Chordata"	"Reptilia"	"Squamata"	"Viperidae"	"Crotalus"	"oreganus"	-1	0	"Movement"	"ESR"	14	-25.1	16.8	14	-37.4	10.5	NA	NA	NA	NA	2009	0	1	0	0
+868	"SMD"	139	451	"Mixed"	"Atlantic salmon"	"Chordata"	"Actinopterygii"	"Salmoniformes"	"Salmonidae"	"Salmo"	"salar"	-1	-1	"Movement"	"ISR"	16	23.5	17.3	8	20.2	9.1	NA	NA	NA	NA	1998	0	0	0	0
+536	"SMD"	100	274	"Mixed"	"Steelhead trout"	"Chordata"	"Actinopterygii"	"Salmoniformes"	"Salmonidae"	"Oncorhynchus"	"mykiss"	-1	0.5	"Survival"	"ISR"	68	96.9	18.14166475	42	59	77.76888838	NA	NA	NA	NA	2012	0	1	0	1
+191	"SMD"	22	107	"Mixed"	"Sea trout"	"Chordata"	"Actinopterygii"	"Salmoniformes"	"Salmonidae"	"Salmo"	"trutta"	-1	1	"Movement"	"ISR"	61	36.73	19.03	37	32.09	14.87	NA	NA	NA	NA	2014	0	1	0	1
+542	"SMD"	100	276	"Mixed"	"Steelhead trout"	"Chordata"	"Actinopterygii"	"Salmoniformes"	"Salmonidae"	"Oncorhynchus"	"mykiss"	-1	0.5	"Survival"	"ISR"	48	95.8	20.78460969	30	50	66.27442946	NA	NA	NA	NA	2012	0	1	0	1
+380	"SMD"	57	195	"Mixed"	"Mona Island iguana"	"Chordata"	"Reptilia"	"Squamata"	"Iguanidae"	"Cyclura"	"cornuta"	-1	0.25	"Constitution"	"ISR"	13	32.2	22	21	28.2	25.4	NA	NA	NA	NA	2008	0	1	0	1
+1071	"SMD"	180	538	"Mixed"	"European hedgehog"	"Chordata"	"Mammalia"	"Eulipotyphla"	"Erinaceidae"	"Erinaceus"	"europaeus"	-1	0	"Constitution"	"ESR"	20	-5.3	22.58884998	23	-8.5	20.06419311	NA	NA	NA	NA	2006	0	1	0	0
+1072	"SMD"	180	538	"Mixed"	"European hedgehog"	"Chordata"	"Mammalia"	"Eulipotyphla"	"Erinaceidae"	"Erinaceus"	"europaeus"	-1	0	"Constitution"	"ESR"	20	-5.3	22.58884998	20	-33.3	36.50723229	NA	NA	NA	NA	2006	0	1	0	0
+345	"SMD"	52	181	"Mixed"	"Black ratsnake"	"Chordata"	"Reptilia"	"Squamata"	"Colubridae"	"Pantherophis"	"obsoletus"	-1	0	"Movement"	"ESR"	11	-25.95	22.63	5	-93.18	53.14	NA	NA	NA	NA	2017	0	1	0	0
+348	"SMD"	52	182	"Mixed"	"Black ratsnake"	"Chordata"	"Reptilia"	"Squamata"	"Colubridae"	"Pantherophis"	"obsoletus"	1	0.25	"Movement"	"ISR"	11	-25.95	22.63	9	-38.98	16.57	NA	NA	NA	NA	2017	1	1	1	1
+351	"SMD"	52	183	"Mixed"	"Black ratsnake"	"Chordata"	"Reptilia"	"Squamata"	"Colubridae"	"Pantherophis"	"obsoletus"	0	0.25	"Movement"	"ISR"	11	-25.95	22.63	10	-23.33	16.26	NA	NA	NA	NA	2017	1	1	0	1
+798	"SMD"	126	411	"Mixed"	"Summer flounder"	"Chordata"	"Actinopterygii"	"Pleuronectiformes"	"Paralichthyidae"	"Paralichthys"	"dentatus"	-1	1.5	"Survival"	"ISR"	131	9.64	22.82	214	3.59	21.31	NA	NA	NA	NA	2003	0	1	0	1
+172	"SMD"	21	92	"Female"	"Chinook salmon"	"Chordata"	"Actinopterygii"	"Salmoniformes"	"Salmonidae"	"Oncorhynchus"	"tshawytscha"	-1	1.5	"Reproduction"	"ISR"	163	186	23	31	184	30	NA	NA	NA	NA	2008	0	1	0	1
+889	"SMD"	145	464	"Male"	"Gopher tortoise"	"Chordata"	"Reptilia"	"Testudines"	"Testudinidae"	"Gopherus"	"polyphemus"	-1	0	"Movement"	"ESR"	8	-15.9	23.9	11	-62.2	93.3	NA	NA	NA	NA	2014	0	1	0	0
+1049	"SMD"	173	525	"Mixed"	"Red sea urchin"	"Echinodermata"	"Echinoidea"	"Echinoida"	"Strongylocentrotidae"	"Mesocentrotus"	"franciscanus"	-1	0	"Constitution"	"ESR"	61	48.34594	24.50879779	168	-85.52468244	34.14237175	NA	NA	NA	NA	2019	0	1	0	0
+158	"SMD"	21	90	"Female"	"Chinook salmon"	"Chordata"	"Actinopterygii"	"Salmoniformes"	"Salmonidae"	"Oncorhynchus"	"tshawytscha"	-1	1.5	"Reproduction"	"ISR"	201	192	25	31	194	28	NA	NA	NA	NA	2008	0	1	0	1
+800	"SMD"	126	412	"Mixed"	"Summer flounder"	"Chordata"	"Actinopterygii"	"Pleuronectiformes"	"Paralichthyidae"	"Paralichthys"	"dentatus"	-1	1.5	"Survival"	"ISR"	54	12.04	25.17	589	6.11	19.97	NA	NA	NA	NA	2003	0	1	0	1
+1045	"SMD"	171	522	"Mixed"	"European hare"	"Chordata"	"Mammalia"	"Lagomorpha"	"Leporidae"	"Lepus"	"europaeus"	-1	0	"Movement"	"ESR"	7	-9	25.28	14	-63	19.58	NA	NA	NA	NA	2010	0	1	0	0
+165	"SMD"	21	91	"Female"	"Chinook salmon"	"Chordata"	"Actinopterygii"	"Salmoniformes"	"Salmonidae"	"Oncorhynchus"	"tshawytscha"	-1	1.5	"Reproduction"	"ISR"	238	188	27	68	182	22	NA	NA	NA	NA	2008	0	1	0	1
+375	"SMD"	56	482	"Mixed"	"Steelhead trout"	"Chordata"	"Actinopterygii"	"Salmoniformes"	"Salmonidae"	"Oncorhynchus"	"mykiss"	-1	11	"Survival"	"ISR"	187	79.5	28.7170681	150	68.7	42.8660705	NA	NA	NA	NA	2015	0	1	0	2
+705	"SMD"	117	343	"Mixed"	"Blue crab"	"Arthropoda"	"Malacostraca"	"Decapoda"	"Portunidae"	"Callinectes"	"sapidus"	-1	1.5	"Survival"	"ISR"	20	88.5	29.07	20	77.3	38.91	NA	NA	NA	NA	2005	0	1	0	1
+216	"SMD"	27	117	"Mixed"	"Lacertid lizard"	"Chordata"	"Reptilia"	"Squamata"	"Lacertidae"	"Psammodromus"	"algirus"	-1	1.5	"Survival"	"ISR"	18	45.8	33.09	24	53.7	34.29	NA	NA	NA	NA	2009	0	1	0	1
+963	"SMD"	157	493	"Mixed"	"Louisiana pine snake"	"Chordata"	"Reptilia"	"Squamata"	"Colubridae"	"Pituophis"	"ruthveni"	-1	1.5	"Movement"	"ISR"	9	-33.2	33.3	3	-5.1	3.983716857	NA	NA	NA	NA	2006	0	1	0	1
+217	"SMD"	27	117	"Mixed"	"Lacertid lizard"	"Chordata"	"Reptilia"	"Squamata"	"Lacertidae"	"Psammodromus"	"algirus"	-1	1.5	"Movement"	"ISR"	17	28.8	33.31	24	33.9	39.24	NA	NA	NA	NA	2009	0	1	0	1
+453	"SMD"	77	231	"Mixed"	"Tiger snake"	"Chordata"	"Reptilia"	"Squamata"	"Elapidae"	"Notechis"	"scutatus"	-1	0	"Movement"	"ESR"	6	-64	33.58	8	-139.8	118.51	NA	NA	NA	NA	2005	0	1	0	0
+212	"SMD"	26	116	"Mixed"	"Brown teal"	"Chordata"	"Aves"	"Anseriformes"	"Anatidae"	"Anas"	"chlorotis"	-1	1.5	"Constitution"	"ISR"	42	236	34	7	196	26	NA	NA	NA	NA	2006	0	1	0	1
+330	"SMD"	47	175	"Male"	"Timber rattlesnake"	"Chordata"	"Reptilia"	"Squamata"	"Viperidae"	"Crotalus"	"horridus"	-1	0	"Movement"	"ESR"	7	-59.9	34.5	6	-600.6	619.72	NA	NA	NA	NA	1999	0	1	0	0
+796	"SMD"	126	410	"Mixed"	"Summer flounder"	"Chordata"	"Actinopterygii"	"Pleuronectiformes"	"Paralichthyidae"	"Paralichthys"	"dentatus"	-1	1.5	"Survival"	"ISR"	233	23.93	36.08	122	12.9	43.16	NA	NA	NA	NA	2003	0	1	0	1
+401	"SMD"	65	208	"Mixed"	"Eastern hellbender"	"Chordata"	"Amphibia"	"Caudata"	"Cryptobranchidae"	"Cryptobranchus"	"alleganiensis"	-1	0	"Movement"	"ESR"	21	-22.58	37.42	20	-46.47	86.3	NA	NA	NA	NA	2018	0	1	0	0
+1061	"SMD"	178	534	"Mixed"	"Cougar"	"Chordata"	"Mammalia"	"Carnivora"	"Felidae"	"Puma"	"concolor"	-1	0	"Movement"	"ESR"	3	-40	38	15	-66.93333333	63.76067604	NA	NA	NA	NA	1998	0	1	0	0
+522	"SMD"	97	267	"Male"	"Chinook salmon"	"Chordata"	"Actinopterygii"	"Salmoniformes"	"Salmonidae"	"Oncorhynchus"	"tshawytscha"	-1	1.5	"Reproduction"	"ISR"	10	4	38.7	19	2.84	9.25	NA	NA	NA	NA	2013	0	1	0	1
+562	"SMD"	102	279	"Mixed"	"Shortnose gar"	"Chordata"	"Actinopterygii"	"Lepisosteiformes"	"Lepisosteidae"	"Acipenser"	"brevirostrum"	-1	1.5	"Movement"	"ISR"	8	3.9	39.31513703	7	7.4	37.56966862	NA	NA	NA	NA	2011	0	1	0	1
+1076	"SMD"	181	540	"Female"	"Leopard"	"Chordata"	"Mammalia"	"Carnivora"	"Felidae"	"Panthera"	"pardus"	-1	0	"Movement"	"ESR"	6	-76.73333333	40.34021567	3	-81.3	44.64157255	NA	NA	NA	NA	2015	0	1	0	0
+321	"SMD"	46	171	"Male"	"Hermann's tortoise"	"Chordata"	"Reptilia"	"Testudines"	"Testudinidae"	"Testudo"	"hermanni"	-1	0	"Movement"	"ESR"	6	-178.25	40.35	5	-498.58	96.24	NA	NA	NA	NA	2014	0	1	0	0
+12	"SMD"	1	3	"Male"	"Jewelled gecko"	"Chordata"	"Reptilia"	"Squamata"	"Diplodactylidae"	"Naultinus"	"elegans"	1	0	"Movement"	"ESR"	9	-49.61428571	41.60466434	4	-16.4	10.177426	NA	NA	NA	NA	2017	1	1	1	0
+16	"SMD"	1	4	"Male"	"Jewelled gecko"	"Chordata"	"Reptilia"	"Squamata"	"Diplodactylidae"	"Naultinus"	"elegans"	0	0	"Movement"	"ESR"	9	-49.61428571	41.60466434	3	-109.3	72.30082987	NA	NA	NA	NA	2017	1	1	0	0
+563	"SMD"	102	279	"Mixed"	"Shortnose gar"	"Chordata"	"Actinopterygii"	"Lepisosteiformes"	"Lepisosteidae"	"Acipenser"	"brevirostrum"	-1	1.5	"Movement"	"ISR"	9	23.8	42.3	6	19.2	35.52	NA	NA	NA	NA	2011	0	1	0	1
+544	"SMD"	101	277	"Mixed"	"Chum salmon"	"Chordata"	"Actinopterygii"	"Salmoniformes"	"Salmonidae"	"Oncorhynchus"	"keta"	-1	1.5	"Constitution"	"ISR"	37	1020	42.58	49	1010	63	NA	NA	NA	NA	2012	0	1	0	1
+537	"SMD"	100	274	"Mixed"	"Steelhead trout"	"Chordata"	"Actinopterygii"	"Salmoniformes"	"Salmonidae"	"Oncorhynchus"	"mykiss"	-1	0.5	"Survival"	"ISR"	68	15.9	42.88029851	42	5	69.99199954	NA	NA	NA	NA	2012	0	1	0	1
+198	"SMD"	24	114	"Mixed"	"Blue crab"	"Arthropoda"	"Malacostraca"	"Decapoda"	"Portunidae"	"Callinectes"	"sapidus"	1	1.5	"Survival"	"ISR"	40	-63.9	44.54	40	-77.77	48.8	NA	NA	NA	NA	2004	1	1	1	1
+485	"SMD"	88	252	"Mixed"	"Largemouth bass"	"Chordata"	"Actinopterygii"	"Perciformes"	"Centrarchidae"	"Micropterus"	"salmoides"	-1	-1	"Movement"	"ISR"	20	-25	44.72	30	-75	87.64	NA	NA	NA	NA	2016	0	0	0	0
+652	"SMD"	112	322	"Mixed"	"Grey partridge"	"Chordata"	"Aves"	"Galliformes"	"Phasianidae"	"Perdix"	"perdix"	-1	1.5	"Reproduction"	"ISR"	35	60	47.33	27	19	36.37	NA	NA	NA	NA	2007	0	1	0	1
+426	"SMD"	70	218	"Mixed"	"Ring-necked pheasant"	"Chordata"	"Aves"	"Galliformes"	"Phasianidae"	"Phasianus"	"colchicus"	-1	1.5	"Survival"	"ISR"	64	74	48	114	52	74.74	NA	NA	NA	NA	1992	0	1	0	1
+653	"SMD"	112	322	"Mixed"	"Grey partridge"	"Chordata"	"Aves"	"Galliformes"	"Phasianidae"	"Perdix"	"perdix"	-1	1.5	"Survival"	"ISR"	36	44	48	33	30	45.96	NA	NA	NA	NA	2007	0	1	0	1
+328	"SMD"	47	174	"Female"	"Timber rattlesnake"	"Chordata"	"Reptilia"	"Squamata"	"Viperidae"	"Crotalus"	"horridus"	-1	0	"Movement"	"ESR"	7	-41.9	49.37	2	-233.1	173.11	NA	NA	NA	NA	1999	0	1	0	0
+266	"SMD"	35	145	"Mixed"	"Common hamster"	"Chordata"	"Mammalia"	"Rodentia"	"Cricetidae"	"Cricetus"	"cricetus"	-1	0	"Survival"	"ESR"	28	114.62	50.62	12	91.42	19.82	NA	NA	NA	NA	2011	0	1	0	0
+268	"SMD"	35	146	"Mixed"	"Common hamster"	"Chordata"	"Mammalia"	"Rodentia"	"Cricetidae"	"Cricetus"	"cricetus"	-1	-1	"Survival"	"ISR"	28	114.62	50.62	68	71.32	41.28	NA	NA	NA	NA	2011	0	0	0	0
+835	"SMD"	131	432	"Mixed"	"Arctic charr"	"Chordata"	"Actinopterygii"	"Salmoniformes"	"Salmonidae"	"Salvelinus"	"alpinus"	1	1.5	"Growth"	"ISR"	385	40	51.19154	130	26	49.72192	NA	NA	NA	NA	1993	1	1	1	1
+842	"SMD"	131	433	"Mixed"	"Arctic charr"	"Chordata"	"Actinopterygii"	"Salmoniformes"	"Salmonidae"	"Salvelinus"	"alpinus"	0	1.5	"Growth"	"ISR"	385	40	51.19154	151	32	60.26856	NA	NA	NA	NA	1993	1	1	0	1
+533	"SMD"	99	273	"Mixed"	"Mallard"	"Chordata"	"Aves"	"Anseriformes"	"Anatidae"	"Anas"	"platyrhynchos"	-1	1.5	"Constitution"	"ISR"	41	149.6	51.86	41	103.8	22.41	NA	NA	NA	NA	2012	0	1	0	1
+507	"SMD"	93	261	"Mixed"	"Northern watersnake"	"Chordata"	"Reptilia"	"Squamata"	"Colubridae"	"Nerodia"	"sipedon"	0	1	"Survival"	"ISR"	15	46.2	52.67	10	63.5	46.17	NA	NA	NA	NA	2015	1	1	0	1
+508	"SMD"	93	261	"Mixed"	"Northern watersnake"	"Chordata"	"Reptilia"	"Squamata"	"Colubridae"	"Nerodia"	"sipedon"	1	1	"Survival"	"ISR"	15	46.2	52.67	12	50.2	60.97	NA	NA	NA	NA	2015	1	1	1	1
+545	"SMD"	101	277	"Mixed"	"Chum salmon"	"Chordata"	"Actinopterygii"	"Salmoniformes"	"Salmonidae"	"Oncorhynchus"	"keta"	-1	1.5	"Constitution"	"ISR"	20	1024	53.67	5	998	46.96	NA	NA	NA	NA	2012	0	1	0	1
+1084	"SMD"	185	544	"Mixed"	"White-tailed deer"	"Chordata"	"Mammalia"	"Artiodactyla"	"Cervidae"	"Odocoileus"	"virginianus"	-1	0	"Movement"	"ESR"	7	-136.5	56.08992779	6	-171.2	83.52760023	NA	NA	NA	NA	1999	0	1	0	0
+564	"SMD"	102	279	"Mixed"	"Shortnose gar"	"Chordata"	"Actinopterygii"	"Lepisosteiformes"	"Lepisosteidae"	"Acipenser"	"brevirostrum"	-1	1.5	"Movement"	"ISR"	9	15.9	58.2	2	7.6	29.98132752	NA	NA	NA	NA	2011	0	1	0	1
+565	"SMD"	102	279	"Mixed"	"Shortnose gar"	"Chordata"	"Actinopterygii"	"Lepisosteiformes"	"Lepisosteidae"	"Acipenser"	"brevirostrum"	-1	1.5	"Movement"	"ISR"	9	8	58.2	2	9.6	30.12274888	NA	NA	NA	NA	2011	0	1	0	1
+404	"SMD"	65	209	"Mixed"	"Eastern hellbender"	"Chordata"	"Amphibia"	"Caudata"	"Cryptobranchidae"	"Cryptobranchus"	"alleganiensis"	-1	0	"Movement"	"ESR"	21	-33.06	59.38	20	-41.59	89.97	NA	NA	NA	NA	2018	0	1	0	0
+651	"SMD"	111	321	"Mixed"	"Coho salmon"	"Chordata"	"Actinopterygii"	"Salmoniformes"	"Salmonidae"	"Oncorhynchus"	"kisutch"	-1	1.5	"Movement"	"ISR"	40	-36.04	59.65	40	-92.76	72.25	NA	NA	NA	NA	2008	0	1	0	1
+374	"SMD"	56	481	"Mixed"	"Steelhead trout"	"Chordata"	"Actinopterygii"	"Salmoniformes"	"Salmonidae"	"Oncorhynchus"	"mykiss"	-1	11	"Survival"	"ISR"	187	12.1	60.16909506	150	5.2	20.82066281	NA	NA	NA	NA	2015	0	1	0	2
+964	"SMD"	157	493	"Mixed"	"Louisiana pine snake"	"Chordata"	"Reptilia"	"Squamata"	"Colubridae"	"Pituophis"	"ruthveni"	-1	1.5	"Movement"	"ISR"	9	-118	62.7	3	-33.7	13.33679122	NA	NA	NA	NA	2006	0	1	0	1
+1085	"SMD"	185	544	"Mixed"	"White-tailed deer"	"Chordata"	"Mammalia"	"Artiodactyla"	"Cervidae"	"Odocoileus"	"virginianus"	-1	0	"Movement"	"ESR"	7	-175.7	64.55633199	6	-282.7	607.7184052	NA	NA	NA	NA	1999	0	1	0	0
+802	"SMD"	126	413	"Mixed"	"Summer flounder"	"Chordata"	"Actinopterygii"	"Pleuronectiformes"	"Paralichthyidae"	"Paralichthys"	"dentatus"	-1	1.5	"Survival"	"ISR"	128	27.96	64.94	621	6.34	66.3	NA	NA	NA	NA	2003	0	1	0	1
+720	"SMD"	119	354	"Female"	"Brown trout"	"Chordata"	"Actinopterygii"	"Salmoniformes"	"Salmonidae"	"Salmo"	"trutta"	-1	7	"Reproduction"	"ISR"	6	29.83	65.78	6	2.83	3.37	NA	NA	NA	NA	2004	0	1	0	2
+480	"SMD"	86	250	"Mixed"	"Mulloway"	"Chordata"	"Actinopterygii"	"Perciformes"	"Sciaenidae"	"Argyrosomus"	"japonicus"	-1	0.5	"Movement"	"ISR"	4	-72.87	67.12	4	-171.58	73.84	NA	NA	NA	NA	2017	0	1	0	1
+313	"SMD"	43	165	"Mixed"	"Eastern hognose snake"	"Chordata"	"Reptilia"	"Squamata"	"Colubridae"	"Heterodon"	"platyrhinos"	-1	0	"Survival"	"ESR"	11	122	69.65	9	36	21	NA	NA	NA	NA	2000	0	1	0	0
+319	"SMD"	46	170	"Female"	"Hermann's tortoise"	"Chordata"	"Reptilia"	"Testudines"	"Testudinidae"	"Testudo"	"hermanni"	-1	0	"Movement"	"ESR"	8	-225.99	69.7	7	-256.11	76.36	NA	NA	NA	NA	2014	0	1	0	0
+543	"SMD"	100	276	"Mixed"	"Steelhead trout"	"Chordata"	"Actinopterygii"	"Salmoniformes"	"Salmonidae"	"Oncorhynchus"	"mykiss"	-1	0.5	"Survival"	"ISR"	48	10	69.97485263	30	2.6	49.29503018	NA	NA	NA	NA	2012	0	1	0	1
+1086	"SMD"	185	544	"Mixed"	"White-tailed deer"	"Chordata"	"Mammalia"	"Artiodactyla"	"Cervidae"	"Odocoileus"	"virginianus"	-1	0	"Movement"	"ESR"	7	-153.6	70.64156001	6	-132.9	86.46698792	NA	NA	NA	NA	1999	0	1	0	0
+1037	"SMD"	168	519	"Mixed"	"Northern bobwhite quail"	"Chordata"	"Aves"	"Galliformes"	"Odontophoridae"	"Colinus"	"virginianus"	-1	0	"Survival"	"ESR"	166	33.2	73.43936274	74	26.6	52.47418413	NA	NA	NA	NA	2006	0	1	0	0
+836	"SMD"	131	432	"Mixed"	"Arctic charr"	"Chordata"	"Actinopterygii"	"Salmoniformes"	"Salmonidae"	"Salvelinus"	"alpinus"	1	1.5	"Growth"	"ISR"	152	102	73.78325	74	95	78.5811	NA	NA	NA	NA	1993	1	1	1	1
+843	"SMD"	131	433	"Mixed"	"Arctic charr"	"Chordata"	"Actinopterygii"	"Salmoniformes"	"Salmonidae"	"Salvelinus"	"alpinus"	0	1.5	"Growth"	"ISR"	152	102	73.78325	67	74	115.42229	NA	NA	NA	NA	1993	1	1	0	1
+716	"SMD"	119	350	"Male"	"Brown trout"	"Chordata"	"Actinopterygii"	"Salmoniformes"	"Salmonidae"	"Salmo"	"trutta"	-1	7	"Reproduction"	"ISR"	6	34.33	75.34	6	100	233.84	NA	NA	NA	NA	2004	0	1	0	2
+1087	"SMD"	185	544	"Mixed"	"White-tailed deer"	"Chordata"	"Mammalia"	"Artiodactyla"	"Cervidae"	"Odocoileus"	"virginianus"	-1	0	"Movement"	"ESR"	7	-174.6	76.19763776	6	-162	65.40137613	NA	NA	NA	NA	1999	0	1	0	0
+199	"SMD"	24	114	"Mixed"	"Blue crab"	"Arthropoda"	"Malacostraca"	"Decapoda"	"Portunidae"	"Callinectes"	"sapidus"	0	1.5	"Survival"	"ISR"	60	-47.07	79.98	60	-65.32	79.68	NA	NA	NA	NA	2004	1	1	0	1
+546	"SMD"	101	277	"Mixed"	"Chum salmon"	"Chordata"	"Actinopterygii"	"Salmoniformes"	"Salmonidae"	"Oncorhynchus"	"keta"	-1	1.5	"Constitution"	"ISR"	39	806	81.18	11	881	86.23	NA	NA	NA	NA	2012	0	1	0	1
+837	"SMD"	131	432	"Mixed"	"Arctic charr"	"Chordata"	"Actinopterygii"	"Salmoniformes"	"Salmonidae"	"Salvelinus"	"alpinus"	1	1.5	"Growth"	"ISR"	97	135	84.08	63	158	100.88	NA	NA	NA	NA	1993	1	1	1	1
+844	"SMD"	131	433	"Mixed"	"Arctic charr"	"Chordata"	"Actinopterygii"	"Salmoniformes"	"Salmonidae"	"Salvelinus"	"alpinus"	0	1.5	"Growth"	"ISR"	97	135	84.08	51	148	166.01	NA	NA	NA	NA	1993	1	1	0	1
+910	"SMD"	149	475	"Mixed"	"Amur ratsnake"	"Chordata"	"Reptilia"	"Squamata"	"Colubridae"	"Elaphe"	"schrenckii"	-1	0	"Movement"	"ESR"	2	-101.2	86.12560595	5	-116.5	54.56005865	NA	NA	NA	NA	2011	0	1	0	0
+519	"SMD"	96	265	"Mixed"	"Gulf sturgeon"	"Chordata"	"Actinopterygii"	"Acipenseriformes"	"Acipenseridae"	"Acipenser"	"oxyrinchus"	-1	1.5	"Survival"	"ISR"	224	-11.22	86.28720096	1192	-26.66	85.43263371	NA	NA	NA	NA	2014	0	1	0	1
+402	"SMD"	65	208	"Mixed"	"Eastern hellbender"	"Chordata"	"Amphibia"	"Caudata"	"Cryptobranchidae"	"Cryptobranchus"	"alleganiensis"	-1	0	"Movement"	"ESR"	21	-58.03	86.61	20	-79.34	100.94	NA	NA	NA	NA	2018	0	1	0	0
+1074	"SMD"	181	539	"Male"	"Leopard"	"Chordata"	"Mammalia"	"Carnivora"	"Felidae"	"Panthera"	"pardus"	-1	0	"Movement"	"ESR"	5	-169.54	88.28639759	3	-220.7666667	51.91419202	NA	NA	NA	NA	2015	0	1	0	0
+218	"SMD"	27	117	"Mixed"	"Lacertid lizard"	"Chordata"	"Reptilia"	"Squamata"	"Lacertidae"	"Psammodromus"	"algirus"	-1	1.5	"Movement"	"ISR"	2	108	96.17	9	263	147	NA	NA	NA	NA	2009	0	1	0	1
+478	"SMD"	85	249	"Mixed"	"Chinook salmon"	"Chordata"	"Actinopterygii"	"Salmoniformes"	"Salmonidae"	"Oncorhynchus"	"tshawytscha"	-1	0.5	"Reproduction"	"ISR"	1630	84	104.02	1641	80.4	120.91	NA	NA	NA	NA	2018	0	1	0	1
+547	"SMD"	101	277	"Mixed"	"Chum salmon"	"Chordata"	"Actinopterygii"	"Salmoniformes"	"Salmonidae"	"Oncorhynchus"	"keta"	-1	1.5	"Constitution"	"ISR"	57	739	113.25	95	882	107.21	NA	NA	NA	NA	2012	0	1	0	1
+890	"SMD"	145	464	"Male"	"Gopher tortoise"	"Chordata"	"Reptilia"	"Testudines"	"Testudinidae"	"Gopherus"	"polyphemus"	-1	0	"Movement"	"ESR"	8	-220	116	11	-689	635	NA	NA	NA	NA	2014	0	1	0	0
+548	"SMD"	101	277	"Mixed"	"Chum salmon"	"Chordata"	"Actinopterygii"	"Salmoniformes"	"Salmonidae"	"Oncorhynchus"	"keta"	-1	1.5	"Constitution"	"ISR"	28	903	116.41	120	872	131.45	NA	NA	NA	NA	2012	0	1	0	1
+854	"SMD"	134	439	"Mixed"	"Atlantic salmon"	"Chordata"	"Actinopterygii"	"Salmoniformes"	"Salmonidae"	"Salmo"	"salar"	-1	5.5	"Reproduction"	"ISR"	40	962.3	134.4	68	859.7	121.8	NA	NA	NA	NA	1996	0	1	0	2
+173	"SMD"	21	92	"Female"	"Chinook salmon"	"Chordata"	"Actinopterygii"	"Salmoniformes"	"Salmonidae"	"Oncorhynchus"	"tshawytscha"	-1	1.5	"Reproduction"	"ISR"	163	1066	135	31	1009	155	NA	NA	NA	NA	2008	0	1	0	1
+549	"SMD"	101	277	"Mixed"	"Chum salmon"	"Chordata"	"Actinopterygii"	"Salmoniformes"	"Salmonidae"	"Oncorhynchus"	"keta"	-1	1.5	"Constitution"	"ISR"	41	828	140.87	125	855	111.8	NA	NA	NA	NA	2012	0	1	0	1
+550	"SMD"	101	277	"Mixed"	"Chum salmon"	"Chordata"	"Actinopterygii"	"Salmoniformes"	"Salmonidae"	"Oncorhynchus"	"keta"	-1	1.5	"Constitution"	"ISR"	39	804	143.63	102	835	121.19	NA	NA	NA	NA	2012	0	1	0	1
+340	"SMD"	50	179	"Mixed"	"Eastern box turtle"	"Chordata"	"Reptilia"	"Testudines"	"Emydidae"	"Terrapene"	"carolina"	-1	0	"Movement"	"ESR"	10	-377.1	146.1	10	-711.6	244.92	NA	NA	NA	NA	2008	0	1	0	0
+166	"SMD"	21	91	"Female"	"Chinook salmon"	"Chordata"	"Actinopterygii"	"Salmoniformes"	"Salmonidae"	"Oncorhynchus"	"tshawytscha"	-1	1.5	"Reproduction"	"ISR"	238	1049	151	68	1081	109	NA	NA	NA	NA	2008	0	1	0	1
+159	"SMD"	21	90	"Female"	"Chinook salmon"	"Chordata"	"Actinopterygii"	"Salmoniformes"	"Salmonidae"	"Oncorhynchus"	"tshawytscha"	-1	1.5	"Reproduction"	"ISR"	201	793	152	31	822	197	NA	NA	NA	NA	2008	0	1	0	1
+174	"SMD"	21	92	"Female"	"Chinook salmon"	"Chordata"	"Actinopterygii"	"Salmoniformes"	"Salmonidae"	"Oncorhynchus"	"tshawytscha"	-1	1.5	"Reproduction"	"ISR"	163	806	153	31	697	219	NA	NA	NA	NA	2008	0	1	0	1
+167	"SMD"	21	91	"Female"	"Chinook salmon"	"Chordata"	"Actinopterygii"	"Salmoniformes"	"Salmonidae"	"Oncorhynchus"	"tshawytscha"	-1	1.5	"Reproduction"	"ISR"	238	784	171	68	731	145	NA	NA	NA	NA	2008	0	1	0	1
+855	"SMD"	134	440	"Mixed"	"Atlantic salmon"	"Chordata"	"Actinopterygii"	"Salmoniformes"	"Salmonidae"	"Salmo"	"salar"	-1	5.5	"Reproduction"	"ISR"	21	1145.4	176.1	32	1023.4	125.4	NA	NA	NA	NA	1996	0	1	0	2
+160	"SMD"	21	90	"Female"	"Chinook salmon"	"Chordata"	"Actinopterygii"	"Salmoniformes"	"Salmonidae"	"Oncorhynchus"	"tshawytscha"	-1	1.5	"Reproduction"	"ISR"	201	1272	179	31	1302	214	NA	NA	NA	NA	2008	0	1	0	1
+213	"SMD"	26	116	"Mixed"	"Brown teal"	"Chordata"	"Aves"	"Anseriformes"	"Anatidae"	"Anas"	"chlorotis"	-1	1.5	"Constitution"	"ISR"	41	1556	216	7	1230	106	NA	NA	NA	NA	2006	0	1	0	1
+1081	"SMD"	184	543	"Male"	"Asian elephant"	"Chordata"	"Mammalia"	"Proboscidea"	"Elephantidae"	"Elephas"	"maximus"	-1	0	"Movement"	"ESR"	12	-282	222	12	-1090	1276	NA	NA	NA	NA	2012	0	1	0	0
+932	"SMD"	151	478	"Female"	"Desert tortoise"	"Chordata"	"Reptilia"	"Testudines"	"Testudinidae"	"Gopherus"	"agassizii"	-1	0	"Movement"	"ESR"	30	-459.7382	247.407397	7	-385.04888	222.3508233	NA	NA	NA	NA	2012	0	1	0	0
+933	"SMD"	151	478	"Female"	"Desert tortoise"	"Chordata"	"Reptilia"	"Testudines"	"Testudinidae"	"Gopherus"	"agassizii"	-1	0	"Movement"	"ESR"	30	-459.7382	247.407397	22	-445.5309	479.8872052	NA	NA	NA	NA	2012	0	1	0	0
+719	"SMD"	119	353	"Female"	"Brown trout"	"Chordata"	"Actinopterygii"	"Salmoniformes"	"Salmonidae"	"Salmo"	"trutta"	-1	7	"Reproduction"	"ISR"	6	116.17	252.83	6	18.17	23.16	NA	NA	NA	NA	2004	0	1	0	2
+341	"SMD"	50	179	"Mixed"	"Eastern box turtle"	"Chordata"	"Reptilia"	"Testudines"	"Emydidae"	"Terrapene"	"carolina"	-1	0	"Survival"	"ESR"	10	364	252.98	10	253	144.2	NA	NA	NA	NA	2008	0	1	0	0
+886	"SMD"	143	462	"Mixed"	"Woodchuck"	"Chordata"	"Mammalia"	"Rodentia"	"Sciuridae"	"Marmota"	"monax"	-1	0	"Movement"	"ESR"	14	-257	254.43	18	-490	407.29	NA	NA	NA	NA	2016	0	1	0	0
+934	"SMD"	151	478	"Female"	"Desert tortoise"	"Chordata"	"Reptilia"	"Testudines"	"Testudinidae"	"Gopherus"	"agassizii"	-1	0	"Movement"	"ESR"	30	-535.4429	292.1542341	24	-918.6723	990.9273283	NA	NA	NA	NA	2012	0	1	0	0
+935	"SMD"	151	478	"Female"	"Desert tortoise"	"Chordata"	"Reptilia"	"Testudines"	"Testudinidae"	"Gopherus"	"agassizii"	-1	0	"Movement"	"ESR"	30	-535.4429	292.1542341	9	-2574.20377	2280.33923	NA	NA	NA	NA	2012	0	1	0	0
+219	"SMD"	28	118	"Mixed"	"Orange mud crab"	"Arthropoda"	"Malacostraca"	"Decapoda"	"Portunidae"	"Scylla"	"olivacea"	-1	2.5	"Survival"	"ISR"	1789	56.05	292.44	446	29.12	21.03	NA	NA	NA	NA	2009	0	1	0	2
+200	"SMD"	25	115	"Mixed"	"Asian houbara"	"Chordata"	"Aves"	"Otidiformes"	"Otididae"	"Chlamydotis"	"macqueenii"	-1	1	"Movement"	"ISR"	15	-176.61	325.72	257	-106.66	129.53	NA	NA	NA	NA	2013	0	1	0	1
+220	"SMD"	29	119	"Female"	"Western capercaillie"	"Chordata"	"Aves"	"Galliformes"	"Phasianidae"	"Tetrao"	"urogallus"	-1	0	"Survival"	"ESR"	15	186	330	17	23	17	NA	NA	NA	NA	2009	0	1	0	0
+479	"SMD"	85	249	"Mixed"	"Chinook salmon"	"Chordata"	"Actinopterygii"	"Salmoniformes"	"Salmonidae"	"Oncorhynchus"	"tshawytscha"	-1	0.5	"Reproduction"	"ISR"	4561	95.6	339.4	7242	75	1306.89	NA	NA	NA	NA	2018	0	1	0	1
+920	"SMD"	151	477	"Male"	"Desert tortoise"	"Chordata"	"Reptilia"	"Testudines"	"Testudinidae"	"Gopherus"	"agassizii"	-1	0	"Movement"	"ESR"	21	-758.84	344.4287273	16	-984.2508	1000.282041	NA	NA	NA	NA	2012	0	1	0	0
+921	"SMD"	151	477	"Male"	"Desert tortoise"	"Chordata"	"Reptilia"	"Testudines"	"Testudinidae"	"Gopherus"	"agassizii"	-1	0	"Movement"	"ESR"	21	-758.84	344.4287273	4	-1876.40735	1601.300148	NA	NA	NA	NA	2012	0	1	0	0
+922	"SMD"	151	477	"Male"	"Desert tortoise"	"Chordata"	"Reptilia"	"Testudines"	"Testudinidae"	"Gopherus"	"agassizii"	-1	0	"Movement"	"ESR"	20	-633.0936	412.0266701	20	-2002.0709	1675.925305	NA	NA	NA	NA	2012	0	1	0	0
+936	"SMD"	151	478	"Female"	"Desert tortoise"	"Chordata"	"Reptilia"	"Testudines"	"Testudinidae"	"Gopherus"	"agassizii"	-1	0	"Movement"	"ESR"	29	-537.6331	417.8077368	30	-1783.0253	1120.196446	NA	NA	NA	NA	2012	0	1	0	0
+201	"SMD"	25	115	"Mixed"	"Asian houbara"	"Chordata"	"Aves"	"Otidiformes"	"Otididae"	"Chlamydotis"	"macqueenii"	-1	1	"Movement"	"ISR"	10	-501.91	446.42	254	-235.71	302.01	NA	NA	NA	NA	2013	0	1	0	1
+1096	"SMD"	189	549	"Mixed"	"Desert tortoise"	"Chordata"	"Reptilia"	"Testudines"	"Testudinidae"	"Gopherus"	"agassizii"	-1	0	"Movement"	"ESR"	114	226	480.4685213	54	215	286.5902999	NA	NA	NA	NA	2015	0	1	0	0
+1094	"SMD"	189	548	"Mixed"	"Desert tortoise"	"Chordata"	"Reptilia"	"Testudines"	"Testudinidae"	"Gopherus"	"agassizii"	-1	0	"Movement"	"ESR"	112	229	486.8182412	46	223	217.0345595	NA	NA	NA	NA	2015	0	1	0	0
+1078	"SMD"	182	541	"Female"	"White-tailed deer"	"Chordata"	"Mammalia"	"Artiodactyla"	"Cervidae"	"Odocoileus"	"virginianus"	-1	0	"Movement"	"ESR"	11	-1316	510.7602177	11	-2411	2016.507873	NA	NA	NA	NA	1990	0	1	0	0
+679	"SMD"	114	331	"Mixed"	"Atlantic salmon"	"Chordata"	"Actinopterygii"	"Salmoniformes"	"Salmonidae"	"Salmo"	"salar"	-1	1	"Movement"	"ISR"	15	-450	515.11	25	-168	200	NA	NA	NA	NA	2007	0	1	0	1
+202	"SMD"	25	115	"Mixed"	"Asian houbara"	"Chordata"	"Aves"	"Otidiformes"	"Otididae"	"Chlamydotis"	"macqueenii"	-1	1	"Movement"	"ISR"	4	-637.13	523.34	197	-272.03	388.79	NA	NA	NA	NA	2013	0	1	0	1
+221	"SMD"	29	120	"Male"	"Western capercaillie"	"Chordata"	"Aves"	"Galliformes"	"Phasianidae"	"Tetrao"	"urogallus"	-1	0	"Survival"	"ESR"	17	374	535	16	28	32	NA	NA	NA	NA	2009	0	1	0	0
+894	"SMD"	145	465	"Female"	"Gopher tortoise"	"Chordata"	"Reptilia"	"Testudines"	"Testudinidae"	"Gopherus"	"polyphemus"	-1	0	"Movement"	"ESR"	7	-681	544	9	-203	272	NA	NA	NA	NA	2014	0	1	0	0
+1051	"SMD"	174	526	"Male"	"Alpine ibex"	"Chordata"	"Mammalia"	"Artiodactyla"	"Bovidae"	"Capra"	"ibex"	-1	0	"Movement"	"ESR"	20	-480.3322	566.735901	12	-684.226775	824.5624647	NA	NA	NA	NA	2012	0	1	0	0
+414	"SMD"	68	214	"Male"	"Little owl"	"Chordata"	"Aves"	"Strigifformes"	"Strigidae"	"Athene"	"noctua"	-1	0.25	"Movement"	"ISR"	39	1896.77	596.71	4	316.13	209.22	NA	NA	NA	NA	2019	0	1	0	1
+923	"SMD"	151	477	"Male"	"Desert tortoise"	"Chordata"	"Reptilia"	"Testudines"	"Testudinidae"	"Gopherus"	"agassizii"	-1	0	"Movement"	"ESR"	19	-704.6113	602.393051	14	-674.3762	468.455123	NA	NA	NA	NA	2012	0	1	0	0
+924	"SMD"	151	477	"Male"	"Desert tortoise"	"Chordata"	"Reptilia"	"Testudines"	"Testudinidae"	"Gopherus"	"agassizii"	-1	0	"Movement"	"ESR"	19	-704.6113	602.393051	4	-863.12764	957.74725	NA	NA	NA	NA	2012	0	1	0	0
+891	"SMD"	145	464	"Male"	"Gopher tortoise"	"Chordata"	"Reptilia"	"Testudines"	"Testudinidae"	"Gopherus"	"polyphemus"	-1	0	"Movement"	"ESR"	8	-1390	641	11	-2556	2041	NA	NA	NA	NA	2014	0	1	0	0
+551	"SMD"	101	278	"Mixed"	"Chum salmon"	"Chordata"	"Actinopterygii"	"Salmoniformes"	"Salmonidae"	"Oncorhynchus"	"keta"	-1	1.5	"Constitution"	"ISR"	20	28	684	190	93	967	NA	NA	NA	NA	2012	0	1	0	1
+494	"SMD"	91	256	"Female"	"Chinook salmon"	"Chordata"	"Actinopterygii"	"Salmoniformes"	"Salmonidae"	"Oncorhynchus"	"tshawytscha"	-1	6.5	"Reproduction"	"ISR"	23	1772.96	724.38	27	1370.3	537.62	NA	NA	NA	NA	2016	0	1	0	2
+175	"SMD"	21	92	"Female"	"Chinook salmon"	"Chordata"	"Actinopterygii"	"Salmoniformes"	"Salmonidae"	"Oncorhynchus"	"tshawytscha"	-1	1.5	"Reproduction"	"ISR"	163	4347	746	31	3759	934	NA	NA	NA	NA	2008	0	1	0	1
+1095	"SMD"	189	548	"Mixed"	"Desert tortoise"	"Chordata"	"Reptilia"	"Testudines"	"Testudinidae"	"Gopherus"	"agassizii"	-1	0	"Movement"	"ESR"	112	50	751.3933723	46	100	2916.401893	NA	NA	NA	NA	2015	0	1	0	0
+161	"SMD"	21	90	"Female"	"Chinook salmon"	"Chordata"	"Actinopterygii"	"Salmoniformes"	"Salmonidae"	"Oncorhynchus"	"tshawytscha"	-1	1.5	"Reproduction"	"ISR"	201	3997	762	31	4095	890	NA	NA	NA	NA	2008	0	1	0	1
+391	"SMD"	62	204	"Mixed"	"Red-eared slider"	"Chordata"	"Reptilia"	"Testudines"	"Emydidae"	"Trachemys"	"scripta"	1	0	"Movement"	"ESR"	11	-363.61	794.03	11	-323.22	386.5	NA	NA	NA	NA	2015	1	1	1	0
+393	"SMD"	62	205	"Mixed"	"Red-eared slider"	"Chordata"	"Reptilia"	"Testudines"	"Emydidae"	"Trachemys"	"scripta"	0	0	"Movement"	"ESR"	11	-363.61	794.03	12	-498.92	404.45	NA	NA	NA	NA	2015	1	1	0	0
+552	"SMD"	101	278	"Mixed"	"Chum salmon"	"Chordata"	"Actinopterygii"	"Salmoniformes"	"Salmonidae"	"Oncorhynchus"	"keta"	-1	1.5	"Constitution"	"ISR"	20	16	797	120	81	968	NA	NA	NA	NA	2012	0	1	0	1
+1052	"SMD"	174	526	"Male"	"Alpine ibex"	"Chordata"	"Mammalia"	"Artiodactyla"	"Bovidae"	"Capra"	"ibex"	-1	0	"Movement"	"ESR"	19	-732.8961	806.1358603	14	-1984.57275	2136.229677	NA	NA	NA	NA	2012	0	1	0	0
+553	"SMD"	101	278	"Mixed"	"Chum salmon"	"Chordata"	"Actinopterygii"	"Salmoniformes"	"Salmonidae"	"Oncorhynchus"	"keta"	-1	1.5	"Constitution"	"ISR"	20	57	809	121	94	904	NA	NA	NA	NA	2012	0	1	0	1
+1097	"SMD"	189	549	"Mixed"	"Desert tortoise"	"Chordata"	"Reptilia"	"Testudines"	"Testudinidae"	"Gopherus"	"agassizii"	-1	0	"Movement"	"ESR"	114	46	822.1350254	54	97	955.3009997	NA	NA	NA	NA	2015	0	1	0	0
+168	"SMD"	21	91	"Female"	"Chinook salmon"	"Chordata"	"Actinopterygii"	"Salmoniformes"	"Salmonidae"	"Oncorhynchus"	"tshawytscha"	-1	1.5	"Reproduction"	"ISR"	238	4076	845	68	3920	670	NA	NA	NA	NA	2008	0	1	0	1
+554	"SMD"	101	278	"Mixed"	"Chum salmon"	"Chordata"	"Actinopterygii"	"Salmoniformes"	"Salmonidae"	"Oncorhynchus"	"keta"	-1	1.5	"Constitution"	"ISR"	20	18	893	89	39	907	NA	NA	NA	NA	2012	0	1	0	1
+555	"SMD"	101	278	"Mixed"	"Chum salmon"	"Chordata"	"Actinopterygii"	"Salmoniformes"	"Salmonidae"	"Oncorhynchus"	"keta"	-1	1.5	"Constitution"	"ISR"	20	12	897	80	48	961	NA	NA	NA	NA	2012	0	1	0	1
+556	"SMD"	101	278	"Mixed"	"Chum salmon"	"Chordata"	"Actinopterygii"	"Salmoniformes"	"Salmonidae"	"Oncorhynchus"	"keta"	-1	1.5	"Constitution"	"ISR"	20	50	978	92	36	988	NA	NA	NA	NA	2012	0	1	0	1
+557	"SMD"	101	278	"Mixed"	"Chum salmon"	"Chordata"	"Actinopterygii"	"Salmoniformes"	"Salmonidae"	"Oncorhynchus"	"keta"	-1	1.5	"Constitution"	"ISR"	20	11	1016	43	10	953	NA	NA	NA	NA	2012	0	1	0	1
+895	"SMD"	145	465	"Female"	"Gopher tortoise"	"Chordata"	"Reptilia"	"Testudines"	"Testudinidae"	"Gopherus"	"polyphemus"	-1	0	"Movement"	"ESR"	7	-1300	1018	9	-642	915	NA	NA	NA	NA	2014	0	1	0	0
+754	"SMD"	124	378	"Mixed"	"Chinook salmon"	"Chordata"	"Actinopterygii"	"Salmoniformes"	"Salmonidae"	"Oncorhynchus"	"tshawytscha"	-1	-1	"Constitution"	"ISR"	27	3802.11	1269.85	29	4258.05	1598.05	NA	NA	NA	NA	2019	0	0	0	0
+1091	"SMD"	186	545	"Mixed"	"Western rattlesnake"	"Chordata"	"Reptilia"	"Squamata"	"Viperidae"	"Crotalus"	"oreganus"	-1	0	"Movement"	"ESR"	14	-5838	1271	14	-7188	1369	NA	NA	NA	NA	2009	0	1	0	0
+715	"SMD"	119	349	"Male"	"Brown trout"	"Chordata"	"Actinopterygii"	"Salmoniformes"	"Salmonidae"	"Salmo"	"trutta"	-1	7	"Reproduction"	"ISR"	6	1946	1297.64	6	1133.67	1386.7	NA	NA	NA	NA	2004	0	1	0	2
+718	"SMD"	119	352	"Female"	"Brown trout"	"Chordata"	"Actinopterygii"	"Salmoniformes"	"Salmonidae"	"Salmo"	"trutta"	-1	7	"Reproduction"	"ISR"	6	1448	1322.7	6	1631.67	1115.11	NA	NA	NA	NA	2004	0	1	0	2
+415	"SMD"	68	214	"Female"	"Little owl"	"Chordata"	"Aves"	"Strigifformes"	"Strigidae"	"Athene"	"noctua"	1	0.25	"Movement"	"ISR"	32	3934.792	1795.616	5	4092.7925	2662.31645	NA	NA	NA	NA	2019	1	1	1	1
+416	"SMD"	68	214	"Female"	"Little owl"	"Chordata"	"Aves"	"Strigifformes"	"Strigidae"	"Athene"	"noctua"	0	0.25	"Movement"	"ISR"	32	3934.79	1795.62	5	1592.92	980.71	NA	NA	NA	NA	2019	1	1	0	1
+496	"SMD"	91	256	"Female"	"Chinook salmon"	"Chordata"	"Actinopterygii"	"Salmoniformes"	"Salmonidae"	"Oncorhynchus"	"tshawytscha"	-1	6.5	"Reproduction"	"ISR"	23	5374.36	1982.64	27	4602.4	1822.14	NA	NA	NA	NA	2016	0	1	0	2
+748	"SMD"	124	375	"Mixed"	"Chinook salmon"	"Chordata"	"Actinopterygii"	"Salmoniformes"	"Salmonidae"	"Oncorhynchus"	"tshawytscha"	-1	-1	"Constitution"	"ISR"	47	4840.66	2393.43	30	5555.9	2710.58	NA	NA	NA	NA	2019	0	0	0	0
+752	"SMD"	124	377	"Mixed"	"Chinook salmon"	"Chordata"	"Actinopterygii"	"Salmoniformes"	"Salmonidae"	"Oncorhynchus"	"tshawytscha"	-1	-1	"Constitution"	"ISR"	26	4474.23	2426.04	47	4059.62	1669.26	NA	NA	NA	NA	2019	0	0	0	0
+388	"SMD"	60	200	"Mixed"	"Eastern box turtle"	"Chordata"	"Reptilia"	"Testudines"	"Emydidae"	"Terrapene"	"carolina"	-1	0	"Movement"	"ESR"	7	-2880	2590	19	-2026	1488	NA	NA	NA	NA	2017	0	1	0	0
+750	"SMD"	124	376	"Mixed"	"Chinook salmon"	"Chordata"	"Actinopterygii"	"Salmoniformes"	"Salmonidae"	"Oncorhynchus"	"tshawytscha"	-1	-1	"Constitution"	"ISR"	27	4792.62	2696.3	20	4413.21	2369.98	NA	NA	NA	NA	2019	0	0	0	0
+746	"SMD"	124	374	"Mixed"	"Chinook salmon"	"Chordata"	"Actinopterygii"	"Salmoniformes"	"Salmonidae"	"Oncorhynchus"	"tshawytscha"	-1	-1	"Constitution"	"ISR"	8	5230.36	2753.06	13	5084.74	3023.72	NA	NA	NA	NA	2019	0	0	0	0
+392	"SMD"	62	204	"Mixed"	"Red-eared slider"	"Chordata"	"Reptilia"	"Testudines"	"Emydidae"	"Trachemys"	"scripta"	1	0	"Movement"	"ESR"	11	-4550.26	2847.3	11	-3783.09	2357.97	NA	NA	NA	NA	2015	1	1	1	0
+394	"SMD"	62	205	"Mixed"	"Red-eared slider"	"Chordata"	"Reptilia"	"Testudines"	"Emydidae"	"Trachemys"	"scripta"	0	0	"Movement"	"ESR"	11	-4550.26	2847.3	12	-8622.06	5553.63	NA	NA	NA	NA	2015	1	1	0	0
+744	"SMD"	124	373	"Mixed"	"Chinook salmon"	"Chordata"	"Actinopterygii"	"Salmoniformes"	"Salmonidae"	"Oncorhynchus"	"tshawytscha"	-1	-1	"Constitution"	"ISR"	32	7821.14	2898.23	11	6629.07	2843.77	NA	NA	NA	NA	2019	0	0	0	0
+887	"SMD"	144	463	"Mixed"	"European bison"	"Chordata"	"Mammalia"	"Artiodactyla"	"Bovidae"	"Bison"	"bonasus"	-1	1.5	"Constitution"	"ISR"	41	-8954.8	8848.88	5	-29323.59	28520	NA	NA	NA	NA	2018	0	1	0	1
+481	"SMD"	86	250	"Mixed"	"Mulloway"	"Chordata"	"Actinopterygii"	"Perciformes"	"Sciaenidae"	"Argyrosomus"	"japonicus"	-1	0.5	"Movement"	"ISR"	4	-528084.5	72027.8	4	-804423.4	83567.4	NA	NA	NA	NA	2017	0	1	0	1
+1	"LOR"	1	1	"Female"	"Jewelled gecko"	"Chordata"	"Reptilia"	"Squamata"	"Diplodactylidae"	"Naultinus"	"elegans"	1	0	"Survival"	"ESR"	NA	NA	NA	NA	NA	NA	9	6	0	0	2017	1	1	1	0
+5	"LOR"	1	2	"Female"	"Jewelled gecko"	"Chordata"	"Reptilia"	"Squamata"	"Diplodactylidae"	"Naultinus"	"elegans"	0	0	"Survival"	"ESR"	NA	NA	NA	NA	NA	NA	9	7	0	0	2017	1	1	0	0
+9	"LOR"	1	3	"Male"	"Jewelled gecko"	"Chordata"	"Reptilia"	"Squamata"	"Diplodactylidae"	"Naultinus"	"elegans"	1	0	"Survival"	"ESR"	NA	NA	NA	NA	NA	NA	8	4	1	0	2017	1	1	1	0
+13	"LOR"	1	4	"Male"	"Jewelled gecko"	"Chordata"	"Reptilia"	"Squamata"	"Diplodactylidae"	"Naultinus"	"elegans"	0	0	"Survival"	"ESR"	NA	NA	NA	NA	NA	NA	8	3	1	0	2017	1	1	0	0
+29	"LOR"	4	17	"Mixed"	"Queen conch"	"Mollusca"	"Gastropoda"	"Littorinimorpha"	"Strombidae"	"Strombus"	"gigas"	-1	0.5	"Survival"	"ISR"	NA	NA	NA	NA	NA	NA	837	480	1706	2072	1994	0	1	0	1
+33	"LOR"	4	19	"Mixed"	"Queen conch"	"Mollusca"	"Gastropoda"	"Littorinimorpha"	"Strombidae"	"Strombus"	"gigas"	-1	0.5	"Survival"	"ISR"	NA	NA	NA	NA	NA	NA	582	277	1885	2240	1994	0	1	0	1
+37	"LOR"	4	21	"Mixed"	"Queen conch"	"Mollusca"	"Gastropoda"	"Littorinimorpha"	"Strombidae"	"Strombus"	"gigas"	-1	0.5	"Survival"	"ISR"	NA	NA	NA	NA	NA	NA	542	206	1910	2296	1994	0	1	0	1
+49	"LOR"	7	27	"Mixed"	"Atlantic salmon"	"Chordata"	"Actinopterygii"	"Salmoniformes"	"Salmonidae"	"Salmo"	"salar"	-1	7	"Survival"	"ISR"	NA	NA	NA	NA	NA	NA	1297	265	11886	9830	1985	0	1	0	2
+50	"LOR"	7	28	"Mixed"	"Atlantic salmon"	"Chordata"	"Actinopterygii"	"Salmoniformes"	"Salmonidae"	"Salmo"	"salar"	-1	7	"Survival"	"ISR"	NA	NA	NA	NA	NA	NA	797	268	10600	14993	1985	0	1	0	2
+51	"LOR"	7	29	"Mixed"	"Atlantic salmon"	"Chordata"	"Actinopterygii"	"Salmoniformes"	"Salmonidae"	"Salmo"	"salar"	-1	7	"Survival"	"ISR"	NA	NA	NA	NA	NA	NA	711	157	7565	9600	1985	0	1	0	2
+52	"LOR"	7	30	"Mixed"	"Atlantic salmon"	"Chordata"	"Actinopterygii"	"Salmoniformes"	"Salmonidae"	"Salmo"	"salar"	-1	7	"Survival"	"ISR"	NA	NA	NA	NA	NA	NA	343	223	10865	10482	1985	0	1	0	2
+53	"LOR"	7	31	"Mixed"	"Atlantic salmon"	"Chordata"	"Actinopterygii"	"Salmoniformes"	"Salmonidae"	"Salmo"	"salar"	-1	7	"Survival"	"ISR"	NA	NA	NA	NA	NA	NA	508	279	8926	18647	1985	0	1	0	2
+54	"LOR"	7	32	"Mixed"	"Atlantic salmon"	"Chordata"	"Actinopterygii"	"Salmoniformes"	"Salmonidae"	"Salmo"	"salar"	-1	7	"Survival"	"ISR"	NA	NA	NA	NA	NA	NA	601	300	9780	17570	1985	0	1	0	2
+55	"LOR"	8	33	"Mixed"	"Black-footed ferret"	"Chordata"	"Mammalia"	"Carnivora"	"Mustelidae"	"Mustela"	"nigripes"	-1	0.5	"Constitution"	"ISR"	NA	NA	NA	NA	NA	NA	161	14	17	7	2008	0	1	0	1
+58	"LOR"	10	35	"Mixed"	"Burrowing owl"	"Chordata"	"Aves"	"Strigifformes"	"Strigidae"	"Athene"	"cunicularia"	-1	1.5	"Survival"	"ISR"	NA	NA	NA	NA	NA	NA	39	5	18	3	2006	0	1	0	1
+59	"LOR"	10	35	"Mixed"	"Burrowing owl"	"Chordata"	"Aves"	"Strigifformes"	"Strigidae"	"Athene"	"cunicularia"	-1	1.5	"Reproduction"	"ISR"	NA	NA	NA	NA	NA	NA	60	10	13	16	2006	0	1	0	1
+60	"LOR"	10	35	"Mixed"	"Burrowing owl"	"Chordata"	"Aves"	"Strigifformes"	"Strigidae"	"Athene"	"cunicularia"	-1	1.5	"Reproduction"	"ISR"	NA	NA	NA	NA	NA	NA	37	18	9	0	2006	0	1	0	1
+61	"LOR"	10	35	"Mixed"	"Burrowing owl"	"Chordata"	"Aves"	"Strigifformes"	"Strigidae"	"Athene"	"cunicularia"	-1	1.5	"Reproduction"	"ISR"	NA	NA	NA	NA	NA	NA	210	43	83	27	2006	0	1	0	1
+62	"LOR"	10	36	"Mixed"	"Burrowing owl"	"Chordata"	"Aves"	"Strigifformes"	"Strigidae"	"Athene"	"cunicularia"	-1	1.5	"Survival"	"ISR"	NA	NA	NA	NA	NA	NA	7	3	2	6	2006	0	1	0	1
+75	"LOR"	13	41	"Mixed"	"Puaiohi"	"Chordata"	"Aves"	"Passeriformes"	"Turdidae"	"Myadestes"	"palmeri"	-1	1.5	"Reproduction"	"ISR"	NA	NA	NA	NA	NA	NA	77	13	22	0	2006	0	1	0	1
+142	"LOR"	19	83	"Mixed"	"Chinook salmon"	"Chordata"	"Actinopterygii"	"Salmoniformes"	"Salmonidae"	"Oncorhynchus"	"tshawytscha"	-1	-1	"Survival"	"ISR"	NA	NA	NA	NA	NA	NA	2129	17605	11	291	2001	0	0	0	0
+143	"LOR"	19	84	"Mixed"	"Chinook salmon"	"Chordata"	"Actinopterygii"	"Salmoniformes"	"Salmonidae"	"Oncorhynchus"	"tshawytscha"	-1	-1	"Survival"	"ISR"	NA	NA	NA	NA	NA	NA	2132	17825	8	71	2001	0	0	0	0
+144	"LOR"	19	85	"Mixed"	"Steelhead trout"	"Chordata"	"Actinopterygii"	"Salmoniformes"	"Salmonidae"	"Oncorhynchus"	"mykiss"	-1	-1	"Survival"	"ISR"	NA	NA	NA	NA	NA	NA	1244	4601	30	108	2001	0	0	0	0
+145	"LOR"	19	86	"Mixed"	"Steelhead trout"	"Chordata"	"Actinopterygii"	"Salmoniformes"	"Salmonidae"	"Oncorhynchus"	"mykiss"	-1	-1	"Survival"	"ISR"	NA	NA	NA	NA	NA	NA	1125	4067	149	642	2001	0	0	0	0
+178	"LOR"	22	94	"Mixed"	"Sea trout"	"Chordata"	"Actinopterygii"	"Salmoniformes"	"Salmonidae"	"Salmo"	"trutta"	-1	1	"Survival"	"ISR"	NA	NA	NA	NA	NA	NA	30	25	0	5	2014	0	1	0	1
+179	"LOR"	22	95	"Mixed"	"Sea trout"	"Chordata"	"Actinopterygii"	"Salmoniformes"	"Salmonidae"	"Salmo"	"trutta"	-1	1	"Survival"	"ISR"	NA	NA	NA	NA	NA	NA	31	12	0	4	2014	0	1	0	1
+180	"LOR"	22	96	"Mixed"	"Sea trout"	"Chordata"	"Actinopterygii"	"Salmoniformes"	"Salmonidae"	"Salmo"	"trutta"	-1	1	"Survival"	"ISR"	NA	NA	NA	NA	NA	NA	30	19	0	6	2014	0	1	0	1
+181	"LOR"	22	97	"Mixed"	"Sea trout"	"Chordata"	"Actinopterygii"	"Salmoniformes"	"Salmonidae"	"Salmo"	"trutta"	-1	1	"Survival"	"ISR"	NA	NA	NA	NA	NA	NA	30	12	1	0	2014	0	1	0	1
+192	"LOR"	23	108	"Mixed"	"Asian houbara"	"Chordata"	"Aves"	"Otidiformes"	"Otididae"	"Chlamydotis"	"macqueenii"	-1	2.5	"Survival"	"ISR"	NA	NA	NA	NA	NA	NA	37	9	15	33	2018	0	1	0	2
+193	"LOR"	23	109	"Mixed"	"Asian houbara"	"Chordata"	"Aves"	"Otidiformes"	"Otididae"	"Chlamydotis"	"macqueenii"	-1	2.5	"Survival"	"ISR"	NA	NA	NA	NA	NA	NA	45	9	13	33	2018	0	1	0	2
+214	"LOR"	27	117	"Mixed"	"Lacertid lizard"	"Chordata"	"Reptilia"	"Squamata"	"Lacertidae"	"Psammodromus"	"algirus"	-1	1.5	"Survival"	"ISR"	NA	NA	NA	NA	NA	NA	4	19	26	168	2009	0	1	0	1
+249	"LOR"	33	139	"Mixed"	"Trumpeter swan"	"Chordata"	"Aves"	"Anseriformes"	"Anatidae"	"Cygnus"	"buccinator"	0	2.5	"Survival"	"ISR"	NA	NA	NA	NA	NA	NA	14	34	15	17	2002	1	1	0	2
+250	"LOR"	33	139	"Mixed"	"Trumpeter swan"	"Chordata"	"Aves"	"Anseriformes"	"Anatidae"	"Cygnus"	"buccinator"	0	2.5	"Survival"	"ISR"	NA	NA	NA	NA	NA	NA	4	11	25	40	2002	1	1	0	2
+251	"LOR"	33	139	"Mixed"	"Trumpeter swan"	"Chordata"	"Aves"	"Anseriformes"	"Anatidae"	"Cygnus"	"buccinator"	0	2.5	"Survival"	"ISR"	NA	NA	NA	NA	NA	NA	0	3	29	48	2002	1	1	0	2
+252	"LOR"	33	140	"Mixed"	"Trumpeter swan"	"Chordata"	"Aves"	"Anseriformes"	"Anatidae"	"Cygnus"	"buccinator"	1	2.5	"Survival"	"ISR"	NA	NA	NA	NA	NA	NA	14	44	15	24	2002	1	1	1	2
+253	"LOR"	33	140	"Mixed"	"Trumpeter swan"	"Chordata"	"Aves"	"Anseriformes"	"Anatidae"	"Cygnus"	"buccinator"	1	2.5	"Survival"	"ISR"	NA	NA	NA	NA	NA	NA	4	8	25	60	2002	1	1	1	2
+254	"LOR"	33	140	"Mixed"	"Trumpeter swan"	"Chordata"	"Aves"	"Anseriformes"	"Anatidae"	"Cygnus"	"buccinator"	1	2.5	"Survival"	"ISR"	NA	NA	NA	NA	NA	NA	0	2	29	66	2002	1	1	1	2
+255	"LOR"	33	141	"Mixed"	"Trumpeter swan"	"Chordata"	"Aves"	"Anseriformes"	"Anatidae"	"Cygnus"	"buccinator"	2	2.5	"Survival"	"ISR"	NA	NA	NA	NA	NA	NA	14	31	15	31	2002	1	1	1	2
+256	"LOR"	33	141	"Mixed"	"Trumpeter swan"	"Chordata"	"Aves"	"Anseriformes"	"Anatidae"	"Cygnus"	"buccinator"	2	2.5	"Survival"	"ISR"	NA	NA	NA	NA	NA	NA	4	10	25	52	2002	1	1	1	2
+257	"LOR"	33	141	"Mixed"	"Trumpeter swan"	"Chordata"	"Aves"	"Anseriformes"	"Anatidae"	"Cygnus"	"buccinator"	2	2.5	"Survival"	"ISR"	NA	NA	NA	NA	NA	NA	0	6	29	56	2002	1	1	1	2
+258	"LOR"	33	142	"Mixed"	"Trumpeter swan"	"Chordata"	"Aves"	"Anseriformes"	"Anatidae"	"Cygnus"	"buccinator"	3	2.5	"Survival"	"ISR"	NA	NA	NA	NA	NA	NA	14	6	15	10	2002	1	1	1	2
+259	"LOR"	33	142	"Mixed"	"Trumpeter swan"	"Chordata"	"Aves"	"Anseriformes"	"Anatidae"	"Cygnus"	"buccinator"	3	2.5	"Survival"	"ISR"	NA	NA	NA	NA	NA	NA	4	3	25	13	2002	1	1	1	2
+260	"LOR"	33	142	"Mixed"	"Trumpeter swan"	"Chordata"	"Aves"	"Anseriformes"	"Anatidae"	"Cygnus"	"buccinator"	3	2.5	"Survival"	"ISR"	NA	NA	NA	NA	NA	NA	0	2	29	14	2002	1	1	1	2
+261	"LOR"	33	143	"Mixed"	"Trumpeter swan"	"Chordata"	"Aves"	"Anseriformes"	"Anatidae"	"Cygnus"	"buccinator"	4	2.5	"Survival"	"ISR"	NA	NA	NA	NA	NA	NA	14	17	15	52	2002	1	1	1	2
+262	"LOR"	33	143	"Mixed"	"Trumpeter swan"	"Chordata"	"Aves"	"Anseriformes"	"Anatidae"	"Cygnus"	"buccinator"	4	2.5	"Survival"	"ISR"	NA	NA	NA	NA	NA	NA	4	8	25	61	2002	1	1	1	2
+263	"LOR"	33	143	"Mixed"	"Trumpeter swan"	"Chordata"	"Aves"	"Anseriformes"	"Anatidae"	"Cygnus"	"buccinator"	4	2.5	"Survival"	"ISR"	NA	NA	NA	NA	NA	NA	0	2	29	67	2002	1	1	1	2
+269	"LOR"	36	147	"Mixed"	"Queen conch"	"Mollusca"	"Gastropoda"	"Littorinimorpha"	"Strombidae"	"Strombus"	"gigas"	-1	-1	"Survival"	"ISR"	NA	NA	NA	NA	NA	NA	35	16	15	34	1994	0	0	0	0
+270	"LOR"	37	148	"Mixed"	"Piping plover"	"Chordata"	"Aves"	"Charadriiformes"	"Charadriidae"	"Charadrius"	"melodus"	-1	0.5	"Survival"	"ISR"	NA	NA	NA	NA	NA	NA	34	12	32	53	2011	0	1	0	1
+284	"LOR"	40	157	"Mixed"	"Southern rock lobster"	"Arthropoda"	"Malacostraca"	"Decapoda"	"Palinuridae"	"Jasus"	"edwardsii"	-1	0.25	"Survival"	"ISR"	NA	NA	NA	NA	NA	NA	140	242	59	359	2006	0	1	0	1
+286	"LOR"	40	158	"Mixed"	"Southern rock lobster"	"Arthropoda"	"Malacostraca"	"Decapoda"	"Palinuridae"	"Jasus"	"edwardsii"	-1	0.25	"Survival"	"ISR"	NA	NA	NA	NA	NA	NA	76	108	77	319	2006	0	1	0	1
+288	"LOR"	40	159	"Mixed"	"Southern rock lobster"	"Arthropoda"	"Malacostraca"	"Decapoda"	"Palinuridae"	"Jasus"	"edwardsii"	-1	0.25	"Survival"	"ISR"	NA	NA	NA	NA	NA	NA	50	59	164	191	2006	0	1	0	1
+290	"LOR"	40	160	"Mixed"	"Southern rock lobster"	"Arthropoda"	"Malacostraca"	"Decapoda"	"Palinuridae"	"Jasus"	"edwardsii"	-1	0.25	"Survival"	"ISR"	NA	NA	NA	NA	NA	NA	46	116	56	137	2006	0	1	0	1
+298	"LOR"	42	163	"Mixed"	"Eastern painted turtle"	"Chordata"	"Reptilia"	"Testudines"	"Emydidae"	"Chrysemys"	"picta"	1	0	"Survival"	"ESR"	NA	NA	NA	NA	NA	NA	60	10	0	10	2018	1	1	1	0
+304	"LOR"	42	164	"Mixed"	"Eastern painted turtle"	"Chordata"	"Reptilia"	"Testudines"	"Emydidae"	"Chrysemys"	"picta"	0	0	"Survival"	"ESR"	NA	NA	NA	NA	NA	NA	60	28	0	2	2018	1	1	0	0
+316	"LOR"	45	168	"Mixed"	"Desert tortoise"	"Chordata"	"Reptilia"	"Testudines"	"Testudinidae"	"Gopherus"	"agassizii"	-1	0	"Survival"	"ESR"	NA	NA	NA	NA	NA	NA	121	268	28	89	2010	0	1	0	0
+317	"LOR"	45	169	"Mixed"	"Desert tortoise"	"Chordata"	"Reptilia"	"Testudines"	"Testudinidae"	"Gopherus"	"agassizii"	-1	0	"Survival"	"ESR"	NA	NA	NA	NA	NA	NA	111	268	29	89	2010	0	1	0	0
+334	"LOR"	49	177	"Mixed"	"Eastern box turtle"	"Chordata"	"Reptilia"	"Testudines"	"Emydidae"	"Terrapene"	"carolina"	-1	0	"Survival"	"ESR"	NA	NA	NA	NA	NA	NA	16	6	11	9	2013	0	1	0	0
+336	"LOR"	49	178	"Mixed"	"Eastern box turtle"	"Chordata"	"Reptilia"	"Testudines"	"Emydidae"	"Terrapene"	"carolina"	-1	0	"Survival"	"ESR"	NA	NA	NA	NA	NA	NA	16	7	11	11	2013	0	1	0	0
+338	"LOR"	50	179	"Mixed"	"Eastern box turtle"	"Chordata"	"Reptilia"	"Testudines"	"Emydidae"	"Terrapene"	"carolina"	-1	0	"Survival"	"ESR"	NA	NA	NA	NA	NA	NA	10	5	0	5	2008	0	1	0	0
+343	"LOR"	52	181	"Mixed"	"Black ratsnake"	"Chordata"	"Reptilia"	"Squamata"	"Colubridae"	"Pantherophis"	"obsoletus"	-1	0	"Survival"	"ESR"	NA	NA	NA	NA	NA	NA	8	5	3	0	2017	0	1	0	0
+346	"LOR"	52	182	"Mixed"	"Black ratsnake"	"Chordata"	"Reptilia"	"Squamata"	"Colubridae"	"Pantherophis"	"obsoletus"	1	0.25	"Survival"	"ISR"	NA	NA	NA	NA	NA	NA	8	5	3	4	2017	1	1	1	1
+349	"LOR"	52	183	"Mixed"	"Black ratsnake"	"Chordata"	"Reptilia"	"Squamata"	"Colubridae"	"Pantherophis"	"obsoletus"	0	0.25	"Survival"	"ISR"	NA	NA	NA	NA	NA	NA	8	3	3	7	2017	1	1	0	1
+372	"LOR"	56	192	"Mixed"	"Steelhead trout"	"Chordata"	"Actinopterygii"	"Salmoniformes"	"Salmonidae"	"Oncorhynchus"	"mykiss"	-1	1.5	"Survival"	"ISR"	NA	NA	NA	NA	NA	NA	18	5	169	145	2015	0	1	0	1
+385	"LOR"	59	199	"Male"	"Desert tortoise"	"Chordata"	"Reptilia"	"Testudines"	"Testudinidae"	"Gopherus"	"agassizii"	-1	0	"Reproduction"	"ESR"	NA	NA	NA	NA	NA	NA	35	0	0	35	2017	0	1	0	0
+386	"LOR"	60	200	"Mixed"	"Eastern box turtle"	"Chordata"	"Reptilia"	"Testudines"	"Emydidae"	"Terrapene"	"carolina"	-1	0	"Survival"	"ESR"	NA	NA	NA	NA	NA	NA	7	18	0	1	2017	0	1	0	0
+398	"LOR"	64	207	"Mixed"	"Egyptian tortoise"	"Chordata"	"Reptilia"	"Testudines"	"Testudinidae"	"Testudo"	"kleinmanni"	-1	0	"Survival"	"ESR"	NA	NA	NA	NA	NA	NA	8	5	0	2	2015	0	1	0	0
+405	"LOR"	66	210	"Mixed"	"Eastern hellbender"	"Chordata"	"Amphibia"	"Caudata"	"Cryptobranchidae"	"Cryptobranchus"	"alleganiensis"	-1	0	"Survival"	"ESR"	NA	NA	NA	NA	NA	NA	6	5	5	6	2017	0	1	0	0
+412	"LOR"	68	213	"Mixed"	"Little owl"	"Chordata"	"Aves"	"Strigifformes"	"Strigidae"	"Athene"	"noctua"	1	0.25	"Reproduction"	"ISR"	NA	NA	NA	NA	NA	NA	16	5	191	40	2019	1	1	1	1
+413	"LOR"	68	213	"Mixed"	"Little owl"	"Chordata"	"Aves"	"Strigifformes"	"Strigidae"	"Athene"	"noctua"	0	0.25	"Reproduction"	"ISR"	NA	NA	NA	NA	NA	NA	25	9	150	65	2019	1	1	0	1
+417	"LOR"	69	215	"Mixed"	"Ring-necked pheasant"	"Chordata"	"Aves"	"Galliformes"	"Phasianidae"	"Phasianus"	"colchicus"	-1	1.5	"Reproduction"	"ISR"	NA	NA	NA	NA	NA	NA	49	18	5	13	1988	0	1	0	1
+418	"LOR"	69	215	"Mixed"	"Ring-necked pheasant"	"Chordata"	"Aves"	"Galliformes"	"Phasianidae"	"Phasianus"	"colchicus"	-1	1.5	"Reproduction"	"ISR"	NA	NA	NA	NA	NA	NA	15	7	19	8	1988	0	1	0	1
+419	"LOR"	69	215	"Mixed"	"Ring-necked pheasant"	"Chordata"	"Aves"	"Galliformes"	"Phasianidae"	"Phasianus"	"colchicus"	-1	1.5	"Reproduction"	"ISR"	NA	NA	NA	NA	NA	NA	28	3	6	12	1988	0	1	0	1
+420	"LOR"	69	216	"Male"	"Ring-necked pheasant"	"Chordata"	"Aves"	"Galliformes"	"Phasianidae"	"Phasianus"	"colchicus"	-1	1.5	"Survival"	"ISR"	NA	NA	NA	NA	NA	NA	54	31	15	29	1988	0	1	0	1
+422	"LOR"	69	217	"Female"	"Ring-necked pheasant"	"Chordata"	"Aves"	"Galliformes"	"Phasianidae"	"Phasianus"	"colchicus"	-1	1.5	"Survival"	"ISR"	NA	NA	NA	NA	NA	NA	25	3	9	12	1988	0	1	0	1
+423	"LOR"	70	218	"Mixed"	"Ring-necked pheasant"	"Chordata"	"Aves"	"Galliformes"	"Phasianidae"	"Phasianus"	"colchicus"	-1	1.5	"Reproduction"	"ISR"	NA	NA	NA	NA	NA	NA	26	21	4	14	1992	0	1	0	1
+424	"LOR"	70	218	"Mixed"	"Ring-necked pheasant"	"Chordata"	"Aves"	"Galliformes"	"Phasianidae"	"Phasianus"	"colchicus"	-1	1.5	"Reproduction"	"ISR"	NA	NA	NA	NA	NA	NA	23	17	3	4	1992	0	1	0	1
+425	"LOR"	70	218	"Mixed"	"Ring-necked pheasant"	"Chordata"	"Aves"	"Galliformes"	"Phasianidae"	"Phasianus"	"colchicus"	-1	1.5	"Reproduction"	"ISR"	NA	NA	NA	NA	NA	NA	17	12	13	23	1992	0	1	0	1
+444	"LOR"	74	227	"Mixed"	"Dugite"	"Chordata"	"Reptilia"	"Squamata"	"Elapidae"	"Pseudonaja"	"affinis"	-1	0	"Survival"	"ESR"	NA	NA	NA	NA	NA	NA	3	0	6	4	2018	0	1	0	0
+451	"LOR"	77	231	"Mixed"	"Tiger snake"	"Chordata"	"Reptilia"	"Squamata"	"Elapidae"	"Notechis"	"scutatus"	-1	0	"Survival"	"ESR"	NA	NA	NA	NA	NA	NA	4	7	2	1	2005	0	1	0	0
+454	"LOR"	78	232	"Mixed"	"Three-toed box turtle"	"Chordata"	"Reptilia"	"Testudines"	"Emydidae"	"Terrapene"	"carolina"	-1	0	"Survival"	"ESR"	NA	NA	NA	NA	NA	NA	19	17	0	0	2007	0	1	0	0
+459	"LOR"	80	234	"Mixed"	"Atlantic salmon"	"Chordata"	"Actinopterygii"	"Salmoniformes"	"Salmonidae"	"Salmo"	"salar"	1	-1	"Survival"	"ISR"	NA	NA	NA	NA	NA	NA	11	6	13	4	2019	1	0	1	0
+460	"LOR"	80	235	"Mixed"	"Atlantic salmon"	"Chordata"	"Actinopterygii"	"Salmoniformes"	"Salmonidae"	"Salmo"	"salar"	1	-1	"Survival"	"ISR"	NA	NA	NA	NA	NA	NA	5	6	5	3	2019	1	0	1	0
+461	"LOR"	80	236	"Mixed"	"Atlantic salmon"	"Chordata"	"Actinopterygii"	"Salmoniformes"	"Salmonidae"	"Salmo"	"salar"	1	-1	"Survival"	"ISR"	NA	NA	NA	NA	NA	NA	31	45	55	42	2019	1	0	1	0
+462	"LOR"	80	237	"Mixed"	"Atlantic salmon"	"Chordata"	"Actinopterygii"	"Salmoniformes"	"Salmonidae"	"Salmo"	"salar"	0	-1	"Survival"	"ISR"	NA	NA	NA	NA	NA	NA	11	11	13	11	2019	1	0	0	0
+463	"LOR"	80	238	"Mixed"	"Atlantic salmon"	"Chordata"	"Actinopterygii"	"Salmoniformes"	"Salmonidae"	"Salmo"	"salar"	0	-1	"Survival"	"ISR"	NA	NA	NA	NA	NA	NA	5	17	5	17	2019	1	0	0	0
+464	"LOR"	80	239	"Mixed"	"Atlantic salmon"	"Chordata"	"Actinopterygii"	"Salmoniformes"	"Salmonidae"	"Salmo"	"salar"	0	-1	"Survival"	"ISR"	NA	NA	NA	NA	NA	NA	31	20	55	22	2019	1	0	0	0
+475	"LOR"	83	247	"Mixed"	"Chinook salmon"	"Chordata"	"Actinopterygii"	"Salmoniformes"	"Salmonidae"	"Oncorhynchus"	"tshawytscha"	-1	10	"Survival"	"ISR"	NA	NA	NA	NA	NA	NA	117	268	28	132	2018	0	1	0	2
+482	"LOR"	87	251	"Mixed"	"Atlantic salmon"	"Chordata"	"Actinopterygii"	"Salmoniformes"	"Salmonidae"	"Salmo"	"salar"	-1	0.5	"Survival"	"ISR"	NA	NA	NA	NA	NA	NA	10	30	13	37	2017	0	1	0	1
+483	"LOR"	88	252	"Mixed"	"Largemouth bass"	"Chordata"	"Actinopterygii"	"Perciformes"	"Centrarchidae"	"Micropterus"	"salmoides"	-1	-1	"Survival"	"ISR"	NA	NA	NA	NA	NA	NA	18	16	2	14	2016	0	0	0	0
+486	"LOR"	89	253	"Mixed"	"Atlantic salmon"	"Chordata"	"Actinopterygii"	"Salmoniformes"	"Salmonidae"	"Salmo"	"salar"	-1	1.5	"Survival"	"ISR"	NA	NA	NA	NA	NA	NA	29	10	5	18	2016	0	1	0	1
+497	"LOR"	92	257	"Mixed"	"Atlantic salmon"	"Chordata"	"Actinopterygii"	"Salmoniformes"	"Salmonidae"	"Salmo"	"salar"	-1	1.5	"Survival"	"ISR"	NA	NA	NA	NA	NA	NA	6	0	485	497	2015	0	1	0	1
+499	"LOR"	92	258	"Mixed"	"Atlantic salmon"	"Chordata"	"Actinopterygii"	"Salmoniformes"	"Salmonidae"	"Salmo"	"salar"	-1	1.5	"Survival"	"ISR"	NA	NA	NA	NA	NA	NA	19	1	669	484	2015	0	1	0	1
+501	"LOR"	92	259	"Mixed"	"Atlantic salmon"	"Chordata"	"Actinopterygii"	"Salmoniformes"	"Salmonidae"	"Salmo"	"salar"	-1	1.5	"Survival"	"ISR"	NA	NA	NA	NA	NA	NA	43	7	955	1021	2015	0	1	0	1
+503	"LOR"	92	260	"Mixed"	"Atlantic salmon"	"Chordata"	"Actinopterygii"	"Salmoniformes"	"Salmonidae"	"Salmo"	"salar"	-1	1.5	"Survival"	"ISR"	NA	NA	NA	NA	NA	NA	15	17	238	3123	2015	0	1	0	1
+509	"LOR"	94	262	"Mixed"	"Atlantic salmon"	"Chordata"	"Actinopterygii"	"Salmoniformes"	"Salmonidae"	"Salmo"	"salar"	-1	-1	"Survival"	"ISR"	NA	NA	NA	NA	NA	NA	245	286	13379	15607	2015	0	0	0	0
+513	"LOR"	94	263	"Mixed"	"Atlantic salmon"	"Chordata"	"Actinopterygii"	"Salmoniformes"	"Salmonidae"	"Salmo"	"salar"	-1	-1	"Survival"	"ISR"	NA	NA	NA	NA	NA	NA	787	484	42910	26378	2015	0	0	0	0
+566	"LOR"	103	280	"Mixed"	"Atlantic salmon"	"Chordata"	"Actinopterygii"	"Salmoniformes"	"Salmonidae"	"Salmo"	"salar"	0	1.5	"Constitution"	"ISR"	NA	NA	NA	NA	NA	NA	170	34	9	11	2011	1	1	0	1
+567	"LOR"	103	280	"Mixed"	"Atlantic salmon"	"Chordata"	"Actinopterygii"	"Salmoniformes"	"Salmonidae"	"Salmo"	"salar"	1	1.5	"Constitution"	"ISR"	NA	NA	NA	NA	NA	NA	170	143	9	10	2011	1	1	1	1
+602	"LOR"	107	285	"Mixed"	"Chub"	"Chordata"	"Actinopterygii"	"Cypriniformes"	"Cyprinidae"	"Leuciscus"	"cephalus"	-1	1.5	"Survival"	"ISR"	NA	NA	NA	NA	NA	NA	165	217	131	558	2009	0	1	0	1
+603	"LOR"	107	286	"Mixed"	"Roach"	"Chordata"	"Actinopterygii"	"Cypriniformes"	"Cyprinidae"	"Rutilus"	"rutilus"	-1	1.5	"Survival"	"ISR"	NA	NA	NA	NA	NA	NA	150	378	522	370	2009	0	1	0	1
+604	"LOR"	108	288	"Mixed"	"Brown trout"	"Chordata"	"Actinopterygii"	"Salmoniformes"	"Salmonidae"	"Salmo"	"trutta"	-1	1.5	"Survival"	"ISR"	NA	NA	NA	NA	NA	NA	32	11	8	29	2009	0	1	0	1
+647	"LOR"	111	321	"Mixed"	"Coho salmon"	"Chordata"	"Actinopterygii"	"Salmoniformes"	"Salmonidae"	"Oncorhynchus"	"kisutch"	-1	1.5	"Survival"	"ISR"	NA	NA	NA	NA	NA	NA	39	32	1	8	2008	0	1	0	1
+670	"LOR"	113	327	"Mixed"	"Coho salmon"	"Chordata"	"Actinopterygii"	"Salmoniformes"	"Salmonidae"	"Oncorhynchus"	"kisutch"	-1	1.5	"Survival"	"ISR"	NA	NA	NA	NA	NA	NA	2985	3819	34374	161237	2007	0	1	0	1
+671	"LOR"	113	328	"Mixed"	"Coho salmon"	"Chordata"	"Actinopterygii"	"Salmoniformes"	"Salmonidae"	"Oncorhynchus"	"kisutch"	-1	1.5	"Survival"	"ISR"	NA	NA	NA	NA	NA	NA	332	211	40273	442038	2007	0	1	0	1
+672	"LOR"	113	329	"Mixed"	"Coho salmon"	"Chordata"	"Actinopterygii"	"Salmoniformes"	"Salmonidae"	"Oncorhynchus"	"kisutch"	-1	1.5	"Survival"	"ISR"	NA	NA	NA	NA	NA	NA	1767	768	18092	29238	2007	0	1	0	1
+673	"LOR"	113	330	"Mixed"	"Coho salmon"	"Chordata"	"Actinopterygii"	"Salmoniformes"	"Salmonidae"	"Oncorhynchus"	"kisutch"	-1	1.5	"Survival"	"ISR"	NA	NA	NA	NA	NA	NA	1935	552	7157	13302	2007	0	1	0	1
+674	"LOR"	114	331	"Mixed"	"Atlantic salmon"	"Chordata"	"Actinopterygii"	"Salmoniformes"	"Salmonidae"	"Salmo"	"salar"	-1	1	"Survival"	"ISR"	NA	NA	NA	NA	NA	NA	25	39	18	32	2007	0	1	0	1
+675	"LOR"	114	331	"Mixed"	"Atlantic salmon"	"Chordata"	"Actinopterygii"	"Salmoniformes"	"Salmonidae"	"Salmo"	"salar"	-1	1	"Survival"	"ISR"	NA	NA	NA	NA	NA	NA	15	25	28	46	2007	0	1	0	1
+676	"LOR"	114	331	"Mixed"	"Atlantic salmon"	"Chordata"	"Actinopterygii"	"Salmoniformes"	"Salmonidae"	"Salmo"	"salar"	-1	1	"Survival"	"ISR"	NA	NA	NA	NA	NA	NA	0	3	43	68	2007	0	1	0	1
+681	"LOR"	115	332	"Female"	"Santa Catalina Island fox"	"Chordata"	"Mammalia"	"Carnivora"	"Canidae"	"Urocyon"	"littoralis"	-1	0	"Reproduction"	"ESR"	NA	NA	NA	NA	NA	NA	5	2	1	0	2007	0	1	0	0
+682	"LOR"	115	332	"Female"	"Santa Catalina Island fox"	"Chordata"	"Mammalia"	"Carnivora"	"Canidae"	"Urocyon"	"littoralis"	-1	0	"Reproduction"	"ESR"	NA	NA	NA	NA	NA	NA	1	0	2	3	2007	0	1	0	0
+684	"LOR"	115	333	"Female"	"Santa Catalina Island fox"	"Chordata"	"Mammalia"	"Carnivora"	"Canidae"	"Urocyon"	"littoralis"	-1	0	"Reproduction"	"ESR"	NA	NA	NA	NA	NA	NA	7	4	0	0	2007	0	1	0	0
+687	"LOR"	115	334	"Female"	"Santa Catalina Island fox"	"Chordata"	"Mammalia"	"Carnivora"	"Canidae"	"Urocyon"	"littoralis"	-1	1	"Reproduction"	"ISR"	NA	NA	NA	NA	NA	NA	1	0	2	3	2007	0	1	0	1
+688	"LOR"	115	334	"Female"	"Santa Catalina Island fox"	"Chordata"	"Mammalia"	"Carnivora"	"Canidae"	"Urocyon"	"littoralis"	-1	1	"Reproduction"	"ISR"	NA	NA	NA	NA	NA	NA	1	0	2	4	2007	0	1	0	1
+689	"LOR"	116	335	"Mixed"	"Atlantic salmon"	"Chordata"	"Actinopterygii"	"Salmoniformes"	"Salmonidae"	"Salmo"	"salar"	1	1.5	"Survival"	"ISR"	NA	NA	NA	NA	NA	NA	30	17	344	539	2006	1	1	1	1
+691	"LOR"	116	336	"Mixed"	"Atlantic salmon"	"Chordata"	"Actinopterygii"	"Salmoniformes"	"Salmonidae"	"Salmo"	"salar"	1	1.5	"Survival"	"ISR"	NA	NA	NA	NA	NA	NA	3	3	176	286	2006	1	1	1	1
+693	"LOR"	116	337	"Mixed"	"Atlantic salmon"	"Chordata"	"Actinopterygii"	"Salmoniformes"	"Salmonidae"	"Salmo"	"salar"	1	1.5	"Survival"	"ISR"	NA	NA	NA	NA	NA	NA	32	65	156	431	2006	1	1	1	1
+695	"LOR"	116	338	"Mixed"	"Atlantic salmon"	"Chordata"	"Actinopterygii"	"Salmoniformes"	"Salmonidae"	"Salmo"	"salar"	1	1.5	"Survival"	"ISR"	NA	NA	NA	NA	NA	NA	40	14	534	219	2006	1	1	1	1
+697	"LOR"	116	339	"Mixed"	"Atlantic salmon"	"Chordata"	"Actinopterygii"	"Salmoniformes"	"Salmonidae"	"Salmo"	"salar"	0	1.5	"Survival"	"ISR"	NA	NA	NA	NA	NA	NA	30	12	344	288	2006	1	1	0	1
+699	"LOR"	116	340	"Mixed"	"Atlantic salmon"	"Chordata"	"Actinopterygii"	"Salmoniformes"	"Salmonidae"	"Salmo"	"salar"	0	1.5	"Survival"	"ISR"	NA	NA	NA	NA	NA	NA	3	4	176	294	2006	1	1	0	1
+701	"LOR"	116	341	"Mixed"	"Atlantic salmon"	"Chordata"	"Actinopterygii"	"Salmoniformes"	"Salmonidae"	"Salmo"	"salar"	0	1.5	"Survival"	"ISR"	NA	NA	NA	NA	NA	NA	32	62	156	922	2006	1	1	0	1
+703	"LOR"	116	342	"Mixed"	"Atlantic salmon"	"Chordata"	"Actinopterygii"	"Salmoniformes"	"Salmonidae"	"Salmo"	"salar"	0	1.5	"Survival"	"ISR"	NA	NA	NA	NA	NA	NA	40	34	534	965	2006	1	1	0	1
+706	"LOR"	117	344	"Mixed"	"Blue crab"	"Arthropoda"	"Malacostraca"	"Decapoda"	"Portunidae"	"Callinectes"	"sapidus"	-1	1.5	"Survival"	"ISR"	NA	NA	NA	NA	NA	NA	35	29	1265	2571	2005	0	1	0	1
+722	"LOR"	121	356	"Mixed"	"Atlantic salmon"	"Chordata"	"Actinopterygii"	"Salmoniformes"	"Salmonidae"	"Salmo"	"salar"	-1	1	"Survival"	"ISR"	NA	NA	NA	NA	NA	NA	45	17	934	751	2004	0	1	0	1
+724	"LOR"	121	357	"Mixed"	"Atlantic salmon"	"Chordata"	"Actinopterygii"	"Salmoniformes"	"Salmonidae"	"Salmo"	"salar"	-1	1	"Survival"	"ISR"	NA	NA	NA	NA	NA	NA	212	197	787	801	2004	0	1	0	1
+731	"LOR"	123	363	"Mixed"	"Steelhead trout"	"Chordata"	"Actinopterygii"	"Salmoniformes"	"Salmonidae"	"Oncorhynchus"	"mykiss"	-1	-1	"Survival"	"ISR"	NA	NA	NA	NA	NA	NA	37	14	12	5	2004	0	0	0	0
+732	"LOR"	123	363	"Mixed"	"Steelhead trout"	"Chordata"	"Actinopterygii"	"Salmoniformes"	"Salmonidae"	"Oncorhynchus"	"mykiss"	-1	-1	"Survival"	"ISR"	NA	NA	NA	NA	NA	NA	27	9	22	10	2004	0	0	0	0
+733	"LOR"	123	364	"Mixed"	"Steelhead trout"	"Chordata"	"Actinopterygii"	"Salmoniformes"	"Salmonidae"	"Oncorhynchus"	"mykiss"	-1	-1	"Survival"	"ISR"	NA	NA	NA	NA	NA	NA	37	8	12	10	2004	0	0	0	0
+734	"LOR"	123	364	"Mixed"	"Steelhead trout"	"Chordata"	"Actinopterygii"	"Salmoniformes"	"Salmonidae"	"Oncorhynchus"	"mykiss"	-1	-1	"Survival"	"ISR"	NA	NA	NA	NA	NA	NA	27	3	22	15	2004	0	0	0	0
+795	"LOR"	126	410	"Mixed"	"Summer flounder"	"Chordata"	"Actinopterygii"	"Pleuronectiformes"	"Paralichthyidae"	"Paralichthys"	"dentatus"	-1	1.5	"Survival"	"ISR"	NA	NA	NA	NA	NA	NA	60	13	173	109	2003	0	1	0	1
+797	"LOR"	126	411	"Mixed"	"Summer flounder"	"Chordata"	"Actinopterygii"	"Pleuronectiformes"	"Paralichthyidae"	"Paralichthys"	"dentatus"	-1	1.5	"Survival"	"ISR"	NA	NA	NA	NA	NA	NA	17	6	114	208	2003	0	1	0	1
+799	"LOR"	126	412	"Mixed"	"Summer flounder"	"Chordata"	"Actinopterygii"	"Pleuronectiformes"	"Paralichthyidae"	"Paralichthys"	"dentatus"	-1	1.5	"Survival"	"ISR"	NA	NA	NA	NA	NA	NA	5	5	49	584	2003	0	1	0	1
+801	"LOR"	126	413	"Mixed"	"Summer flounder"	"Chordata"	"Actinopterygii"	"Pleuronectiformes"	"Paralichthyidae"	"Paralichthys"	"dentatus"	-1	1.5	"Survival"	"ISR"	NA	NA	NA	NA	NA	NA	12	4	116	617	2003	0	1	0	1
+803	"LOR"	126	414	"Mixed"	"Summer flounder"	"Chordata"	"Actinopterygii"	"Pleuronectiformes"	"Paralichthyidae"	"Paralichthys"	"dentatus"	-1	1.5	"Survival"	"ISR"	NA	NA	NA	NA	NA	NA	6	7	6	5	2003	0	1	0	1
+804	"LOR"	126	415	"Mixed"	"Summer flounder"	"Chordata"	"Actinopterygii"	"Pleuronectiformes"	"Paralichthyidae"	"Paralichthys"	"dentatus"	-1	1.5	"Survival"	"ISR"	NA	NA	NA	NA	NA	NA	7	1	2	8	2003	0	1	0	1
+805	"LOR"	127	416	"Mixed"	"Chinook salmon"	"Chordata"	"Actinopterygii"	"Salmoniformes"	"Salmonidae"	"Oncorhynchus"	"tshawytscha"	-1	-1	"Survival"	"ISR"	NA	NA	NA	NA	NA	NA	2511	19255	28	473	2003	0	0	0	0
+806	"LOR"	127	417	"Mixed"	"Chinook salmon"	"Chordata"	"Actinopterygii"	"Salmoniformes"	"Salmonidae"	"Oncorhynchus"	"tshawytscha"	-1	-1	"Survival"	"ISR"	NA	NA	NA	NA	NA	NA	17874	45431	144	1309	2003	0	0	0	0
+807	"LOR"	127	418	"Mixed"	"Chinook salmon"	"Chordata"	"Actinopterygii"	"Salmoniformes"	"Salmonidae"	"Oncorhynchus"	"tshawytscha"	-1	-1	"Survival"	"ISR"	NA	NA	NA	NA	NA	NA	9157	24265	168	1064	2003	0	0	0	0
+808	"LOR"	127	419	"Mixed"	"Steelhead trout"	"Chordata"	"Actinopterygii"	"Salmoniformes"	"Salmonidae"	"Oncorhynchus"	"mykiss"	-1	-1	"Survival"	"ISR"	NA	NA	NA	NA	NA	NA	1103	3987	183	759	2003	0	0	0	0
+809	"LOR"	127	420	"Mixed"	"Steelhead trout"	"Chordata"	"Actinopterygii"	"Salmoniformes"	"Salmonidae"	"Oncorhynchus"	"mykiss"	-1	-1	"Survival"	"ISR"	NA	NA	NA	NA	NA	NA	2933	24727	333	2932	2003	0	0	0	0
+810	"LOR"	127	421	"Mixed"	"Steelhead trout"	"Chordata"	"Actinopterygii"	"Salmoniformes"	"Salmonidae"	"Oncorhynchus"	"mykiss"	-1	-1	"Survival"	"ISR"	NA	NA	NA	NA	NA	NA	7074	8694	856	1219	2003	0	0	0	0
+811	"LOR"	127	422	"Mixed"	"Sockeye salmon"	"Chordata"	"Actinopterygii"	"Salmoniformes"	"Salmonidae"	"Oncorhynchus"	"nerka"	-1	-1	"Survival"	"ISR"	NA	NA	NA	NA	NA	NA	179	163	2	11	2003	0	0	0	0
+812	"LOR"	127	423	"Mixed"	"Sockeye salmon"	"Chordata"	"Actinopterygii"	"Salmoniformes"	"Salmonidae"	"Oncorhynchus"	"nerka"	-1	-1	"Survival"	"ISR"	NA	NA	NA	NA	NA	NA	255	115	3	6	2003	0	0	0	0
+813	"LOR"	127	424	"Mixed"	"Sockeye salmon"	"Chordata"	"Actinopterygii"	"Salmoniformes"	"Salmonidae"	"Oncorhynchus"	"nerka"	-1	-1	"Survival"	"ISR"	NA	NA	NA	NA	NA	NA	26	87	1	6	2003	0	0	0	0
+814	"LOR"	128	425	"Mixed"	"Atlantic salmon"	"Chordata"	"Actinopterygii"	"Salmoniformes"	"Salmonidae"	"Salmo"	"salar"	-1	1.5	"Survival"	"ISR"	NA	NA	NA	NA	NA	NA	208	379	792	2605	2003	0	1	0	1
+815	"LOR"	128	425	"Mixed"	"Atlantic salmon"	"Chordata"	"Actinopterygii"	"Salmoniformes"	"Salmonidae"	"Salmo"	"salar"	-1	1.5	"Survival"	"ISR"	NA	NA	NA	NA	NA	NA	208	195	792	805	2003	0	1	0	1
+816	"LOR"	128	425	"Mixed"	"Atlantic salmon"	"Chordata"	"Actinopterygii"	"Salmoniformes"	"Salmonidae"	"Salmo"	"salar"	-1	1.5	"Survival"	"ISR"	NA	NA	NA	NA	NA	NA	40	31	627	969	2003	0	1	0	1
+817	"LOR"	128	425	"Mixed"	"Atlantic salmon"	"Chordata"	"Actinopterygii"	"Salmoniformes"	"Salmonidae"	"Salmo"	"salar"	-1	1.5	"Survival"	"ISR"	NA	NA	NA	NA	NA	NA	45	39	955	1733	2003	0	1	0	1
+823	"LOR"	129	426	"Male"	"Atlantic salmon"	"Chordata"	"Actinopterygii"	"Salmoniformes"	"Salmonidae"	"Salmo"	"salar"	-1	1.5	"Constitution"	"ISR"	NA	NA	NA	NA	NA	NA	37	132	16	166	1990	0	1	0	1
+824	"LOR"	129	426	"Male"	"Atlantic salmon"	"Chordata"	"Actinopterygii"	"Salmoniformes"	"Salmonidae"	"Salmo"	"salar"	-1	1.5	"Reproduction"	"ISR"	NA	NA	NA	NA	NA	NA	51	189	2	109	1990	0	1	0	1
+825	"LOR"	129	427	"Female"	"Atlantic salmon"	"Chordata"	"Actinopterygii"	"Salmoniformes"	"Salmonidae"	"Salmo"	"salar"	-1	1.5	"Constitution"	"ISR"	NA	NA	NA	NA	NA	NA	49	183	2	18	1990	0	1	0	1
+826	"LOR"	129	427	"Female"	"Atlantic salmon"	"Chordata"	"Actinopterygii"	"Salmoniformes"	"Salmonidae"	"Salmo"	"salar"	-1	1.5	"Reproduction"	"ISR"	NA	NA	NA	NA	NA	NA	51	174	0	27	1990	0	1	0	1
+827	"LOR"	129	428	"Mixed"	"Atlantic salmon"	"Chordata"	"Actinopterygii"	"Salmoniformes"	"Salmonidae"	"Salmo"	"salar"	-1	1.5	"Movement"	"ISR"	NA	NA	NA	NA	NA	NA	103	393	1	106	1990	0	1	0	1
+828	"LOR"	130	429	"Mixed"	"Arctic charr"	"Chordata"	"Actinopterygii"	"Salmoniformes"	"Salmonidae"	"Salvelinus"	"alpinus"	-1	-1	"Survival"	"ISR"	NA	NA	NA	NA	NA	NA	3199	4973	52	24	1993	0	0	0	0
+829	"LOR"	130	430	"Mixed"	"Atlantic salmon"	"Chordata"	"Actinopterygii"	"Salmoniformes"	"Salmonidae"	"Salmo"	"salar"	-1	-1	"Survival"	"ISR"	NA	NA	NA	NA	NA	NA	1203	2700	2	0	1993	0	0	0	0
+830	"LOR"	130	431	"Mixed"	"Brown trout"	"Chordata"	"Actinopterygii"	"Salmoniformes"	"Salmonidae"	"Salmo"	"trutta"	-1	-1	"Survival"	"ISR"	NA	NA	NA	NA	NA	NA	290	3761	3	7	1993	0	0	0	0
+831	"LOR"	131	432	"Mixed"	"Arctic charr"	"Chordata"	"Actinopterygii"	"Salmoniformes"	"Salmonidae"	"Salvelinus"	"alpinus"	1	1.5	"Survival"	"ISR"	NA	NA	NA	NA	NA	NA	639	196	361	474	1993	1	1	1	1
+832	"LOR"	131	432	"Mixed"	"Arctic charr"	"Chordata"	"Actinopterygii"	"Salmoniformes"	"Salmonidae"	"Salvelinus"	"alpinus"	1	1.5	"Survival"	"ISR"	NA	NA	NA	NA	NA	NA	273	103	727	567	1993	1	1	1	1
+833	"LOR"	131	432	"Mixed"	"Arctic charr"	"Chordata"	"Actinopterygii"	"Salmoniformes"	"Salmonidae"	"Salvelinus"	"alpinus"	1	1.5	"Survival"	"ISR"	NA	NA	NA	NA	NA	NA	193	91	807	579	1993	1	1	1	1
+834	"LOR"	131	432	"Mixed"	"Arctic charr"	"Chordata"	"Actinopterygii"	"Salmoniformes"	"Salmonidae"	"Salvelinus"	"alpinus"	1	1.5	"Survival"	"ISR"	NA	NA	NA	NA	NA	NA	84	45	916	625	1993	1	1	1	1
+838	"LOR"	131	433	"Mixed"	"Arctic charr"	"Chordata"	"Actinopterygii"	"Salmoniformes"	"Salmonidae"	"Salvelinus"	"alpinus"	0	1.5	"Survival"	"ISR"	NA	NA	NA	NA	NA	NA	639	328	361	392	1993	1	1	0	1
+839	"LOR"	131	433	"Mixed"	"Arctic charr"	"Chordata"	"Actinopterygii"	"Salmoniformes"	"Salmonidae"	"Salvelinus"	"alpinus"	0	1.5	"Survival"	"ISR"	NA	NA	NA	NA	NA	NA	273	91	727	629	1993	1	1	0	1
+840	"LOR"	131	433	"Mixed"	"Arctic charr"	"Chordata"	"Actinopterygii"	"Salmoniformes"	"Salmonidae"	"Salvelinus"	"alpinus"	0	1.5	"Survival"	"ISR"	NA	NA	NA	NA	NA	NA	193	89	807	631	1993	1	1	0	1
+841	"LOR"	131	433	"Mixed"	"Arctic charr"	"Chordata"	"Actinopterygii"	"Salmoniformes"	"Salmonidae"	"Salvelinus"	"alpinus"	0	1.5	"Survival"	"ISR"	NA	NA	NA	NA	NA	NA	84	27	916	693	1993	1	1	0	1
+846	"LOR"	133	435	"Mixed"	"Atlantic salmon"	"Chordata"	"Actinopterygii"	"Salmoniformes"	"Salmonidae"	"Salmo"	"salar"	-1	5.5	"Movement"	"ISR"	NA	NA	NA	NA	NA	NA	11	8	2	24	1995	0	1	0	2
+849	"LOR"	133	436	"Mixed"	"Atlantic salmon"	"Chordata"	"Actinopterygii"	"Salmoniformes"	"Salmonidae"	"Salmo"	"salar"	-1	5.5	"Movement"	"ISR"	NA	NA	NA	NA	NA	NA	12	6	2	3	1995	0	1	0	2
+856	"LOR"	135	441	"Mixed"	"Brown trout"	"Chordata"	"Actinopterygii"	"Salmoniformes"	"Salmonidae"	"Salmo"	"trutta"	-1	1.5	"Survival"	"ISR"	NA	NA	NA	NA	NA	NA	723	46	1337	300	1996	0	1	0	1
+862	"LOR"	138	447	"Mixed"	"Chukar"	"Chordata"	"Aves"	"Galliformes"	"Phasianidae"	"Alectoris"	"chukar"	-1	1.5	"Survival"	"ISR"	NA	NA	NA	NA	NA	NA	2	0	3	49	1999	0	1	0	1
+863	"LOR"	138	448	"Mixed"	"Chukar"	"Chordata"	"Aves"	"Galliformes"	"Phasianidae"	"Alectoris"	"chukar"	-1	1.5	"Survival"	"ISR"	NA	NA	NA	NA	NA	NA	2	5	3	69	1999	0	1	0	1
+866	"LOR"	139	450	"Mixed"	"Atlantic salmon"	"Chordata"	"Actinopterygii"	"Salmoniformes"	"Salmonidae"	"Salmo"	"salar"	-1	-1	"Survival"	"ISR"	NA	NA	NA	NA	NA	NA	3	7	30	2	1998	0	0	0	0
+875	"LOR"	140	455	"Mixed"	"Brown trout"	"Chordata"	"Actinopterygii"	"Salmoniformes"	"Salmonidae"	"Salmo"	"trutta"	-1	1.5	"Survival"	"ISR"	NA	NA	NA	NA	NA	NA	386	21	755	1013	2002	0	1	0	1
+876	"LOR"	141	456	"Mixed"	"Abalone"	"Mollusca"	"Gastropoda"	"Archaegastropoda"	"Haliotidae"	"Haliotis"	"asinina"	-1	-1	"Survival"	"ISR"	NA	NA	NA	NA	NA	NA	19	14	220	842	2013	0	0	0	0
+877	"LOR"	141	456	"Mixed"	"Abalone"	"Mollusca"	"Gastropoda"	"Archaegastropoda"	"Haliotidae"	"Haliotis"	"asinina"	-1	-1	"Survival"	"ISR"	NA	NA	NA	NA	NA	NA	19	155	220	2241	2013	0	0	0	0
+880	"LOR"	141	458	"Mixed"	"Abalone"	"Mollusca"	"Gastropoda"	"Archaegastropoda"	"Haliotidae"	"Haliotis"	"asinina"	-1	-1	"Survival"	"ISR"	NA	NA	NA	NA	NA	NA	19	14	220	842	2013	0	0	0	0
+881	"LOR"	141	458	"Mixed"	"Abalone"	"Mollusca"	"Gastropoda"	"Archaegastropoda"	"Haliotidae"	"Haliotis"	"asinina"	-1	-1	"Survival"	"ISR"	NA	NA	NA	NA	NA	NA	19	155	220	2241	2013	0	0	0	0
+885	"LOR"	143	462	"Mixed"	"Woodchuck"	"Chordata"	"Mammalia"	"Rodentia"	"Sciuridae"	"Marmota"	"monax"	-1	0	"Survival"	"ESR"	NA	NA	NA	NA	NA	NA	3	5	13	22	2016	0	1	0	0
+896	"LOR"	146	466	"Mixed"	"Alleghany woodrat"	"Chordata"	"Mammalia"	"Rodentia"	"Cricetidae"	"Neotoma"	"magister"	0	1.5	"Survival"	"ISR"	NA	NA	NA	NA	NA	NA	18	3	14	13	2015	1	1	0	1
+897	"LOR"	146	467	"Mixed"	"Alleghany woodrat"	"Chordata"	"Mammalia"	"Rodentia"	"Cricetidae"	"Neotoma"	"magister"	1	1.5	"Survival"	"ISR"	NA	NA	NA	NA	NA	NA	18	4	14	9	2015	1	1	1	1
+898	"LOR"	147	468	"Mixed"	"Chukar"	"Chordata"	"Aves"	"Galliformes"	"Phasianidae"	"Alectoris"	"chukar"	1	1.5	"Survival"	"ISR"	NA	NA	NA	NA	NA	NA	7	0	73	80	1992	1	1	1	1
+899	"LOR"	147	469	"Mixed"	"Chukar"	"Chordata"	"Aves"	"Galliformes"	"Phasianidae"	"Alectoris"	"chukar"	1	1.5	"Survival"	"ISR"	NA	NA	NA	NA	NA	NA	0	0	4	65	1992	1	1	1	1
+900	"LOR"	147	470	"Mixed"	"Chukar"	"Chordata"	"Aves"	"Galliformes"	"Phasianidae"	"Alectoris"	"chukar"	1	1.5	"Survival"	"ISR"	NA	NA	NA	NA	NA	NA	7	6	4	5	1992	1	1	1	1
+901	"LOR"	147	471	"Mixed"	"Chukar"	"Chordata"	"Aves"	"Galliformes"	"Phasianidae"	"Alectoris"	"chukar"	0	1.5	"Survival"	"ISR"	NA	NA	NA	NA	NA	NA	7	0	73	80	1992	1	1	0	1
+902	"LOR"	147	472	"Mixed"	"Chukar"	"Chordata"	"Aves"	"Galliformes"	"Phasianidae"	"Alectoris"	"chukar"	0	1.5	"Survival"	"ISR"	NA	NA	NA	NA	NA	NA	0	0	4	65	1992	1	1	0	1
+903	"LOR"	147	473	"Mixed"	"Chukar"	"Chordata"	"Aves"	"Galliformes"	"Phasianidae"	"Alectoris"	"chukar"	0	1.5	"Survival"	"ISR"	NA	NA	NA	NA	NA	NA	7	0	4	11	1992	1	1	0	1
+904	"LOR"	148	474	"Mixed"	"Sockeye salmon"	"Chordata"	"Actinopterygii"	"Salmoniformes"	"Salmonidae"	"Oncorhynchus"	"nerka"	-1	0.5	"Survival"	"ISR"	NA	NA	NA	NA	NA	NA	6	0	43	61	2012	0	1	0	1
+905	"LOR"	148	474	"Mixed"	"Sockeye salmon"	"Chordata"	"Actinopterygii"	"Salmoniformes"	"Salmonidae"	"Oncorhynchus"	"nerka"	-1	0.5	"Survival"	"ISR"	NA	NA	NA	NA	NA	NA	0	0	49	61	2012	0	1	0	1
+906	"LOR"	148	474	"Mixed"	"Sockeye salmon"	"Chordata"	"Actinopterygii"	"Salmoniformes"	"Salmonidae"	"Oncorhynchus"	"nerka"	-1	0.5	"Survival"	"ISR"	NA	NA	NA	NA	NA	NA	0	0	49	61	2012	0	1	0	1
+937	"LOR"	151	479	"Mixed"	"Desert tortoise"	"Chordata"	"Reptilia"	"Testudines"	"Testudinidae"	"Gopherus"	"agassizii"	-1	0	"Survival"	"ESR"	NA	NA	NA	NA	NA	NA	56	13	0	0	2012	0	1	0	0
+938	"LOR"	151	479	"Mixed"	"Desert tortoise"	"Chordata"	"Reptilia"	"Testudines"	"Testudinidae"	"Gopherus"	"agassizii"	-1	0	"Survival"	"ESR"	NA	NA	NA	NA	NA	NA	16	24	0	0	2012	0	1	0	0
+945	"LOR"	153	485	"Mixed"	"Tazmanian devil"	"Chordata"	"Mammalia"	"Dasyuromorphia"	"Dasyuridae"	"Sarcophilus"	"harrisii"	1	0.25	"Survival"	"ISR"	NA	NA	NA	NA	NA	NA	3	5	1	8	2014	1	1	1	1
+946	"LOR"	153	485	"Mixed"	"Tazmanian devil"	"Chordata"	"Mammalia"	"Dasyuromorphia"	"Dasyuridae"	"Sarcophilus"	"harrisii"	0	0.25	"Survival"	"ISR"	NA	NA	NA	NA	NA	NA	3	3	1	3	2014	1	1	0	1
+948	"LOR"	153	487	"Female"	"Tazmanian devil"	"Chordata"	"Mammalia"	"Dasyuromorphia"	"Dasyuridae"	"Sarcophilus"	"harrisii"	-1	0.25	"Reproduction"	"ISR"	NA	NA	NA	NA	NA	NA	2	2	0	3	2014	0	1	0	1
+953	"LOR"	156	492	"Mixed"	"European lobster"	"Arthropoda"	"Malacostraca"	"Decapoda"	"Nephropidae"	"Homarus"	"gammarus"	-1	1.5	"Survival"	"ISR"	NA	NA	NA	NA	NA	NA	67	8	154	56	2007	0	1	0	1
+954	"LOR"	156	492	"Mixed"	"European lobster"	"Arthropoda"	"Malacostraca"	"Decapoda"	"Nephropidae"	"Homarus"	"gammarus"	-1	1.5	"Survival"	"ISR"	NA	NA	NA	NA	NA	NA	76	59	181	107	2007	0	1	0	1
+955	"LOR"	156	492	"Mixed"	"European lobster"	"Arthropoda"	"Malacostraca"	"Decapoda"	"Nephropidae"	"Homarus"	"gammarus"	-1	1.5	"Survival"	"ISR"	NA	NA	NA	NA	NA	NA	38	5	211	75	2007	0	1	0	1
+956	"LOR"	156	492	"Mixed"	"European lobster"	"Arthropoda"	"Malacostraca"	"Decapoda"	"Nephropidae"	"Homarus"	"gammarus"	-1	1.5	"Survival"	"ISR"	NA	NA	NA	NA	NA	NA	27	11	74	114	2007	0	1	0	1
+957	"LOR"	156	492	"Mixed"	"European lobster"	"Arthropoda"	"Malacostraca"	"Decapoda"	"Nephropidae"	"Homarus"	"gammarus"	-1	1.5	"Survival"	"ISR"	NA	NA	NA	NA	NA	NA	24	10	89	35	2007	0	1	0	1
+958	"LOR"	156	492	"Mixed"	"European lobster"	"Arthropoda"	"Malacostraca"	"Decapoda"	"Nephropidae"	"Homarus"	"gammarus"	-1	1.5	"Reproduction"	"ISR"	NA	NA	NA	NA	NA	NA	86	27	135	37	2007	0	1	0	1
+959	"LOR"	156	492	"Mixed"	"European lobster"	"Arthropoda"	"Malacostraca"	"Decapoda"	"Nephropidae"	"Homarus"	"gammarus"	-1	1.5	"Reproduction"	"ISR"	NA	NA	NA	NA	NA	NA	120	73	137	93	2007	0	1	0	1
+960	"LOR"	156	492	"Mixed"	"European lobster"	"Arthropoda"	"Malacostraca"	"Decapoda"	"Nephropidae"	"Homarus"	"gammarus"	-1	1.5	"Reproduction"	"ISR"	NA	NA	NA	NA	NA	NA	144	30	105	50	2007	0	1	0	1
+961	"LOR"	156	492	"Mixed"	"European lobster"	"Arthropoda"	"Malacostraca"	"Decapoda"	"Nephropidae"	"Homarus"	"gammarus"	-1	1.5	"Reproduction"	"ISR"	NA	NA	NA	NA	NA	NA	19	28	82	97	2007	0	1	0	1
+962	"LOR"	156	492	"Mixed"	"European lobster"	"Arthropoda"	"Malacostraca"	"Decapoda"	"Nephropidae"	"Homarus"	"gammarus"	-1	1.5	"Reproduction"	"ISR"	NA	NA	NA	NA	NA	NA	63	14	50	31	2007	0	1	0	1
+971	"LOR"	159	497	"Mixed"	"Ploughshare tortoise"	"Chordata"	"Reptilia"	"Testudines"	"Testudinidae"	"Geochelone"	"yniphora"	-1	1.5	"Survival"	"ISR"	NA	NA	NA	NA	NA	NA	5	0	5	0	2000	0	1	0	1
+976	"LOR"	161	500	"Mixed"	"Queen conch"	"Mollusca"	"Gastropoda"	"Littorinimorpha"	"Strombidae"	"Strombus"	"gigas"	-1	0	"Reproduction"	"ESR"	NA	NA	NA	NA	NA	NA	5	0	90	37	2004	0	1	0	0
+977	"LOR"	161	500	"Mixed"	"Queen conch"	"Mollusca"	"Gastropoda"	"Littorinimorpha"	"Strombidae"	"Strombus"	"gigas"	-1	0	"Reproduction"	"ESR"	NA	NA	NA	NA	NA	NA	18	0	21	6	2004	0	1	0	0
+978	"LOR"	161	501	"Mixed"	"Queen conch"	"Mollusca"	"Gastropoda"	"Littorinimorpha"	"Strombidae"	"Strombus"	"gigas"	-1	0	"Reproduction"	"ESR"	NA	NA	NA	NA	NA	NA	11	0	456	106	2004	0	1	0	0
+979	"LOR"	161	501	"Mixed"	"Queen conch"	"Mollusca"	"Gastropoda"	"Littorinimorpha"	"Strombidae"	"Strombus"	"gigas"	-1	0	"Reproduction"	"ESR"	NA	NA	NA	NA	NA	NA	32	0	159	34	2004	0	1	0	0
+980	"LOR"	161	502	"Mixed"	"Queen conch"	"Mollusca"	"Gastropoda"	"Littorinimorpha"	"Strombidae"	"Strombus"	"gigas"	-1	0	"Reproduction"	"ESR"	NA	NA	NA	NA	NA	NA	2	0	230	20	2004	0	1	0	0
+981	"LOR"	161	502	"Mixed"	"Queen conch"	"Mollusca"	"Gastropoda"	"Littorinimorpha"	"Strombidae"	"Strombus"	"gigas"	-1	0	"Reproduction"	"ESR"	NA	NA	NA	NA	NA	NA	5	0	92	9	2004	0	1	0	0
+982	"LOR"	162	503	"Mixed"	"Atlantic salmon"	"Chordata"	"Actinopterygii"	"Salmoniformes"	"Salmonidae"	"Salmo"	"salar"	-1	1.5	"Survival"	"ISR"	NA	NA	NA	NA	NA	NA	34	31	6	9	2013	0	1	0	1
+985	"LOR"	163	504	"Mixed"	"Steelhead trout"	"Chordata"	"Actinopterygii"	"Salmoniformes"	"Salmonidae"	"Oncorhynchus"	"mykiss"	-1	0.5	"Survival"	"ISR"	NA	NA	NA	NA	NA	NA	1	33	136	297	2012	0	1	0	1
+986	"LOR"	163	504	"Mixed"	"Steelhead trout"	"Chordata"	"Actinopterygii"	"Salmoniformes"	"Salmonidae"	"Oncorhynchus"	"mykiss"	-1	0.5	"Movement"	"ISR"	NA	NA	NA	NA	NA	NA	11	158	40	84	2012	0	1	0	1
+990	"LOR"	164	505	"Mixed"	"Brown trout"	"Chordata"	"Actinopterygii"	"Salmoniformes"	"Salmonidae"	"Salmo"	"trutta"	0	1.5	"Survival"	"ISR"	NA	NA	NA	NA	NA	NA	19	11	1	9	2012	1	1	0	1
+991	"LOR"	164	505	"Mixed"	"Brown trout"	"Chordata"	"Actinopterygii"	"Salmoniformes"	"Salmonidae"	"Salmo"	"trutta"	0	1.5	"Survival"	"ISR"	NA	NA	NA	NA	NA	NA	18	10	2	10	2012	1	1	0	1
+992	"LOR"	164	505	"Mixed"	"Brown trout"	"Chordata"	"Actinopterygii"	"Salmoniformes"	"Salmonidae"	"Salmo"	"trutta"	0	1.5	"Survival"	"ISR"	NA	NA	NA	NA	NA	NA	17	5	3	15	2012	1	1	0	1
+995	"LOR"	164	506	"Mixed"	"Brown trout"	"Chordata"	"Actinopterygii"	"Salmoniformes"	"Salmonidae"	"Salmo"	"trutta"	0	1.5	"Survival"	"ISR"	NA	NA	NA	NA	NA	NA	16	12	4	8	2012	1	1	0	1
+996	"LOR"	164	506	"Mixed"	"Brown trout"	"Chordata"	"Actinopterygii"	"Salmoniformes"	"Salmonidae"	"Salmo"	"trutta"	0	1.5	"Survival"	"ISR"	NA	NA	NA	NA	NA	NA	16	9	4	11	2012	1	1	0	1
+997	"LOR"	164	506	"Mixed"	"Brown trout"	"Chordata"	"Actinopterygii"	"Salmoniformes"	"Salmonidae"	"Salmo"	"trutta"	0	1.5	"Survival"	"ISR"	NA	NA	NA	NA	NA	NA	15	7	5	13	2012	1	1	0	1
+998	"LOR"	164	506	"Mixed"	"Brown trout"	"Chordata"	"Actinopterygii"	"Salmoniformes"	"Salmonidae"	"Salmo"	"trutta"	1	1.5	"Survival"	"ISR"	NA	NA	NA	NA	NA	NA	16	17	4	3	2012	1	1	1	1
+999	"LOR"	164	506	"Mixed"	"Brown trout"	"Chordata"	"Actinopterygii"	"Salmoniformes"	"Salmonidae"	"Salmo"	"trutta"	1	1.5	"Survival"	"ISR"	NA	NA	NA	NA	NA	NA	16	16	4	4	2012	1	1	1	1
+1010	"LOR"	164	507	"Mixed"	"Brown trout"	"Chordata"	"Actinopterygii"	"Salmoniformes"	"Salmonidae"	"Salmo"	"trutta"	1	1.5	"Survival"	"ISR"	NA	NA	NA	NA	NA	NA	15	13	5	7	2012	1	1	1	1
+1011	"LOR"	164	507	"Mixed"	"Brown trout"	"Chordata"	"Actinopterygii"	"Salmoniformes"	"Salmonidae"	"Salmo"	"trutta"	1	1.5	"Survival"	"ISR"	NA	NA	NA	NA	NA	NA	30	33	8	4	2012	1	1	1	1
+1012	"LOR"	164	507	"Mixed"	"Brown trout"	"Chordata"	"Actinopterygii"	"Salmoniformes"	"Salmonidae"	"Salmo"	"trutta"	1	1.5	"Survival"	"ISR"	NA	NA	NA	NA	NA	NA	30	32	8	5	2012	1	1	1	1
+1013	"LOR"	164	507	"Mixed"	"Brown trout"	"Chordata"	"Actinopterygii"	"Salmoniformes"	"Salmonidae"	"Salmo"	"trutta"	1	1.5	"Survival"	"ISR"	NA	NA	NA	NA	NA	NA	24	23	14	14	2012	1	1	1	1
+1019	"LOR"	165	508	"Mixed"	"Steelhead trout"	"Chordata"	"Actinopterygii"	"Salmoniformes"	"Salmonidae"	"Oncorhynchus"	"mykiss"	-1	1.5	"Survival"	"ISR"	NA	NA	NA	NA	NA	NA	44	17	1494	5968	2014	0	1	0	1
+1020	"LOR"	165	508	"Mixed"	"Steelhead trout"	"Chordata"	"Actinopterygii"	"Salmoniformes"	"Salmonidae"	"Oncorhynchus"	"mykiss"	-1	1.5	"Survival"	"ISR"	NA	NA	NA	NA	NA	NA	1489	5941	49	44	2014	0	1	0	1
+1033	"LOR"	168	519	"Mixed"	"Northern bobwhite quail"	"Chordata"	"Aves"	"Galliformes"	"Odontophoridae"	"Colinus"	"virginianus"	-1	0	"Reproduction"	"ESR"	NA	NA	NA	NA	NA	NA	53	33	39	12	2006	0	1	0	0
+1034	"LOR"	168	519	"Mixed"	"Northern bobwhite quail"	"Chordata"	"Aves"	"Galliformes"	"Odontophoridae"	"Colinus"	"virginianus"	-1	0	"Reproduction"	"ESR"	NA	NA	NA	NA	NA	NA	32	18	21	15	2006	0	1	0	0
+1035	"LOR"	168	519	"Mixed"	"Northern bobwhite quail"	"Chordata"	"Aves"	"Galliformes"	"Odontophoridae"	"Colinus"	"virginianus"	-1	0	"Reproduction"	"ESR"	NA	NA	NA	NA	NA	NA	7	2	4	3	2006	0	1	0	0
+1040	"LOR"	170	521	"Mixed"	"Fat pocketbook"	"Mollusca"	"Bivalvia"	"Unionoidea"	"Unionidae"	"Potamilus"	"capax"	-1	0	"Survival"	"ESR"	NA	NA	NA	NA	NA	NA	20	10	0	1	2014	0	1	0	0
+1041	"LOR"	170	521	"Mixed"	"Fat pocketbook"	"Mollusca"	"Bivalvia"	"Unionoidea"	"Unionidae"	"Potamilus"	"capax"	-1	0	"Survival"	"ESR"	NA	NA	NA	NA	NA	NA	49	15	1	1	2014	0	1	0	0
+1042	"LOR"	170	521	"Mixed"	"Fat pocketbook"	"Mollusca"	"Bivalvia"	"Unionoidea"	"Unionidae"	"Potamilus"	"capax"	-1	0	"Survival"	"ESR"	NA	NA	NA	NA	NA	NA	19	9	1	2	2014	0	1	0	0
+1043	"LOR"	170	521	"Mixed"	"Fat pocketbook"	"Mollusca"	"Bivalvia"	"Unionoidea"	"Unionidae"	"Potamilus"	"capax"	-1	0	"Survival"	"ESR"	NA	NA	NA	NA	NA	NA	45	14	5	2	2014	0	1	0	0
+1044	"LOR"	171	522	"Mixed"	"European hare"	"Chordata"	"Mammalia"	"Lagomorpha"	"Leporidae"	"Lepus"	"europaeus"	-1	0	"Survival"	"ESR"	NA	NA	NA	NA	NA	NA	5	8	2	6	2010	0	1	0	0
+1050	"LOR"	174	526	"Male"	"Alpine ibex"	"Chordata"	"Mammalia"	"Artiodactyla"	"Bovidae"	"Capra"	"ibex"	-1	0	"Survival"	"ESR"	NA	NA	NA	NA	NA	NA	18	12	0	2	2012	0	1	0	0
+1057	"LOR"	177	530	"Male"	"Grizzly bear"	"Chordata"	"Mammalia"	"Carnivora"	"Ursidae"	"Ursus"	"arctos"	-1	0	"Survival"	"ESR"	NA	NA	NA	NA	NA	NA	33	109	10	14	1995	0	1	0	0
+1058	"LOR"	177	531	"Male"	"Grizzly bear"	"Chordata"	"Mammalia"	"Carnivora"	"Ursidae"	"Ursus"	"arctos"	-1	0	"Survival"	"ESR"	NA	NA	NA	NA	NA	NA	34	86	14	13	1995	0	1	0	0
+1059	"LOR"	177	532	"Female"	"Grizzly bear"	"Chordata"	"Mammalia"	"Carnivora"	"Ursidae"	"Ursus"	"arctos"	-1	0	"Survival"	"ESR"	NA	NA	NA	NA	NA	NA	67	154	17	10	1995	0	1	0	0
+1060	"LOR"	177	533	"Female"	"Grizzly bear"	"Chordata"	"Mammalia"	"Carnivora"	"Ursidae"	"Ursus"	"arctos"	-1	0	"Survival"	"ESR"	NA	NA	NA	NA	NA	NA	54	59	7	9	1995	0	1	0	0
+1066	"LOR"	179	537	"Female"	"Monk seal"	"Chordata"	"Mammalia"	"Carnivora"	"Phocidae"	"Monachus"	"schauinslandi"	-1	0.5	"Survival"	"ISR"	NA	NA	NA	NA	NA	NA	0	2	6	1	2011	0	1	0	1
+1073	"LOR"	181	539	"Male"	"Leopard"	"Chordata"	"Mammalia"	"Carnivora"	"Felidae"	"Panthera"	"pardus"	-1	0	"Survival"	"ESR"	NA	NA	NA	NA	NA	NA	4	3	2	0	2015	0	1	0	0
+1075	"LOR"	181	540	"Female"	"Leopard"	"Chordata"	"Mammalia"	"Carnivora"	"Felidae"	"Panthera"	"pardus"	-1	0	"Survival"	"ESR"	NA	NA	NA	NA	NA	NA	5	2	1	1	2015	0	1	0	0
+1077	"LOR"	182	541	"Female"	"White-tailed deer"	"Chordata"	"Mammalia"	"Artiodactyla"	"Cervidae"	"Odocoileus"	"virginianus"	-1	0	"Survival"	"ESR"	NA	NA	NA	NA	NA	NA	9	4	3	8	1990	0	1	0	0
+1080	"LOR"	184	543	"Male"	"Asian elephant"	"Chordata"	"Mammalia"	"Proboscidea"	"Elephantidae"	"Elephas"	"maximus"	-1	0	"Survival"	"ESR"	NA	NA	NA	NA	NA	NA	7	11	5	1	2012	0	1	0	0
+1088	"LOR"	186	545	"Mixed"	"Western rattlesnake"	"Chordata"	"Reptilia"	"Squamata"	"Viperidae"	"Crotalus"	"oreganus"	-1	0	"Survival"	"ESR"	NA	NA	NA	NA	NA	NA	14	12	0	2	2009	0	1	0	0
+1093	"LOR"	188	547	"Mixed"	"Eastern gray squirrel"	"Chordata"	"Mammalia"	"Rodentia"	"Sciuridae"	"Sciurus"	"carolinensis"	-1	0	"Survival"	"ESR"	NA	NA	NA	NA	NA	NA	21	18	0	2	2013	0	1	0	0
+1098	"LOR"	190	550	"Male"	"Steelhead trout"	"Chordata"	"Actinopterygii"	"Salmoniformes"	"Salmonidae"	"Oncorhynchus"	"mykiss"	-1	0.5	"Reproduction"	"ISR"	NA	NA	NA	NA	NA	NA	12	9	2	7	2005	0	1	0	1
+1099	"LOR"	190	550	"Female"	"Steelhead trout"	"Chordata"	"Actinopterygii"	"Salmoniformes"	"Salmonidae"	"Oncorhynchus"	"mykiss"	-1	0.5	"Reproduction"	"ISR"	NA	NA	NA	NA	NA	NA	26	14	1	1	2005	0	1	0	1
+1100	"LOR"	190	551	"Male"	"Steelhead trout"	"Chordata"	"Actinopterygii"	"Salmoniformes"	"Salmonidae"	"Oncorhynchus"	"mykiss"	-1	0.5	"Reproduction"	"ISR"	NA	NA	NA	NA	NA	NA	28	9	10	5	2005	0	1	0	1
+1101	"LOR"	190	551	"Female"	"Steelhead trout"	"Chordata"	"Actinopterygii"	"Salmoniformes"	"Salmonidae"	"Oncorhynchus"	"mykiss"	-1	0.5	"Reproduction"	"ISR"	NA	NA	NA	NA	NA	NA	43	29	3	27	2005	0	1	0	1
