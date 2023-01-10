@@ -109,68 +109,6 @@ outliers <- which(rs.resid$z > 1.96 | rs.resid$z < -1.96)
 
 
 
-## Calculation of model heterogeneity
-
-# Source: Kamiya et al. 2014 (https://datadryad.org/stash/dataset/doi:10.5061/dryad.288j7)
-
-# Weight and mean variance
-Weight<-1/dat$vi
-MV<-sum(Weight*(length(Weight)-1))/(sum(Weight)^2-sum(Weight^2))
-
-## I2 order
-I2.order<-100*(mcmc.taxo1$VCV[,"order"])/(mcmc.taxo1$VCV[,"order"]+mcmc.taxo1$VCV[,"fam"]+mcmc.taxo1$VCV[,"genus"]+mcmc.taxo1$VCV[,"species"]+mcmc.taxo1$VCV[,"studyID"]+mcmc.taxo1$VCV[,"groupID"]+mcmc.taxo1$VCV[,"units"]+MV)
-summary(I2.order)
-posterior.mode(I2.order)
-HPDinterval(I2.order)
-
-# I2 family
-I2.fam<-100*(mcmc.taxo1$VCV[,"fam"])/(mcmc.taxo1$VCV[,"order"]+mcmc.taxo1$VCV[,"fam"]+mcmc.taxo1$VCV[,"genus"]+mcmc.taxo1$VCV[,"species"]+mcmc.taxo1$VCV[,"studyID"]+mcmc.taxo1$VCV[,"groupID"]+mcmc.taxo1$VCV[,"units"]+MV)
-summary(I2.fam)
-posterior.mode(I2.fam)
-HPDinterval(I2.fam)
-
-# I2 genus
-I2.genus<-100*(mcmc.taxo1$VCV[,"genus"])/(mcmc.taxo1$VCV[,"order"]+mcmc.taxo1$VCV[,"fam"]+mcmc.taxo1$VCV[,"genus"]+mcmc.taxo1$VCV[,"species"]+mcmc.taxo1$VCV[,"studyID"]+mcmc.taxo1$VCV[,"groupID"]+mcmc.taxo1$VCV[,"units"]+MV)
-summary(I2.genus)
-posterior.mode(I2.genus)
-HPDinterval(I2.genus)
-
-# I2 species
-I2.species<-100*(mcmc.taxo1$VCV[,"species"])/(mcmc.taxo1$VCV[,"order"]+mcmc.taxo1$VCV[,"fam"]+mcmc.taxo1$VCV[,"genus"]+mcmc.taxo1$VCV[,"species"]+mcmc.taxo1$VCV[,"studyID"]+mcmc.taxo1$VCV[,"groupID"]+mcmc.taxo1$VCV[,"units"]+MV)
-summary(I2.species)
-posterior.mode(I2.species)
-HPDinterval(I2.species)
-
-# I2 studyID
-I2.study<-100*(mcmc.taxo1$VCV[,"studyID"])/(mcmc.taxo1$VCV[,"order"]+mcmc.taxo1$VCV[,"fam"]+mcmc.taxo1$VCV[,"genus"]+mcmc.taxo1$VCV[,"species"]+mcmc.taxo1$VCV[,"studyID"]+mcmc.taxo1$VCV[,"groupID"]+mcmc.taxo1$VCV[,"units"]+MV)
-summary(I2.study)
-posterior.mode(I2.study)
-HPDinterval(I2.study)
-
-# I2 groupID
-I2.group<-100*(mcmc.taxo1$VCV[,"groupID"])/(mcmc.taxo1$VCV[,"order"]+mcmc.taxo1$VCV[,"fam"]+mcmc.taxo1$VCV[,"genus"]+mcmc.taxo1$VCV[,"species"]+mcmc.taxo1$VCV[,"studyID"]+mcmc.taxo1$VCV[,"groupID"]+mcmc.taxo1$VCV[,"units"]+MV)
-summary(I2.group)
-posterior.mode(I2.group)
-HPDinterval(I2.group)
-
-# I2 residual
-I2.res<-100*(mcmc.taxo1$VCV[,"units"])/(mcmc.taxo1$VCV[,"order"]+mcmc.taxo1$VCV[,"fam"]+mcmc.taxo1$VCV[,"genus"]+mcmc.taxo1$VCV[,"species"]+mcmc.taxo1$VCV[,"studyID"]+mcmc.taxo1$VCV[,"groupID"]+mcmc.taxo1$VCV[,"units"]+MV)
-summary(I2.res)
-posterior.mode(I2.res)
-HPDinterval(I2.res)
-
-# I2 total
-I2.total<-100*(mcmc.taxo1$VCV[,"units"]+mcmc.taxo1$VCV[,"order"]+mcmc.taxo1$VCV[,"fam"]+mcmc.taxo1$VCV[,"genus"]+mcmc.taxo1$VCV[,"species"]+mcmc.taxo1$VCV[,"studyID"]+mcmc.taxo1$VCV[,"groupID"])/(mcmc.taxo1$VCV[,"order"]+mcmc.taxo1$VCV[,"fam"]+mcmc.taxo1$VCV[,"genus"]+mcmc.taxo1$VCV[,"species"]+mcmc.taxo1$VCV[,"studyID"]+mcmc.taxo1$VCV[,"groupID"]+mcmc.taxo1$VCV[,"units"]+MV)
-summary(I2.total)
-posterior.mode(I2.total)
-HPDinterval(I2.total)
-
-
-
-
-
-
-
 #########################
 # Running same model structure as taxo-1, 2, & 3, for meta-analysis validations with outliers omitted
 
