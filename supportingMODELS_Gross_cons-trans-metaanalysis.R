@@ -7,6 +7,7 @@ rm(list = ls())
 #FIXME: Uncomment and set working directory for local computer
 #setwd("<<insert working directory here>>")
 
+
 # load necessary packages
 library("MCMCglmm")
 library("metafor")
@@ -34,7 +35,7 @@ load(file = "mcmc.taxo3.rdata")
 # Setup MCMC specifications and priors
 nsamp <- 3000
 BURN <- 3000
-THIN <- 150
+THIN <- 500
 NITT <- BURN + nsamp*THIN
 
 # Priors
@@ -68,22 +69,22 @@ mcmc.timelag <- MCMCglmm(yi ~ PrintYear,
 taxo.o <- emmeans(object = mcmc.timelag, specs = ~1, data = dat)
 df.o <- data.frame(hpd.summary(taxo.o, point.est = posterior.mode))
 
-# Return the number of unique studies and estimates across class levels
-n.stu <- length(unique(dat$studyID))
-n.est <- length(unique(dat$estimateID))
-df.o <- cbind(df.o, n.est, n.stu)
+# Return the number of unique studies and estimates for the overall effect
+n.stu.o <- length(unique(dat$studyID))
+n.est.o <- length(unique(dat$estimateID))
+df.o <- cbind(df.o, n.est.o, n.stu.o)
 
 # Pull marginals posterior modes for class fixed effect
-taxo.c <- emmeans(object = mcmc.timelag, specs = ~PrintYear, data = dat)
-df.c <- data.frame(hpd.summary(taxo.c, point.est = posterior.mode))
+taxo.y <- emmeans(object = mcmc.timelag, specs = ~PrintYear, data = dat)
+df.y <- data.frame(hpd.summary(taxo.y, point.est = posterior.mode))
 
 # Return the number of unique studies and estimates across class levels
-n.stu <- as.vector(by(dat$studyID,list(dat$PrintYear), function(x) length(unique(x))))
-n.est <- as.vector(table(dat$PrintYear))
-df.c <- cbind(df.c, n.est, n.stu)
+n.stu.y <- as.vector(by(dat$studyID,list(dat$PrintYear), function(x) length(unique(x))))
+n.est.y <- as.vector(table(dat$PrintYear))
+df.y <- cbind(df.y, n.est.y, n.stu.y)
 
 # rbind class and overall dfs
-df <- data.frame(mapply(c, df.c, df.o, SIMPLIFY = FALSE))
+df <- data.frame(mapply(c, df.y, df.o, SIMPLIFY = FALSE))
 levels(df$PrintYear)[levels(df$PrintYear) == "overall"] <- "Overall"
 
 df$ns <- NA
@@ -91,25 +92,24 @@ df$ns <- paste0("(",df$n.stu[], ", ", df$n.est[],")")
 df$PrintYear <- factor(df$PrintYear, levels = rev(levels(df$PrintYear)))
 
 # Fancy posterior distribution by by-class
-taxo.c.em <- as.data.frame(as.mcmc.emmGrid(taxo.c))
+taxo.y.em <- as.data.frame(as.mcmc.emmGrid(taxo.y))
 taxo.o.em <- as.data.frame(as.mcmc.emmGrid(taxo.o))
-colnames(taxo.c.em)<-gsub("PrintYear ","",colnames(taxo.c.em))
-colnames(taxo.o.em)<-gsub("1 overall","Overall",colnames(taxo.o.em))
-taxo.c.em <- cbind(taxo.c.em, taxo.o.em)
-melt.c.em <- melt(taxo.c.em)
+colnames(taxo.y.em) <- gsub("PrintYear ", "", colnames(taxo.y.em))
+colnames(taxo.o.em) <- gsub("1 overall", "Overall", colnames(taxo.o.em))
+taxo.y.em <- cbind(taxo.y.em, taxo.o.em)
+melt.y.em <- melt(taxo.y.em)
 
-timelag.1 <- ggplot(melt.c.em, aes(x=value, y=variable)) +
+timelag <- ggplot(melt.y.em, aes(x=value, y=variable)) +
     xlim(-5,4) +
-    scale_y_discrete(limits = unique(rev(melt.c.em$variable))) +
+    scale_y_discrete(limits = unique(rev(melt.y.em$variable))) +
     geom_density_ridges2(rel_min_height = 5.5e-3, scale =2,
         quantile_lines = TRUE,
         calc_ecdf = TRUE,
         quantiles = c(0.025, 0.5, 0.975),
         alpha = 0.9) +
     theme_classic() +
-    geom_vline(xintercept = 0, linetype = 3, size = 1.2) +
+    geom_vline(xintercept = 0, linetype = 3, linewidth = 1.2) +
     ylab("Year") + xlab("ln odds ratio (95% CrI)")
-
 
 
 
@@ -143,7 +143,9 @@ range(mr)
 funnel(TFL, xlab = "Meta-analytic residuals", xlim = c(-6,6))
 funnel(TFR, xlab = "Meta-analytic residuals", xlim = c(-6, 6))
 
-## Outlier identification
+############################
+## Outlier identification ##
+############################
 # based on studentized deleted residuals (Viechtbauer & Cheung 2010; DOI: 10.1002/jrsm.11)
 # Code adapted from metafor documentation
 metafor.res2 <- rma.mv(yi, vi, mods = cbind(class, scope, sex, strategy),
@@ -152,17 +154,10 @@ metafor.res2 <- rma.mv(yi, vi, mods = cbind(class, scope, sex, strategy),
 #XXX WARNING: the next line might take several HOURS !!!! XXX
 rs.resid <- rstudent(metafor.res2)
 save("metafor.res2", "rs.resid", file = "outlierID.rdata")
-load("outlierID.rdata")
+#load("outlierID.rdata")
 
-# NAs returned for two estimates' residuals. Not sure why
-which(is.na(rs.resid$z))
-
-# 43 estimates identified as outliers, based on z-scores > |1.96|
+# Outliers identified based on z-scores > |1.96|
 outliers <- which(rs.resid$z > 1.96 | rs.resid$z < -1.96)
-
-
-
-
 
 
 #########################
@@ -183,6 +178,7 @@ G = list(G1 = list(V = diag(1), nu=1, alpha.mu=0, alpha.V=diag(1)*a),
 # Subset data to remove outliers
 dat.out <- dat[-outliers,]
 dat.out <- droplevels(dat.out)
+
 # Model 4: Wild vs. translocated comparisons
 mcmc.taxo4 <- MCMCglmm(yi ~ class + scope + sex + strategy +
     sex*scope + sex*strategy + scope*strategy,
@@ -190,6 +186,8 @@ mcmc.taxo4 <- MCMCglmm(yi ~ class + scope + sex + strategy +
   data = dat.out,
   prior = prFxdGR.taxo,
   thin = THIN, burnin = BURN, nitt = NITT)
+
+save("mcmc.taxo4", file = "mcmc.taxo4.rdata")
 
 
 # Model 5: Model 4 subset of studies for which number of generations in captivity is known
@@ -203,6 +201,8 @@ mcmc.taxo5 <- MCMCglmm(yi ~ class + scope + sex + capt.bin +
   prior = prFxdGR.taxo,
   thin = THIN, burnin = BURN, nitt = NITT)
 
+save("mcmc.taxo5", file = "mcmc.taxo5.rdata")
+
 # Model 6: Model 4 subset of studies involving both enriched and unenriched comparisons
 dat.out.enrich <- dat.out[which(dat.out$enrich.present == 1),]
 dat.out.enrich[] <- droplevels(dat.out.enrich)
@@ -214,7 +214,7 @@ mcmc.taxo6 <- MCMCglmm(yi ~ class + enrich.bin + scope + sex + strategy +
   prior = prFxdGR.taxo,
   thin = THIN, burnin = BURN, nitt = NITT)
 
-
+save("mcmc.taxo6", file = "mcmc.taxo6.rdata")
 
 
 
@@ -222,7 +222,7 @@ mcmc.taxo6 <- MCMCglmm(yi ~ class + enrich.bin + scope + sex + strategy +
 
 
 ################################################################################
-## Model validation
+## Model 4-6 validation (outliers excluded)
 
 # 1. Time-lag bias
 mcmc.timelag.out <- MCMCglmm(yi ~ PrintYear,
@@ -232,49 +232,49 @@ mcmc.timelag.out <- MCMCglmm(yi ~ PrintYear,
   thin = THIN, burnin = BURN, nitt = NITT)
 
 # Pull marginals posterior modes for overall model effect
-taxo.o <- emmeans(object = mcmc.timelag.out, specs = ~1, data = dat.out)
-df.o <- data.frame(hpd.summary(taxo.o, point.est = posterior.mode))
+taxo.o.out <- emmeans(object = mcmc.timelag.out, specs = ~1, data = dat.out)
+df.o.out <- data.frame(hpd.summary(taxo.o.out, point.est = posterior.mode))
 
-# Return the number of unique studies and estimates across class levels
-n.stu <- length(unique(dat.out$studyID))
-n.est <- length(unique(dat.out$estimateID))
-df.o <- cbind(df.o, n.est, n.stu)
+# Return the number of unique studies and estimates for the overall effect
+n.stu.o.out <- length(unique(dat.out$studyID))
+n.est.o.out <- length(unique(dat.out$estimateID))
+df.o.out <- cbind(df.o.out, n.est.o.out, n.stu.o.out)
 
 # Pull marginals posterior modes for class fixed effect
-taxo.c <- emmeans(object = mcmc.timelag.out, specs = ~PrintYear, data = dat.out)
-df.c <- data.frame(hpd.summary(taxo.c, point.est = posterior.mode))
+taxo.y.out <- emmeans(object = mcmc.timelag.out, specs = ~PrintYear, data = dat.out)
+df.y.out <- data.frame(hpd.summary(taxo.y.out, point.est = posterior.mode))
 
 # Return the number of unique studies and estimates across class levels
-n.stu <- as.vector(by(dat.out$studyID,list(dat.out$PrintYear), function(x) length(unique(x))))
-n.est <- as.vector(table(dat.out$PrintYear))
-df.c <- cbind(df.c, n.est, n.stu)
+n.stu.y.out <- as.vector(by(dat.out$studyID,list(dat.out$PrintYear), function(x) length(unique(x))))
+n.est.y.out <- as.vector(table(dat.out$PrintYear))
+df.y.out <- cbind(df.y.out, n.est.y.out, n.stu.y.out)
 
 # rbind class and overall dfs
-df <- data.frame(mapply(c, df.c, df.o, SIMPLIFY = FALSE))
-levels(df$PrintYear)[levels(df$PrintYear) == "overall"] <- "Overall"
+df.out <- data.frame(mapply(c, df.y.out, df.o.out, SIMPLIFY = FALSE))
+levels(df.out$PrintYear)[levels(df.out$PrintYear) == "overall"] <- "Overall"
 
-df$ns <- NA
-df$ns <- paste0("(",df$n.stu[], ", ", df$n.est[],")")
-df$PrintYear <- factor(df$PrintYear, levels = rev(levels(df$PrintYear)))
+df.out$ns <- NA
+df.out$ns <- paste0("(",df.out$n.stu[], ", ", df.out$n.est[],")")
+df.out$PrintYear <- factor(df.out$PrintYear, levels = rev(levels(df.out$PrintYear)))
 
 # Fancy posterior distribution by by-class
-taxo.c.em <- as.data.frame(as.mcmc.emmGrid(taxo.c))
-taxo.o.em <- as.data.frame(as.mcmc.emmGrid(taxo.o))
-colnames(taxo.c.em)<-gsub("PrintYear ","",colnames(taxo.c.em))
-colnames(taxo.o.em)<-gsub("1 overall","Overall",colnames(taxo.o.em))
-taxo.c.em <- cbind(taxo.c.em, taxo.o.em)
-melt.c.em <- melt(taxo.c.em)
+taxo.y.out.em <- as.data.frame(as.mcmc.emmGrid(taxo.y.out))
+taxo.o.out.em <- as.data.frame(as.mcmc.emmGrid(taxo.o.out))
+colnames(taxo.y.out.em)<-gsub("PrintYear ","",colnames(taxo.y.out.em))
+colnames(taxo.o.out.em)<-gsub("1 overall","Overall",colnames(taxo.o.out.em))
+taxo.y.out.em <- cbind(taxo.y.out.em, taxo.o.out.em)
+melt.y.out.em <- melt(taxo.y.out.em)
 
-timelag.1 <- ggplot(melt.c.em, aes(x=value, y = variable)) +
+timelag.out <- ggplot(melt.y.out.em, aes(x=value, y = variable)) +
     xlim(-5,4) +
-    scale_y_discrete(limits = unique(rev(melt.c.em$variable))) +
+    scale_y_discrete(limits = unique(rev(melt.y.out.em$variable))) +
     geom_density_ridges2(rel_min_height = 5.5e-3, scale =2,
         quantile_lines = TRUE,
         calc_ecdf = TRUE,
         quantiles = c(0.025, 0.5, 0.975),
         alpha = 0.9) +
     theme_classic() +
-    geom_vline(xintercept = 0, linetype = 3, size = 1.2) +
+    geom_vline(xintercept = 0, linetype = 3, linewidth = 1.2) +
     ylab("Year") + xlab("ln odds ratio (95% CrI)")
     
     
@@ -285,7 +285,7 @@ timelag.1 <- ggplot(melt.c.em, aes(x=value, y = variable)) +
     
     
 # 2. Egger's regression
-prediction.out<-predict(mcmc.taxo7, marginal=~order + fam + genus + species + studyID + groupID + idh(SE):units)
+prediction.out<-predict(mcmc.taxo4, marginal=~order + fam + genus + species + studyID + groupID + idh(SE):units)
 precision.out<-sqrt(1/dat.out$vi)
 mr.out <- dat.out$yi - prediction.out
 z.mr.out <- mr.out * precision.out
@@ -296,7 +296,7 @@ summary(lm.egger.out)
 graphics.off()
 par(mfrow=c(1,2))
 plot(dat.out$yi, precision.out, xlab = 'Log odds ratio', ylab = 'Precision')
-abline(v=posterior.mode(mcmc.taxo7$Sol)[1],lwd=1) #v is the meta-analytic mean
+abline(v=posterior.mode(mcmc.taxo4$Sol)[1],lwd=1) #v is the meta-analytic mean
 plot(mr.out, precision.out, xlab = 'Meta-analytic residuals', ylab = 'Precision')
 abline(v=0,lwd=1,lty=2)
 

@@ -1,3 +1,4 @@
+
 ########################################################################
 ######   ##############################################################
 ####     #############################################################
@@ -14,13 +15,15 @@ rm(list = ls())
 #FIXME: Uncomment and set working directory for local computer
 #setwd("<<insert working directory here>>")
 
+setwd("/Users/iwo/ACT_MetaAnalysis/")
+
 # load necessary packages
 library("MCMCglmm")
 library("metafor")
 
 
 # Import data
-dat <- read.table(file = "Gross_cons-trans-metaanalysis_DATA.txt",
+dat <- read.table(file = "DATA_Gross_cons-trans-metaanalysis.txt",
   header = TRUE, sep = "\t")
 
 
@@ -79,7 +82,7 @@ LORrows <- which(dat$estimator == 'LOR')
 dat <- escalc(measure="D2ORN", m1i = m2i, sd1i = sd2i, n1i = n2i, m2i = m1i, sd2i = sd1i, n2i = n1i, data=dat)
 
 # Calculate log odds ratios and convert to estimates of standardized mean difference
-dat[LORrows, ] <- escalc(measure="OR", ai = C  , bi = D, ci = A, di = B, data=dat[LORrows, ])
+dat[LORrows, ] <- escalc(measure="OR", ai = C, bi = D, ci = A, di = B, data=dat[LORrows, ])
 
 # Calculate standard errors on the calculated effect sizes
 dat$SE <- sqrt(dat$vi)
@@ -114,7 +117,7 @@ save("dat", "dat.capt", "dat.enrich",
 # Setup MCMC specifications and priors
 nsamp <- 3000
 BURN <- 3000
-THIN <- 150
+THIN <- 500
 NITT <- BURN + nsamp*THIN
 
 # Priors
@@ -130,7 +133,7 @@ G = list(G1 = list(V = diag(1), nu=1, alpha.mu=0, alpha.V=diag(1)*a),
         G7 = list(V = diag(1), fix = 1)))
 
 # Model 1: Wild vs. translocated comparisons
-mcmc.taxo1_test <- MCMCglmm(yi ~ class + scope + sex + strategy +
+mcmc.taxo1 <- MCMCglmm(yi ~ class + scope + sex + strategy +
     sex*scope + sex*strategy + scope*strategy,
   random = ~ order + fam + genus + species + studyID + groupID + idh(SE):units,
   data = dat,
