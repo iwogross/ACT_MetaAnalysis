@@ -1,6 +1,6 @@
 # ACT_MetaAnalysis
 
-Version controlled and editable source for the data and code supporting the paper by Gross, Wilson, & Wolak
+Version controlled and editable source for the data and code supporting the paper "The fitness consequences of wildlife conservation translocations: A meta-analysis:" by Gross, Wilson, & Wolak.
 
 ## Data
 
@@ -9,7 +9,7 @@ If you use the data, please cite the data package TBD
 
 ### Data metadata
 
-Column header descriptions for the primary dataset analyzed in the paper "The fitness consequences of wildlife conservation translocations: A meta-analysis:.
+Column header descriptions for the primary dataset analyzed in the paper.
 
 This systematic review and meta-analysis examines the efficacy of animal conservation translocations using direct comparisons of animal performance between translocated and wild-resident organisms. Each data row characterizes a single comparison between a translocated and wild-conspecific cohort in the wild. Comparisons are standardized using various effect size estimators. 
 
@@ -20,7 +20,7 @@ Column headings for the datasets reflect variables defined and discussed in the 
  - `studyID`: Unique study identifier
  - `groupID`: Within-study identifier of unique animal cohorts
  - `sex`: Designated sex of compared cohorts (female-only, mixed-sex, male-only)
- - `common.name`: layman's species moniker
+ - `common.name`: Layman's species moniker
  - `phylum`: Taxonomic phylum designation
  - `class`: Taxonomic class designation
  - `order`: Taxonomic order designation         
