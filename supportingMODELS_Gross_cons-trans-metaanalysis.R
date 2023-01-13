@@ -110,10 +110,10 @@ melt.y.em <- melt(taxo.y.em)
 # Supplementary Figure 2A (See Supp Figure 2 entire creation below)
 pdf(file = "./Supplementary_Fig2a.pdf",
   width = 4.25, height = 8)
-ggplot(melt.y.em, aes(x=value, y=variable)) +
-    xlim(-5,4) +
+ggplot(melt.y.em, aes(x = value, y = variable)) +
+    xlim(-5, 4) +
     scale_y_discrete(limits = unique(rev(melt.y.em$variable))) +
-    geom_density_ridges2(rel_min_height = 5.5e-3, scale =2,
+    geom_density_ridges2(rel_min_height = 5.5e-3, scale = 2,
         stat = "density_ridges_HPDCrI",
         quantile_lines = TRUE,
         calc_ecdf = TRUE,
@@ -130,23 +130,23 @@ dev.off()
 
 
 # 2. Egger's regression
-prediction<-predict(mcmc.taxo1, marginal=~order + fam + genus + species + studyID + groupID + idh(SE):units)
-precision<-sqrt(1/dat$vi)
+prediction <- predict(mcmc.taxo1, marginal = ~order + fam + genus + species + studyID + groupID + idh(SE):units)
+precision <- sqrt(1/dat$vi)
 mr <- dat$yi - prediction
 z.mr <- mr * precision
-lm.egger<-lm(z.mr ~ precision)
+lm.egger <- lm(z.mr ~ precision)
 summary(lm.egger)
 
 # 3. Funnel plot
 graphics.off()
-par(mfrow=c(1,2))
+par(mfrow = c(1,2))
 plot(dat$yi, precision, xlab = 'Log odds ratio', ylab = 'Precision')
-abline(v=posterior.mode(mcmc.taxo1$Sol)[1],lwd=1) #v is the meta-analytic mean
+abline(v = posterior.mode(mcmc.taxo1$Sol)[1], lwd = 1) #v is the meta-analytic mean
 plot(mr, precision, xlab = 'Meta-analytic residuals', ylab = 'Precision')
-abline(v=0,lwd=1,lty=2)
+abline(v = 0,lwd = 1,lty = 2)
 
 # 4. Trim-and-fill analysis
-metafor.tf <- rma(yi=mr,sei=1/precision)
+metafor.tf <- rma(yi = mr, sei = 1/precision)
 summary(metafor.tf)
 TFL <- trimfill(metafor.tf, side = "left", estimator = "R0")
 TFR <- trimfill(metafor.tf, side = 'right', estimator = 'R0')
@@ -282,10 +282,10 @@ melt.y.out.em <- melt(taxo.y.out.em)
 # Supplementary Figure 2b (See creation of Supp. Fig. 2A above)
 pdf(file = "./Supplementary_Fig2b.pdf",
   width = 4.25, height = 8)
-ggplot(melt.y.out.em, aes(x=value, y = variable)) +
-    xlim(-4,4) +
+ggplot(melt.y.out.em, aes(x = value, y = variable)) +
+    xlim(-4, 4) +
     scale_y_discrete(limits = unique(rev(melt.y.out.em$variable))) +
-    geom_density_ridges2(rel_min_height = 5.5e-3, scale =2,
+    geom_density_ridges2(rel_min_height = 5.5e-3, scale = 2,
     	stat = "density_ridges_HPDCrI",
         quantile_lines = TRUE,
         calc_ecdf = TRUE,
@@ -304,23 +304,23 @@ dev.off()
     
     
 # 2. Egger's regression
-prediction.out<-predict(mcmc.taxo4, marginal=~order + fam + genus + species + studyID + groupID + idh(SE):units)
+prediction.out <- predict(mcmc.taxo4, marginal = ~order + fam + genus + species + studyID + groupID + idh(SE):units)
 precision.out<-sqrt(1/dat.out$vi)
 mr.out <- dat.out$yi - prediction.out
 z.mr.out <- mr.out * precision.out
-lm.egger.out<-lm(z.mr.out ~ precision.out)
+lm.egger.out <- lm(z.mr.out ~ precision.out)
 summary(lm.egger.out)
 
 # 3. Funnel plot
 graphics.off()
-par(mfrow=c(1,2))
+par(mfrow = c(1,2))
 plot(dat.out$yi, precision.out, xlab = 'Log odds ratio', ylab = 'Precision')
-abline(v=posterior.mode(mcmc.taxo4$Sol)[1],lwd=1) #v is the meta-analytic mean
+abline(v = posterior.mode(mcmc.taxo4$Sol)[1],lwd=1) #v is the meta-analytic mean
 plot(mr.out, precision.out, xlab = 'Meta-analytic residuals', ylab = 'Precision')
-abline(v=0,lwd=1,lty=2)
+abline(v = 0, lwd = 1, lty = 2)
 
 # 4. Trim-and-fill analysis
-metafor.tf.out <- rma(yi=mr.out,sei=1/precision.out)
+metafor.tf.out <- rma(yi = mr.out, sei = 1/precision.out)
 summary(metafor.tf.out)
 TFL.out <- trimfill(metafor.tf.out, side = "left", estimator = "R0")
 TFR.out <- trimfill(metafor.tf.out, side = 'right', estimator = 'R0')

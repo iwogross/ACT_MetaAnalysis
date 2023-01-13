@@ -5,7 +5,6 @@ rm(list = ls())
 # Set working directory
 #FIXME: Uncomment and set working directory for local computer
 #setwd("<<insert working directory here>>")
-setwd("/Users/iwo/ACT_MetaAnalysis")
 
 # load necessary packages
 library("MCMCglmm")
@@ -188,7 +187,7 @@ ggplot(melt.em, aes(x = value, y = class, fill = as.factor(enrich))) +
       geom_vline(xintercept = -0.1, linetype = 3, size = 1.75) +
       ylab("") + xlab("ln odds ratio (95% CrI)") +
       geom_text(data = df[1:6,], aes(y = class, x = upper.HPD),
-         inherit.aes=FALSE, parse = FALSE,
+         inherit.aes = FALSE, parse = FALSE,
          label = df[1:6,]$ns, 
          nudge_y = 0.25, nudge_x = 5)
 
