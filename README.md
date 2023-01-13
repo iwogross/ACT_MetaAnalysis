@@ -1,5 +1,7 @@
 # ACT_MetaAnalysis
 
+[![DOI](https://zenodo.org/badge/578396317.svg)](https://zenodo.org/badge/latestdoi/578396317)
+
 Version controlled and editable source for the data and code supporting the paper "The fitness consequences of wildlife conservation translocations: A meta-analysis:" by Gross, Wilson, & Wolak.
 
 ## Data
