@@ -16,6 +16,8 @@ library("ggridges")
 library("reshape")
 library("wesanderson")
 
+source("plot_utils.R")  #<-- necessary to plot 95% HPD intervals in Figures 1 & 2
+
 
 # Import data
 load(file = "Gross_cons-trans-metaanalysis.rdata")
@@ -132,20 +134,23 @@ ggplot(melt.c.em.1, aes(x=value, y = variable)) +
     geom_segment(data = build.1, 
       aes(x = lcl, xend = ucl, y = ymin, yend = ymin), size = 3) +         
     geom_density_ridges2(rel_min_height = 5e-8, scale =1.45,
-#      quantile_lines = TRUE,
-      calc_ecdf = TRUE,
-#      quantiles = c(0.025, 0.975),
-      fill = wes_palette("Darjeeling1")[4],
-      alpha = 0.7) +
+         stat = "density_ridges_HPDCrI", 
+         quantile_lines = TRUE,
+         calc_ecdf = TRUE,
+#         quantiles = c(0.025, 0.975),
+	 quantiles = c(0.95),
+	 quantile_fun = HPD_fun,
+         fill = wes_palette("Darjeeling1")[4],
+         alpha = 0.7) +
     # posterior mode lines
     geom_segment(data = density_lines.1, 
                aes(x = x, y = ymin, xend = x, 
                    yend = ymin+density*scale*iscale)) +
                    
-    theme_classic() +
-    geom_vline(xintercept = 0, linetype = 3, size = 1.2) +
-    ylab("") + xlab("ln odds ratio (95% CrI)") +
-    geom_text(data = df.1,aes(y = class, x = upper.HPD),
+     theme_classic() +
+     geom_vline(xintercept = 0, linetype = 3, size = 1.2) +
+     ylab("") + xlab("ln odds ratio (95% CrI)") +
+     geom_text(data = df.1,aes(y = class, x = upper.HPD),
          label = df.1$ns,
          nudge_y = .33,
          nudge_x = 2)
@@ -252,38 +257,30 @@ ggplot(melt.em, aes(x=value, y = class, fill = as.factor(enrich))) +
       scale_y_discrete(limits = unique(rev(melt.em$class))) +
       scale_fill_manual(values = wes_palette("Darjeeling1"),
           labels=c('Enrichment absent', 'Enrichment present')) +
-      # 95% credible intervals as thick lines along bottom of each density
-      ## plot before the densities so 95% CrI bars not over top density below
-      geom_segment(data = build.2, 
-        aes(x = lcl, xend = ucl, y = ymin, yend = ymin), size = 3) +         
-
       geom_density_ridges2(rel_min_height = 5e-8,
           scale = 1.15,
+          stat = "density_ridges_HPDCrI", 
           quantile_lines = TRUE,
           calc_ecdf = TRUE,
-          quantiles = c(0.025, 0.975),
+# 	  quantiles = c(0.025, 0.975),         
+          quantiles = 0.95,
+          quantile_fun = HPD_fun,
           alpha = 0.7) +
-      # posterior mode lines
-      geom_segment(data = density_lines.2, 
-               aes(x = x, y = ymin, xend = x, 
-                   yend = ymin+density*scale*iscale)) +
-                   
+   # posterior mode lines
+   geom_segment(data = density_lines.2, 
+            aes(x = x, y = ymin, xend = x, 
+                yend = ymin+density*scale*iscale)) +
+
       theme_classic() +
       theme(legend.position = "bottom",
          legend.title = element_blank()) +
-      geom_vline(xintercept = 0, linetype = 3, size = 1.2) +
+      geom_vline(xintercept = -0.1, linetype = 3, size = 1.2) +
       ylab("") + xlab("ln odds ratio (95% CrI)") +
       geom_text(data = df[1:6,], aes(y = class, x = upper.HPD),
          inherit.aes=FALSE, parse=FALSE,
          label = df[1:6,]$ns, 
          nudge_y =0.25, nudge_x = 5)
 
-# previous version:
-ridges.2 +      
-   # posterior mode lines
-   geom_segment(data = density_lines.2, 
-            aes(x = x, y = ymin, xend = x, 
-                yend = ymin+density*scale*iscale))
 
 
 #####################################
