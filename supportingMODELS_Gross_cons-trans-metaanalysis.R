@@ -99,6 +99,8 @@ colnames(taxo.o.em) <- gsub("1 overall", "Overall", colnames(taxo.o.em))
 taxo.y.em <- cbind(taxo.y.em, taxo.o.em)
 melt.y.em <- melt(taxo.y.em)
 
+  
+
 timelag <- ggplot(melt.y.em, aes(x=value, y=variable)) +
     xlim(-5,4) +
     scale_y_discrete(limits = unique(rev(melt.y.em$variable))) +
@@ -111,7 +113,35 @@ timelag <- ggplot(melt.y.em, aes(x=value, y=variable)) +
     geom_vline(xintercept = 0, linetype = 3, linewidth = 1.2) +
     ylab("Year") + xlab("ln odds ratio (95% CrI)")
 
+# Add 95% credible intervals to plot
+## calculate for each group
+hpd_data <- aggregate(value ~ variable, data = melt.y.em,
+  FUN = function(x) HPDinterval(as.mcmc(x), prob = 0.95))
+  ## add "group" column to correspond to `timelag` convention
+  hpd_data$group <- as.factor(as.integer(hpd_data$variable))
+## extract plot data
+pltdf <- ggplot_build(timelag)$data[[1]]
+  # Add Credible interval limits to plot data
+  pltdf[, c("lcl", "ucl")] <- hpd_data[match(pltdf$group, hpd_data$group),
+    "value"]
 
+# replot, but this time add 95% credible interval bars along each plot/ridges
+## x-axis BEFORE plotting the density    
+ggplot(melt.y.em, aes(x=value, y=variable)) +
+    xlim(-5,4) +
+    scale_y_discrete(limits = unique(rev(melt.y.em$variable))) +
+    # 95% credible intervals as thick lines along bottom of each density
+    ## plot before the densities so 95% CrI bars not over top density below
+    geom_segment(data = pltdf, 
+      aes(x = lcl, xend = ucl, y = ymin, yend = ymin), size = 3) +         
+    geom_density_ridges2(rel_min_height = 5.5e-3, scale =2,
+        quantile_lines = TRUE,
+        calc_ecdf = TRUE,
+        quantiles = c(0.5),
+        alpha = 0.9) +
+    theme_classic() +
+    geom_vline(xintercept = 0, linetype = 3, linewidth = 1.2) +
+    ylab("Year") + xlab("ln odds ratio (95% CrI)")
 
 
 
@@ -278,7 +308,36 @@ timelag.out <- ggplot(melt.y.out.em, aes(x=value, y = variable)) +
     ylab("Year") + xlab("ln odds ratio (95% CrI)")
     
     
-    
+# Add 95% credible intervals to plot
+## calculate for each group
+hpd_data <- aggregate(value ~ variable, data = melt.y.out.em,
+  FUN = function(x) HPDinterval(as.mcmc(x), prob = 0.95))
+  ## add "group" column to correspond to `timelag` convention
+  hpd_data$group <- as.factor(as.integer(hpd_data$variable))
+## extract plot data
+pltdf <- ggplot_build(timelag.out)$data[[1]]
+  # Add Credible interval limits to plot data
+  pltdf[, c("lcl", "ucl")] <- hpd_data[match(pltdf$group, hpd_data$group),
+    "value"]
+
+# replot, but this time add 95% credible interval bars along each plot/ridges
+## x-axis BEFORE plotting the density    
+ggplot(melt.y.out.em, aes(x=value, y = variable)) +
+    xlim(-5,4) +
+    scale_y_discrete(limits = unique(rev(melt.y.out.em$variable))) +
+    # 95% credible intervals as thick lines along bottom of each density
+    ## plot before the densities so 95% CrI bars not over top density below
+    geom_segment(data = pltdf, 
+      aes(x = lcl, xend = ucl, y = ymin, yend = ymin), size = 3) +         
+    geom_density_ridges2(rel_min_height = 5.5e-3, scale =2,
+        quantile_lines = TRUE,
+        calc_ecdf = TRUE,
+        quantiles = c(0.5),
+        alpha = 0.9) +
+    theme_classic() +
+    geom_vline(xintercept = 0, linetype = 3, linewidth = 1.2) +
+    ylab("Year") + xlab("ln odds ratio (95% CrI)")
+   
     
     
     
