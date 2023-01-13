@@ -88,64 +88,18 @@ melt.c.em.1 <- melt(taxo.c.em.1)
 
 
 ## Figure 1 plot
-ridges.1 <- ggplot(melt.c.em.1, aes(x=value, y = variable)) +
-     coord_cartesian(ylim=c(1.4, 10.2)) +
-     xlim(-9, 7) +
-     scale_y_discrete(limits = unique(rev(melt.c.em.1$variable))) +
-         geom_density_ridges2(rel_min_height = 5e-8, scale =1.45,
-         quantile_lines = TRUE,
-         calc_ecdf = TRUE,
-         quantiles = c(0.025, 0.975),
-         fill = wes_palette("Darjeeling1")[4],
-         alpha = 0.7) +
-     theme_classic() +
-     geom_vline(xintercept = 0, linetype = 3, size = 1.2) +
-     ylab("") + xlab("ln odds ratio (95% CrI)") +
-     geom_text(data = df.1,aes(y = class, x = upper.HPD),
-         label = df.1$ns,
-         nudge_y = .33,
-         nudge_x = 2)
-
-# Posterior mode lines
-temp.1 <- ggplot_build(ridges.1)
-build.1 <- as.data.frame(temp.1$data[1])
-
-res.1 <- by(build.1, build.1$group, function(i) i[which(i$density == max(i$density)),])
-density_lines.1 <- do.call(rbind, res.1)
-
-# Add 95% credible intervals to plot
-## calculate for each group
-hpd_data <- aggregate(value ~ variable, data = melt.c.em.1,
-  FUN = function(x) HPDinterval(as.mcmc(x), prob = 0.95))
-  ## add "group" column to correspond to `class` convention
-  hpd_data$group <- as.factor(as.integer(hpd_data$variable))
-## Add Credible interval limits to plot data
-build.1[, c("lcl", "ucl")] <- hpd_data[match(build.1$group, hpd_data$group),
-    "value"]
-
-# replot, but this time add 95% credible interval bars along each plot/ridges
-## x-axis BEFORE plotting the density    
 ggplot(melt.c.em.1, aes(x=value, y = variable)) +
      coord_cartesian(ylim=c(1.4, 10.2)) +
      xlim(-9, 7) +
      scale_y_discrete(limits = unique(rev(melt.c.em.1$variable))) +
-    # 95% credible intervals as thick lines along bottom of each density
-    ## plot before the densities so 95% CrI bars not over top density below
-    geom_segment(data = build.1, 
-      aes(x = lcl, xend = ucl, y = ymin, yend = ymin), size = 3) +         
     geom_density_ridges2(rel_min_height = 5e-8, scale =1.45,
          stat = "density_ridges_HPDCrI", 
          quantile_lines = TRUE,
          calc_ecdf = TRUE,
-#         quantiles = c(0.025, 0.975),
 	 quantiles = c(0.95),
 	 quantile_fun = HPD_fun,
          fill = wes_palette("Darjeeling1")[4],
          alpha = 0.7) +
-    # posterior mode lines
-    geom_segment(data = density_lines.1, 
-               aes(x = x, y = ymin, xend = x, 
-                   yend = ymin+density*scale*iscale)) +
                    
      theme_classic() +
      geom_vline(xintercept = 0, linetype = 3, size = 1.2) +
@@ -195,62 +149,6 @@ melt.em <- cbind(melt.em, enrich = rep(0:1, each = 18000), class = rep(as.charac
 
 
 # Figure 2 plot
-ridges.2 <- ggplot(melt.em, aes(x=value, y = class, fill = as.factor(enrich))) +
-      coord_cartesian(ylim=c(1.5, 6.3)) +
-      xlim(-13,13) +
-      scale_y_discrete(limits = unique(rev(melt.em$class))) +
-      scale_fill_manual(values = wes_palette("Darjeeling1"),
-          labels=c('Enrichment absent', 'Enrichment present')) +
-      geom_density_ridges2(rel_min_height = 5e-8,
-          scale = 1.15,
-          quantile_lines = TRUE,
-          calc_ecdf = TRUE,
-          quantiles = c(0.025, 0.975),
-          alpha = 0.7) +
-      theme_classic() +
-      theme(legend.position = "bottom",
-         legend.title = element_blank()) +
-      geom_vline(xintercept = 0, linetype = 3, size = 1.2) +
-      ylab("") + xlab("ln odds ratio (95% CrI)") +
-      geom_text(data = df[1:6,], aes(y = class, x = upper.HPD),
-         inherit.aes=FALSE, parse=FALSE,
-         label = df[1:6,]$ns, 
-         nudge_y =0.25, nudge_x = 5)
-
-# Posterior mode lines
-temp.2 <- ggplot_build(ridges.2)
-build.2 <- as.data.frame(temp.2$data[1])
-
-res <- by(build.2, build.2$group, function(i) i[which(i$density == max(i$density)),])
-density_lines.2 <- do.call(rbind, res)
-
-density_lines.2 <- density_lines.2[order(density_lines.2$ymin),]
-density_lines.2$group <- rep(1:6, each = 2)
-density_lines.2$group <- as.factor(density_lines.2$group)
-density_lines.2$enrich <- rep(0:1, 6)
-density_lines.2$enrich <- as.factor(rep(0:1, 6))
-
-# Add 95% credible intervals to plot
-## calculate for each group and enrichment level
-hpd_data2 <- aggregate(value ~ class + enrich, data = melt.em,
-  FUN = function(x) HPDinterval(as.mcmc(x), prob = 0.95))
-  ## add "group" column to correspond to `class` convention
-  ### first, recreate "variable" column
-  hpd_data2$variable <- with(hpd_data2,
-    paste0("class ", class, ", enrich.bin ", enrich))
-    ## go back by hand and change "Overall" to drop all but enrich part
-    ### clunky, but to match how it comes out in melt.em
-    hpd_data2$variable <- gsub(pattern = "class Overall, ", replacement = "",
-      x = hpd_data2$variable)
-  hpd_data2$group <- match(hpd_data2$variable, levels(melt.em$variable))
-## Add Credible interval limits to plot data
-build.2[, c("lcl", "ucl")] <- hpd_data2[match(build.2$group, hpd_data2$group),
-    "value"]
-## also need to add enrichment column for "fill" argument
-build.2$enrich <- hpd_data2[match(build.2$group, hpd_data2$group), "enrich"] 
-
-# replot, but this time add 95% credible interval bars along each plot/ridges
-## x-axis BEFORE plotting the density    
 ggplot(melt.em, aes(x=value, y = class, fill = as.factor(enrich))) +
       coord_cartesian(ylim=c(1.5, 6.3)) +
       xlim(-13,13) +
@@ -262,14 +160,9 @@ ggplot(melt.em, aes(x=value, y = class, fill = as.factor(enrich))) +
           stat = "density_ridges_HPDCrI", 
           quantile_lines = TRUE,
           calc_ecdf = TRUE,
-# 	  quantiles = c(0.025, 0.975),         
           quantiles = 0.95,
           quantile_fun = HPD_fun,
           alpha = 0.7) +
-   # posterior mode lines
-   geom_segment(data = density_lines.2, 
-            aes(x = x, y = ymin, xend = x, 
-                yend = ymin+density*scale*iscale)) +
 
       theme_classic() +
       theme(legend.position = "bottom",
