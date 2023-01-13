@@ -14,7 +14,6 @@ library("emmeans")
 library("ggplot2")
 library("ggridges")
 library("reshape")
-library("wesanderson")
 
 source("plot_utils.R")  #<-- necessary to plot 95% HPD intervals in Figures 1 & 2
 
@@ -22,6 +21,22 @@ source("plot_utils.R")  #<-- necessary to plot 95% HPD intervals in Figures 1 & 
 # Import data
 load(file = "Gross_cons-trans-metaanalysis.rdata")
 load(file = "allModels_Gross_cons-trans-metaanalysis.rdata")
+
+
+# Snag some colors from base R's `Okabe-Ito` palette
+## suitable palette for color-related vision accessibility
+### first have a look
+palOI <- palette.colors(NULL, "Okabe-Ito")
+pie(rep(1, length(palOI)), col = palOI, labels = names(palOI))
+# grab subset of 3 colors for figures
+palOI3 <- palOI[c("bluishgreen", "vermillion", "blue")]
+  class(palOI3) <- "palette"
+  attr(palOI3, "name") <- "Okabe-Ito3"
+  
+dev.off()  #<-- turn off pie chart
+
+
+
 
 #######################
 # Table 1: Comparison sample sizes organized by taxonomic class and the performance metric measured.
@@ -88,28 +103,29 @@ melt.c.em.1 <- melt(taxo.c.em.1)
 
 
 ## Figure 1 plot
-ggplot(melt.c.em.1, aes(x=value, y = variable)) +
-     coord_cartesian(ylim=c(1.4, 10.2)) +
-     xlim(-9, 7) +
+pdf(file = "./Fig1.pdf",
+  width = 6, height = 8)
+ggplot(melt.c.em.1, aes(x = value, y = variable)) +
+     coord_cartesian(ylim = c(1.4, 10.2)) +
+     xlim(-7.5, 6.0) +
      scale_y_discrete(limits = unique(rev(melt.c.em.1$variable))) +
-    geom_density_ridges2(rel_min_height = 5e-8, scale =1.45,
+    geom_density_ridges2(rel_min_height = 5e-11, scale = 0.95,
          stat = "density_ridges_HPDCrI", 
          quantile_lines = TRUE,
-         calc_ecdf = TRUE,
 	 quantiles = c(0.95),
 	 quantile_fun = HPD_fun,
-         fill = wes_palette("Darjeeling1")[4],
-         alpha = 0.7) +
+         fill = palOI3[1],
+         alpha = 0.4) +
                    
      theme_classic() +
-     geom_vline(xintercept = 0, linetype = 3, size = 1.2) +
+     geom_vline(xintercept = 0, linetype = 3, size = 1.75) +
      ylab("") + xlab("ln odds ratio (95% CrI)") +
-     geom_text(data = df.1,aes(y = class, x = upper.HPD),
+     geom_text(data = df.1, aes(y = class, x = upper.HPD),
          label = df.1$ns,
          nudge_y = .33,
          nudge_x = 2)
 
-
+dev.off()
 
 ################################
 # Figure 2: Influence of enrichment across classes
@@ -149,32 +165,34 @@ melt.em <- cbind(melt.em, enrich = rep(0:1, each = 18000), class = rep(as.charac
 
 
 # Figure 2 plot
-ggplot(melt.em, aes(x=value, y = class, fill = as.factor(enrich))) +
-      coord_cartesian(ylim=c(1.5, 6.3)) +
-      xlim(-13,13) +
+pdf(file = "./Fig2.pdf",
+  width = 6, height = 6)
+ggplot(melt.em, aes(x = value, y = class, fill = as.factor(enrich))) +
+      coord_cartesian(ylim = c(1.5, 6.3)) +
+      xlim(-12, 12.2) +
       scale_y_discrete(limits = unique(rev(melt.em$class))) +
-      scale_fill_manual(values = wes_palette("Darjeeling1"),
-          labels=c('Enrichment absent', 'Enrichment present')) +
+      scale_fill_manual(values = c("#D55E00", "#0072B2"), #palOI3,
+#          limits = names(palOI3[2:3]),
+          labels = c('Enrichment absent', 'Enrichment present')) +
       geom_density_ridges2(rel_min_height = 5e-8,
-          scale = 1.15,
+          scale = 0.95,
           stat = "density_ridges_HPDCrI", 
           quantile_lines = TRUE,
-          calc_ecdf = TRUE,
           quantiles = 0.95,
           quantile_fun = HPD_fun,
-          alpha = 0.7) +
+          alpha = 0.35) +
 
       theme_classic() +
       theme(legend.position = "bottom",
          legend.title = element_blank()) +
-      geom_vline(xintercept = -0.1, linetype = 3, size = 1.2) +
+      geom_vline(xintercept = -0.1, linetype = 3, size = 1.75) +
       ylab("") + xlab("ln odds ratio (95% CrI)") +
       geom_text(data = df[1:6,], aes(y = class, x = upper.HPD),
-         inherit.aes=FALSE, parse=FALSE,
+         inherit.aes=FALSE, parse = FALSE,
          label = df[1:6,]$ns, 
-         nudge_y =0.25, nudge_x = 5)
+         nudge_y = 0.25, nudge_x = 5)
 
-
+dev.off()
 
 #####################################
 # Calculation of model heterogeneity 

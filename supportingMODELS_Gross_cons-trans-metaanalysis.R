@@ -108,6 +108,8 @@ melt.y.em <- melt(taxo.y.em)
   
 
 # Supplementary Figure 2A (See Supp Figure 2 entire creation below)
+pdf(file = "./Supplementary_Fig2a.pdf",
+  width = 4.25, height = 8)
 ggplot(melt.y.em, aes(x=value, y=variable)) +
     xlim(-5,4) +
     scale_y_discrete(limits = unique(rev(melt.y.em$variable))) +
@@ -120,7 +122,10 @@ ggplot(melt.y.em, aes(x=value, y=variable)) +
         alpha = 0.9) +
     theme_classic() +
     geom_vline(xintercept = 0, linetype = 3, linewidth = 1.2) +
-    ylab("Year") + xlab("ln odds ratio (95% CrI)")
+    ylab("Year") + xlab("ln odds ratio (95% CrI)") +
+    labs(tag = substitute(paste(bold("a"))))
+
+dev.off()
 
 
 
@@ -274,9 +279,11 @@ colnames(taxo.o.out.em)<-gsub("1 overall","Overall",colnames(taxo.o.out.em))
 taxo.y.out.em <- cbind(taxo.y.out.em, taxo.o.out.em)
 melt.y.out.em <- melt(taxo.y.out.em)
 
-# Supplementary Figure 2B (See creation of Supp. Fig. 2A above)
+# Supplementary Figure 2b (See creation of Supp. Fig. 2A above)
+pdf(file = "./Supplementary_Fig2b.pdf",
+  width = 4.25, height = 8)
 ggplot(melt.y.out.em, aes(x=value, y = variable)) +
-    xlim(-5,4) +
+    xlim(-4,4) +
     scale_y_discrete(limits = unique(rev(melt.y.out.em$variable))) +
     geom_density_ridges2(rel_min_height = 5.5e-3, scale =2,
     	stat = "density_ridges_HPDCrI",
@@ -287,8 +294,10 @@ ggplot(melt.y.out.em, aes(x=value, y = variable)) +
         alpha = 0.9) +
     theme_classic() +
     geom_vline(xintercept = 0, linetype = 3, linewidth = 1.2) +
-    ylab("Year") + xlab("ln odds ratio (95% CrI)")
-   
+    ylab("Year") + xlab("ln odds ratio (95% CrI)") +
+    labs(tag = substitute(paste(bold("b"))))
+
+dev.off()   
     
     
     
