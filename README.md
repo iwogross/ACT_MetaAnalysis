@@ -44,7 +44,7 @@ Column headings for the datasets reflect variables defined and discussed in the 
  - `PrintYear`: Publication year
  - `enrich.present`: Study-specific presence/absence of enrichment
  - `capt.present`: Study-specific presence/absence of captive ancestry
- - `enrich.bin`: Presence vs. absence of ernichmen
+ - `enrich.bin`: Presence vs. absence of enrichment
  - `capt.bin`: Categorical descriptor of the number of captive generations (0 gens, < 1 gen, >1 gen)
 
 ## Changes
