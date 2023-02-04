@@ -63,7 +63,7 @@ mean(as.mcmc.emmGrid(est.lor) >= 0)
 mean(est.or >= 1)
 
 ############################################
-# Figure 1: Overall effects across classes 
+# Figure 2: Overall effects across classes 
 
 # Pull marginals posterior modes for overall model effect
 taxo.o.1 <- emmeans(object = mcmc.taxo1, specs = ~1, data = dat)
@@ -101,8 +101,8 @@ taxo.c.em.1 <- cbind(taxo.c.em.1, taxo.o.em.1)
 melt.c.em.1 <- melt(taxo.c.em.1)
 
 
-## Figure 1 plot
-pdf(file = "./Fig1.pdf",
+## Figure 2 plot
+pdf(file = "./Fig2.pdf",
   width = 6, height = 8)
 ggplot(melt.c.em.1, aes(x = value, y = variable)) +
      coord_cartesian(ylim = c(1.4, 10.2)) +
@@ -114,7 +114,7 @@ ggplot(melt.c.em.1, aes(x = value, y = variable)) +
 	 quantiles = c(0.95),
 	 quantile_fun = HPD_fun,
          fill = palOI3[1],
-         alpha = 0.4) +
+         alpha = 0.8) +  #<-- transparency (0 more -- 1 less/solid)
                    
      theme_classic() +
      geom_vline(xintercept = 0, linetype = 3, size = 1.75) +
@@ -127,7 +127,7 @@ ggplot(melt.c.em.1, aes(x = value, y = variable)) +
 dev.off()
 
 ################################
-# Figure 2: Influence of enrichment across classes
+# Figure 3: Influence of enrichment across classes
 
 # Pull marginals posterior modes for overall model effect
 taxo.o <- emmeans(object = mcmc.taxo3, specs = ~enrich.bin, data = dat.enrich)
@@ -163,8 +163,8 @@ melt.em <- melt(taxo.em)
 melt.em <- cbind(melt.em, enrich = rep(0:1, each = 18000), class = rep(as.character(df$class), each = 3000))
 
 
-# Figure 2 plot
-pdf(file = "./Fig2.pdf",
+# Figure 3 plot
+pdf(file = "./Fig3.pdf",
   width = 6, height = 6)
 ggplot(melt.em, aes(x = value, y = class, fill = as.factor(enrich))) +
       coord_cartesian(ylim = c(1.5, 6.3)) +
@@ -179,7 +179,7 @@ ggplot(melt.em, aes(x = value, y = class, fill = as.factor(enrich))) +
           quantile_lines = TRUE,
           quantiles = 0.95,
           quantile_fun = HPD_fun,
-          alpha = 0.35) +
+          alpha = 0.4) +  #<-- transparency (0 more -- 1 less/solid)
 
       theme_classic() +
       theme(legend.position = "bottom",
