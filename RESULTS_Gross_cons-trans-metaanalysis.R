@@ -108,6 +108,8 @@ ggplot(melt.c.em.1, aes(x = value, y = variable)) +
      coord_cartesian(ylim = c(1.4, 10.2)) +
      xlim(-7.5, 6.0) +
      scale_y_discrete(limits = unique(rev(melt.c.em.1$variable))) +
+    geom_vline(xintercept = 0, linetype = "51", #<--lty is units on then units off
+      size = 1.75, color = "grey10") +
     geom_density_ridges2(rel_min_height = 5e-11, scale = 0.95,
          stat = "density_ridges_HPDCrI", 
          quantile_lines = TRUE,
@@ -117,7 +119,6 @@ ggplot(melt.c.em.1, aes(x = value, y = variable)) +
          alpha = 0.8) +  #<-- transparency (0 more -- 1 less/solid)
                    
      theme_classic() +
-     geom_vline(xintercept = 0, linetype = 3, size = 1.75) +
      ylab("") + xlab("ln odds ratio (95% CrI)") +
      geom_text(data = df.1, aes(y = class, x = upper.HPD),
          label = df.1$ns,
@@ -173,6 +174,8 @@ ggplot(melt.em, aes(x = value, y = class, fill = as.factor(enrich))) +
       scale_fill_manual(values = c("#D55E00", "#0072B2"), #palOI3,
 #          limits = names(palOI3[2:3]),
           labels = c('Enrichment absent', 'Enrichment present')) +
+    geom_vline(xintercept = 0, linetype = "51", #<--lty is units on then units off
+      size = 1.75, color = "grey10") +
       geom_density_ridges2(rel_min_height = 5e-8,
           scale = 0.95,
           stat = "density_ridges_HPDCrI", 
@@ -184,7 +187,6 @@ ggplot(melt.em, aes(x = value, y = class, fill = as.factor(enrich))) +
       theme_classic() +
       theme(legend.position = "bottom",
          legend.title = element_blank()) +
-      geom_vline(xintercept = -0.1, linetype = 3, size = 1.75) +
       ylab("") + xlab("ln odds ratio (95% CrI)") +
       geom_text(data = df[1:6,], aes(y = class, x = upper.HPD),
          inherit.aes = FALSE, parse = FALSE,
