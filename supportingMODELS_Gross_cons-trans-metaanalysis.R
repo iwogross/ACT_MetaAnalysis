@@ -1,4 +1,4 @@
-# R code for conservation translocation meta-analysis supplemental models
+# R code for conservation translocation meta-analysis supporting/validation models
 
 # Clear the environment
 rm(list = ls())
@@ -17,7 +17,19 @@ library("ggridges")
 library("reshape")
 
 
-source("plot_utils.R")  #<-- necessary to plot 95% HPD intervals in Figures 1 & 2
+source("plot_utils.R")  #<-- necessary to plot 95% HPD intervals in Figures 4 & 5
+
+# Snag some colors from base R's `Okabe-Ito` palette
+## suitable palette for color-related vision accessibility
+### first have a look
+palOI <- palette.colors(NULL, "Okabe-Ito")
+pie(rep(1, length(palOI)), col = palOI, labels = names(palOI))
+# grab subset of 3 colors for figures
+palOI3 <- palOI[c("bluishgreen", "vermillion", "blue")]
+  class(palOI3) <- "palette"
+  attr(palOI3, "name") <- "Okabe-Ito3"
+  
+dev.off()  #<-- turn off pie chart
 
 
 # Import data
@@ -26,9 +38,7 @@ load(file = "Gross_cons-trans-metaanalysis.rdata")
 load(file = "mcmc.taxo1.rdata")
 load(file = "mcmc.taxo2.rdata")
 load(file = "mcmc.taxo3.rdata")
-#if already run below models and saved, then just load instead of re-running
-#load(file = "mcmc.timelag.rdata"); load(file = "mcmc.timelag.out.rdata")  
-#load(file = "allModels_Gross_cons-trans-metaanalysis.rdata")
+
 
 
 ########################################################################
@@ -38,6 +48,14 @@ load(file = "mcmc.taxo3.rdata")
 ###         ########################################################
 #######   #########################################################
 ##################################################################
+
+#XXX
+#if already run below models and saved, then just load instead of re-running
+# Go to next section labelled "XXX Post-Model Run"
+#load(file = "mcmc.timelag.rdata"); load(file = "mcmc.timelag.out.rdata")  
+#load(file = "allModels_Gross_cons-trans-metaanalysis.rdata")
+
+
 # Setup MCMC specifications and priors
 nsamp <- 3000
 BURN <- 3000
@@ -71,8 +89,12 @@ mcmc.timelag <- MCMCglmm(yi ~ PrintYear,
   thin = THIN, burnin = BURN, nitt = NITT)
 
 
+
+
+
+#XXX Post-Model Run
 # Pull marginals posterior modes for overall model effect
-taxo.o <- emmeans(object = mcmc.timelag, specs = ~1, data = dat)
+taxo.o <- emmeans(object = mcmc.timelag, specs = ~ 1, data = dat)
 df.o <- data.frame(hpd.summary(taxo.o, point.est = posterior.mode))
 
 # Return the number of unique studies and estimates for the overall effect
@@ -107,23 +129,24 @@ melt.y.em <- melt(taxo.y.em)
 
   
 
-# Supplementary Figure 2A (See Supp Figure 2 entire creation below)
-pdf(file = "./Supplementary_Fig2a.pdf",
-  width = 4.25, height = 8)
+# Fig. 4
+pdf(file = "./Fig4.pdf",
+  width = 6, height = 8)
 ggplot(melt.y.em, aes(x = value, y = variable)) +
-    xlim(-5, 4) +
-    scale_y_discrete(limits = unique(rev(melt.y.em$variable))) +
-    geom_density_ridges2(rel_min_height = 5.5e-3, scale = 2,
+      xlim(-4, 4) +
+      scale_y_discrete(limits = unique(rev(melt.y.em$variable))) +
+    geom_vline(xintercept = 0, linetype = "51", #<--lty is units on then units off
+      size = 1.75, color = "grey10") +
+    geom_density_ridges2(rel_min_height = 5.5e-3, scale = 1.5,
         stat = "density_ridges_HPDCrI",
         quantile_lines = TRUE,
-        calc_ecdf = TRUE,
-        quantiles = 0.95,
+        quantiles = c(0.95),
         quantile_fun = HPD_fun,
-        alpha = 0.9) +
+        fill = palOI3[3],
+        alpha = 0.75) +  #<-- transparency (0 more -- 1 less/solid)
+        
     theme_classic() +
-    geom_vline(xintercept = 0, linetype = 3, linewidth = 1.2) +
-    ylab("Year") + xlab("ln odds ratio (95% CrI)") +
-    labs(tag = substitute(paste(bold("a"))))
+    ylab("Year") + xlab("ln odds ratio (95% CrI)")
 
 dev.off()
 
@@ -138,30 +161,68 @@ lm.egger <- lm(z.mr ~ precision)
 summary(lm.egger)
 
 # 3. Funnel plot
-graphics.off()
-par(mfrow = c(1,2))
-plot(dat$yi, precision, xlab = 'Log odds ratio', ylab = 'Precision')
-abline(v = posterior.mode(mcmc.taxo1$Sol)[1], lwd = 1) #v is the meta-analytic mean
-plot(mr, precision, xlab = 'Meta-analytic residuals', ylab = 'Precision')
-abline(v = 0,lwd = 1,lty = 2)
 
+## Fig. 5
+pdf(file = "./Fig5.pdf",
+  width = 9, height = 6)
+
+par(mfrow = c(1,2), mar = c(5, 5, 0.5, 1), cex.lab = 1.5, cex.axis = 1.0)
+  plot(precision ~ dat$yi, type = "n", axes = FALSE,
+    xlab = "ln odds ratio", ylab = "Precision")
+  abline(v = posterior.mode(mcmc.taxo1$Sol)[1], lwd = 3) #v is meta-analytic mean
+  points(precision ~ dat$yi, pch = 21, lwd = 1.6, col = "grey50")
+  axis(1)
+  axis(2)
+  mtext("A", side = 3, line = -1.9, outer = TRUE, at = 0.02, cex = 2)
+        
+  plot(precision ~ mr, type = "n", axes = FALSE,
+    xlab = "Meta-analytic residuals", ylab = "Precision")
+  abline(v = 0, lwd = 3)
+  points(precision ~ mr, pch = 21, lwd = 1.6, col = "grey50")
+  axis(1)
+  axis(2)
+  mtext("B", side = 3, line = -1.9, outer = TRUE, at = 0.52, cex = 2)
+  
+dev.off() 
+
+
+
+  
 # 4. Trim-and-fill analysis
 metafor.tf <- rma(yi = mr, sei = 1/precision)
 summary(metafor.tf)
 TFL <- trimfill(metafor.tf, side = "left", estimator = "R0")
-TFR <- trimfill(metafor.tf, side = 'right', estimator = 'R0')
+TFR <- trimfill(metafor.tf, side = "right", estimator = "R0")
 summary(TFL)
 summary(TFR)
-graphics.off()
+
 range(mr)
-funnel(TFL, xlab = "Meta-analytic residuals", xlim = c(-6,6))
-funnel(TFR, xlab = "Meta-analytic residuals", xlim = c(-6, 6))
+
+par(mfrow = c(1, 2))
+  funnel(TFL, xlab = "Meta-analytic residuals", xlim = c(-6, 6))
+  funnel(TFR, xlab = "Meta-analytic residuals", xlim = c(-6, 6))
+
+
+
+
+
+
+
+
+################################################################################
+
+
 
 ############################
 ## Outlier identification ##
 ############################
 # based on studentized deleted residuals (Viechtbauer & Cheung 2010; DOI: 10.1002/jrsm.11)
 # Code adapted from metafor documentation
+
+#XXX
+#if already run below models and saved, then just load instead of re-running
+# Go to next section labelled "XXX Post-Model Run"
+
 metafor.res2 <- rma.mv(yi, vi, mods = cbind(class, scope, sex, strategy),
   random = list(~ 1 | order, ~ 1 | fam, ~ 1 | genus, ~ 1 | species, ~ 1 | studyID, ~ 1 | groupID), data=dat)
 
@@ -232,12 +293,6 @@ save("mcmc.taxo6", file = "mcmc.taxo6.rdata")
 
 
 
-
-
-
-################################################################################
-## Model 4-6 validation (outliers excluded)
-
 # 1. Time-lag bias
 mcmc.timelag.out <- MCMCglmm(yi ~ PrintYear,
   random = ~ class + order + fam + genus + species + studyID + groupID + idh(SE):units,
@@ -245,6 +300,12 @@ mcmc.timelag.out <- MCMCglmm(yi ~ PrintYear,
   prior = prFxdGR.taxo2,
   thin = THIN, burnin = BURN, nitt = NITT)
 
+
+
+
+
+
+#XXX Post-Model Run
 # Pull marginals posterior modes for overall model effect
 taxo.o.out <- emmeans(object = mcmc.timelag.out, specs = ~1, data = dat.out)
 df.o.out <- data.frame(hpd.summary(taxo.o.out, point.est = posterior.mode))
@@ -279,26 +340,30 @@ colnames(taxo.o.out.em)<-gsub("1 overall","Overall",colnames(taxo.o.out.em))
 taxo.y.out.em <- cbind(taxo.y.out.em, taxo.o.out.em)
 melt.y.out.em <- melt(taxo.y.out.em)
 
-# Supplementary Figure 2b (See creation of Supp. Fig. 2A above)
-pdf(file = "./Supplementary_Fig2b.pdf",
-  width = 4.25, height = 8)
+
+
+# Supplementary Figure 1 (See creation of Fig. 4 above)
+pdf(file = "./Supplementary_Fig1.pdf",
+  width = 6, height = 8)
 ggplot(melt.y.out.em, aes(x = value, y = variable)) +
     xlim(-4, 4) +
     scale_y_discrete(limits = unique(rev(melt.y.out.em$variable))) +
-    geom_density_ridges2(rel_min_height = 5.5e-3, scale = 2,
+    geom_vline(xintercept = 0, linetype = "51", #<--lty is units on then units off
+      size = 1.75, color = "grey10") +
+    geom_density_ridges2(rel_min_height = 5.5e-3, scale = 1.5,
     	stat = "density_ridges_HPDCrI",
         quantile_lines = TRUE,
-        calc_ecdf = TRUE,
-        quantiles = 0.95,
+        quantiles = c(0.95),
         quantile_fun = HPD_fun,
-        alpha = 0.9) +
+        fill = palOI3[3],  #<-- transparency (0 more -- 1 less/solid)
+        alpha = 0.75) +
+        
     theme_classic() +
-    geom_vline(xintercept = 0, linetype = 3, linewidth = 1.2) +
-    ylab("Year") + xlab("ln odds ratio (95% CrI)") +
-    labs(tag = substitute(paste(bold("b"))))
+    ylab("Year") + xlab("ln odds ratio (95% CrI)")
 
 dev.off()   
     
+
     
     
     
@@ -312,30 +377,52 @@ lm.egger.out <- lm(z.mr.out ~ precision.out)
 summary(lm.egger.out)
 
 # 3. Funnel plot
-graphics.off()
-par(mfrow = c(1,2))
-plot(dat.out$yi, precision.out, xlab = 'Log odds ratio', ylab = 'Precision')
-abline(v = posterior.mode(mcmc.taxo4$Sol)[1],lwd=1) #v is the meta-analytic mean
-plot(mr.out, precision.out, xlab = 'Meta-analytic residuals', ylab = 'Precision')
-abline(v = 0, lwd = 1, lty = 2)
+## Supplemental Fig. 2
+pdf(file = "./Supplementary_Fig2.pdf",
+  width = 9, height = 6)
+
+par(mfrow = c(1,2), mar = c(5, 5, 0.5, 1), cex.lab = 1.5, cex.axis = 1.0)
+  plot(precision.out ~ dat.out$yi, type = "n", axes = FALSE,
+    xlim = c(-4.5, 4.1),
+    xlab = "ln odds ratio", ylab = "Precision")
+  abline(v = posterior.mode(mcmc.taxo4$Sol)[1], lwd = 3) #v is meta-analytic mean
+  points(precision.out ~ dat.out$yi, pch = 21, lwd = 1.6, col = "grey50")
+  axis(1)
+  axis(2)
+  mtext("A", side = 3, line = -1.9, outer = TRUE, at = 0.02, cex = 2)
+      
+  plot(precision.out ~ mr.out, type = "n", axes = FALSE,
+    xlim = c(-4.5, 4.1),
+    xlab = "Meta-analytic residuals", ylab = "Precision")
+  abline(v = 0, lwd = 3)
+  points(precision.out ~ mr.out, pch = 21, lwd = 1.6, col = "grey50")
+  axis(1)
+  axis(2)
+  mtext("B", side = 3, line = -1.9, outer = TRUE, at = 0.52, cex = 2)
+  
+dev.off() 
+
+
 
 # 4. Trim-and-fill analysis
 metafor.tf.out <- rma(yi = mr.out, sei = 1/precision.out)
 summary(metafor.tf.out)
 TFL.out <- trimfill(metafor.tf.out, side = "left", estimator = "R0")
-TFR.out <- trimfill(metafor.tf.out, side = 'right', estimator = 'R0')
+TFR.out <- trimfill(metafor.tf.out, side = "right", estimator = "R0")
 summary(TFL.out)
 summary(TFR.out)
-graphics.off()
+
 range(mr.out)
-funnel(TFL.out, xlab = "Meta-analytic residuals", xlim = c(-6,6))
-funnel(TFR.out, xlab = "Meta-analytic residuals", xlim = c(-6, 6))
+
+par(mfrow = c(1, 2))
+  funnel(TFL.out, xlab = "Meta-analytic residuals", xlim = c(-6,6))
+  funnel(TFR.out, xlab = "Meta-analytic residuals", xlim = c(-6, 6))
 
 
 
-
+################################################################################
 # Save several models in one object:
-## for plotting and summarizing in another file
+## for plotting and summarizing later (or from code in another file)
 save(list = c("mcmc.taxo1", "mcmc.taxo2", "mcmc.taxo3",
     "mcmc.taxo4", "mcmc.taxo5", "mcmc.taxo6",
     "rs.resid", "outliers",
