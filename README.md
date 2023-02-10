@@ -7,7 +7,10 @@ Version controlled and editable source for the data and code supporting the pape
 ## Data
 
 ### Data citation
-If you use the data, please cite the data package TBD
+If you use the data or code, please cite as:
+
+>Iwo P. Gross, & Matthew E. Wolak. (2023). iwogross/ACT_MetaAnalysis: v1.0.0 (v1.0.0). Zenodo. https://doi.org/10.5281/zenodo.7535746
+
 
 ### Data metadata
 
