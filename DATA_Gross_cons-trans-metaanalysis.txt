@@ -625,7 +625,6 @@
 290	"LOR"	40	160	"Mixed"	"Southern rock lobster"	"Arthropoda"	"Malacostraca"	"Decapoda"	"Palinuridae"	"Jasus"	"edwardsii"	-1	0.25	"Survival"	"ISR"	NA	NA	NA	NA	NA	NA	46	116	56	137	2006	0	1	0	1
 298	"LOR"	42	163	"Mixed"	"Eastern painted turtle"	"Chordata"	"Reptilia"	"Testudines"	"Emydidae"	"Chrysemys"	"picta"	1	0	"Survival"	"ESR"	NA	NA	NA	NA	NA	NA	60	10	0	10	2018	1	1	1	0
 304	"LOR"	42	164	"Mixed"	"Eastern painted turtle"	"Chordata"	"Reptilia"	"Testudines"	"Emydidae"	"Chrysemys"	"picta"	0	0	"Survival"	"ESR"	NA	NA	NA	NA	NA	NA	60	28	0	2	2018	1	1	0	0
-316	"LOR"	45	168	"Mixed"	"Desert tortoise"	"Chordata"	"Reptilia"	"Testudines"	"Testudinidae"	"Gopherus"	"agassizii"	-1	0	"Survival"	"ESR"	NA	NA	NA	NA	NA	NA	121	268	28	89	2010	0	1	0	0
 317	"LOR"	45	169	"Mixed"	"Desert tortoise"	"Chordata"	"Reptilia"	"Testudines"	"Testudinidae"	"Gopherus"	"agassizii"	-1	0	"Survival"	"ESR"	NA	NA	NA	NA	NA	NA	111	268	29	89	2010	0	1	0	0
 334	"LOR"	49	177	"Mixed"	"Eastern box turtle"	"Chordata"	"Reptilia"	"Testudines"	"Emydidae"	"Terrapene"	"carolina"	-1	0	"Survival"	"ESR"	NA	NA	NA	NA	NA	NA	16	6	11	9	2013	0	1	0	0
 336	"LOR"	49	178	"Mixed"	"Eastern box turtle"	"Chordata"	"Reptilia"	"Testudines"	"Emydidae"	"Terrapene"	"carolina"	-1	0	"Survival"	"ESR"	NA	NA	NA	NA	NA	NA	16	7	11	11	2013	0	1	0	0
