@@ -136,7 +136,7 @@ ggplot(melt.y.em, aes(x = value, y = variable)) +
       xlim(-4, 4) +
       scale_y_discrete(limits = unique(rev(melt.y.em$variable))) +
     geom_vline(xintercept = 0, linetype = "51", #<--lty is units on then units off
-      size = 1.75, color = "grey10") +
+      linewidth = 1.75, color = "grey10") +
     geom_density_ridges2(rel_min_height = 5.5e-3, scale = 1.5,
         stat = "density_ridges_HPDCrI",
         quantile_lines = TRUE,
