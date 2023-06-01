@@ -15,7 +15,6 @@ rm(list = ls())
 #FIXME: Uncomment and set working directory for local computer
 #setwd("<<insert working directory here>>")
 
-setwd("/Users/iwo/ACT_MetaAnalysis/")
 
 # load necessary packages
 library("MCMCglmm")
