@@ -109,7 +109,7 @@ ggplot(melt.c.em.1, aes(x = value, y = variable)) +
      xlim(-7.5, 6.0) +
      scale_y_discrete(limits = unique(rev(melt.c.em.1$variable))) +
     geom_vline(xintercept = 0, linetype = "51", #<--lty is units on then units off
-      size = 1.75, color = "grey10") +
+      linewidth = 1.75, color = "grey10") +
     geom_density_ridges2(rel_min_height = 5e-11, scale = 0.95,
          stat = "density_ridges_HPDCrI", 
          quantile_lines = TRUE,
@@ -175,7 +175,7 @@ ggplot(melt.em, aes(x = value, y = class, fill = as.factor(enrich))) +
 #          limits = names(palOI3[2:3]),
           labels = c('Enrichment absent', 'Enrichment present')) +
     geom_vline(xintercept = 0, linetype = "51", #<--lty is units on then units off
-      size = 1.75, color = "grey10") +
+      linewidth = 1.75, color = "grey10") +
       geom_density_ridges2(rel_min_height = 5e-8,
           scale = 0.95,
           stat = "density_ridges_HPDCrI", 
