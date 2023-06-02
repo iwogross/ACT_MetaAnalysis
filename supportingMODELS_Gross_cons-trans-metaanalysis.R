@@ -427,6 +427,7 @@ par(mfrow = c(1, 2))
 ## for plotting and summarizing later (or from code in another file)
 save(list = c("mcmc.taxo1", "mcmc.taxo2", "mcmc.taxo3",
     "mcmc.taxo4", "mcmc.taxo5", "mcmc.taxo6",
+    "mcmc.timelag", "mcmc.timelag.out",
     "rs.resid", "outliers",
     "dat.out", "dat.out.capt", "dat.out.enrich"),
   file = "allModels_Gross_cons-trans-metaanalysis.rdata")
