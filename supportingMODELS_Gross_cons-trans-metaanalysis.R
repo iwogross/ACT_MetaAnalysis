@@ -226,8 +226,10 @@ par(mfrow = c(1, 2))
 metafor.res2 <- rma.mv(yi, vi, mods = cbind(class, scope, sex, strategy),
   random = list(~ 1 | order, ~ 1 | fam, ~ 1 | genus, ~ 1 | species, ~ 1 | studyID, ~ 1 | groupID), data=dat)
 
-#XXX WARNING: the next line might take several HOURS !!!! XXX
-rs.resid <- rstudent(metafor.res2)
+#XXX WARNING: the next line might take 12 HOURS !!!! XXX
+## if on Linux/Unix consider: 
+### rs.resid <- rstudent(metafor.res2, parallel = "multicore", ncpus = 3, progbar = TRUE)
+rs.resid <- rstudent(metafor.res2, progbar = TRUE)
 save("metafor.res2", "rs.resid", file = "outlierID.rdata")
 #load("outlierID.rdata")
 
