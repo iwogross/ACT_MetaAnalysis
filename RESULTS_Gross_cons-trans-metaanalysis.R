@@ -37,22 +37,30 @@ dev.off()  #<-- turn off pie chart
 
 
 
-#######################
-# Table 1: Comparison sample sizes organized by taxonomic class and the performance metric measured.
+################################################################################
+# Table 2: Comparison sample sizes organized by taxonomic class and the
+## performance metric measured.
 addmargins(table(dat$class, dat$scope))
 
 #######################
 # Findings reporting
+#######################
 
-# Demonstrating findings reporting for an excerpt from the second paragraph of the Results
-# "The model’s overall log odds ratio... 
-est.lor <- emmeans(object = mcmc.taxo1, specs = ~1, data = dat)
-hpd.summary(est.lor, point.est = posterior.mode)
+# (a) Model 1 (code to create Table S2)
 
-# ...was converted to an odds ratio by exponentiating across the posterior distribution...
-est.or <- exp(as.mcmc.emmGrid(est.lor))
-posterior.mode(est.or)
-HPDinterval(est.or)
+## 
+### convert log odds ratio (lnOR) model estimates to estimated marginal means
+emm.int.lor1 <- emmeans(mcmc.taxo1, specs = ~ 1, data = dat)
+  hpd.summary(emm.int.lor1, point.est = posterior.mode)
+
+### convert to odds ratio (OR) by exponentiating across the posterior distribution
+est.int.or1 <- exp(as.mcmc.emmGrid(emm.int.lor1))
+  hpd.summary(est.int.or1, point.est = posterior.mode)
+posterior.mode(est.int.or1)
+HPDinterval(est.int.or1)
+
+  
+
 
 # ...Indicating that translocated organisms have 69.9% decreased odds of out-performing their wild-resident counterparts.
 1-posterior.mode(est.or)
