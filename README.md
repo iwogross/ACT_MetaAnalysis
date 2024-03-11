@@ -4,10 +4,10 @@
 
 Version controlled and editable source for the data and code supporting the paper "The fitness consequences of wildlife conservation translocations: A meta-analysis:" by Gross, Wilson, & Wolak.
 
+>Iwo P. Gross, Alan E. Wilson, and Matthew E. Wolak (2024) The fitness consequences of wildlife conservation translocations: a meta-analysis. _Biological Reviews_ __99__:348-371. [doi: 10.1111/brv.13025](https://onlinelibrary.wiley.com/doi/10.1111/brv.13025) 
+
 
 ## Overview of Repository
-
-
 
 
 ## Figure 1 Meta-analysis Flow Diagram
