@@ -12,6 +12,7 @@ Version controlled and editable source for the data and code supporting the pape
 
 ## Figure 1 Meta-analysis Flow Diagram
 
+![Figure 1 Meta-analysis Flow Diagram](/Fig1.png "Figure 1 Meta-analysis Flow Diagram")
 
 ## Data
 
